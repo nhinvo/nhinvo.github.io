@@ -11,4 +11,4 @@ nav_order: 1
 :D
 
 ### Other links:  
-[LinkedIn](https://www.linkedin.com/in/nhinvo/){: .btn .btn-outline .mr-2 } [Github](https://github.com/nhwivo){: .btn .btn-outline }
+[LinkedIn](https://www.linkedin.com/in/nhinvo/){: .btn .btn-outline .mr-2 } [Github](https://github.com/nhinvo){: .btn .btn-outline }
