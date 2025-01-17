@@ -23,8 +23,8 @@ email: vongocnhi07@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A static site for my projects. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nhwivo.github.io" # the base hostname & protocol for site, e.g. http://example.com
-github_username:  nhwivo
+url: "https://nhinvo.github.io" # the base hostname & protocol for site, e.g. http://example.com
+github_username:  nhinvo
 
 # Build settings
 # theme: minima
