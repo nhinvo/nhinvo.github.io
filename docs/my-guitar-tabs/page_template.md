@@ -17,7 +17,7 @@ parent: Guitar Tabs
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress/Completed |  
+| Standard | No Capo | <span class="label label-green">Completed</span> |  
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -37,7 +37,7 @@ E | ---------------------------------------------------------------- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | Completed | 
+| Standard | No Capo | <span class="label label-green">Completed</span> | 
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -59,7 +59,7 @@ E | ---------------------------------------------------------------- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress/Completed |  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">

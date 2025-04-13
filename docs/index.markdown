@@ -7,7 +7,6 @@ nav_order: 1
 ![Avatar of Nhi Vo](/assets/img/about_me_img/PXL_20220721_000907092.jpg){: width="200" height="200" .float-right .mx-4}   
 
 ## **Nhi Vo**  
-
 <br> nvo AT mit DOT edu  
 
 ## Education 

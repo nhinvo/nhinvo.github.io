@@ -17,7 +17,7 @@ parent: Guitar Tabs
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress | 
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | 
 
 **The Breeders Cannonball Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -50,7 +50,7 @@ E | --6-6-6-x-x-----------11-11-11-x-x-x-x-x-x-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress |  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **The Breeders No Aloha Guitar Tabs (Riff):**  
 <div class="code-example" markdown="1">
@@ -84,7 +84,7 @@ E | --9 -9 -9 -8 -6-6-6-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress |  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **The Breeders Hellbound Guitar Tabs:**  
 <div class="code-example" markdown="1">

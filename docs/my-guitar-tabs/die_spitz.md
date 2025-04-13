@@ -17,7 +17,7 @@ parent: Guitar Tabs
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | Completed |  
+| Standard | No Capo | <span class="label label-green">Completed</span> |  
 
 **Die Spitz Hair Of Dog Guitar Tabs:**    
 <div class="code-example" markdown="1">
@@ -86,7 +86,7 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress |  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **Note:** Tabs stops at 1:30:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/KAgZVVMmcpE?start=90" title="Groping Dogs Gushing Blood" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
@@ -177,7 +177,7 @@ E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Drop D | No Capo | In Progress |  
+| Drop D | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **Note:** Guitar - Ellie Livingston 
 
@@ -198,7 +198,7 @@ D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3-0-0-0-0-8\7-0-7\6-0-6\5-3------- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Drop D | No Capo | In Progress |  
+| Drop D | No Capo | <span class="label label-yellow">In Progress</span> |  
 
 **Die Spitz Monkey Song Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -266,7 +266,7 @@ D | --0-3-0-6-5-0-3-5-5-5-5-6-6-6-6-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | Completed |  
+| Standard | No Capo | <span class="label label-green">Completed</span> |  
 
 **Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
 <iframe width="400" height="250" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  

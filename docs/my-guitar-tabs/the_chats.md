@@ -15,9 +15,9 @@ parent: Guitar Tabs
 ---------------------------------------------------------------
 ### Ticket Inspector  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
 
 **Small Note:** Josh Hardy actually plays the first few chords like this (which is harder so I’m not sure why):  
 <div class="code-example" markdown="1">
@@ -30,9 +30,9 @@ A | --5-5-7-7-3--5-5-7-7-3--5-5-7-7-3---8 -8 -8 -8 -8 -10-- |
 E | ------5-5--------5-5--------5-5--------------------8 -- |
 </pre>
 
-<hr>
+<br>
 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I?start=19" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I?start=18" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 </div>  
 
 **The Chats Ticket Inspector Guitar Tabs:**  
@@ -143,9 +143,9 @@ E | --5-8 -10----10-8 -5--5-8 -10----11-11-11-11-13-13-13-13-- |
 
 ### Struck By Lighting  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | Completed {: .label .label-green } | 
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |  
 
 **The Chats Struck By Lighting Guitar Tabs:**  
 <div class="code-example" markdown="1">
