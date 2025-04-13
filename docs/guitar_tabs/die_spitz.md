@@ -2,6 +2,7 @@
 layout: default
 title:  "Die Spitz"
 parent: Guitar Tabs
+permalink: /guitar_tabs/die_spitz
 ---
 <h1>Die Spitz Tabs</h1> 
 

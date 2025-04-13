@@ -2,6 +2,7 @@
 layout: default
 title:  "The Breeders"
 parent: Guitar Tabs
+permalink: /guitar_tabs/the_breeders
 ---
 <h1>The Breeders Guitar Tabs</h1> 
 

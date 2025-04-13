@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Publications
-permalink: /
+permalink: /publications
 nav_order: 1.1
 ---
 ## **Publications**  

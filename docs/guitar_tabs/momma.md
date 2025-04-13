@@ -2,6 +2,7 @@
 layout: default
 title:  Momma
 parent: Guitar Tabs
+permalink: /guitar_tabs/momma
 ---
 <h1>Momma Guitar Tabs</h1> 
 

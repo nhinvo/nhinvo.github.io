@@ -2,6 +2,7 @@
 layout: default
 title:  "Scowl"
 parent: Guitar Tabs
+permalink: /guitar_tabs/scowl
 ---
 <h1>Scowl Guitar Tabs</h1> 
 

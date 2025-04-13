@@ -2,6 +2,7 @@
 layout: default
 title:  template
 parent: Guitar Tabs
+permalink: /guitar_tabs/template
 ---
 <h1>Artist Name Guitar Tabs</h1> 
 

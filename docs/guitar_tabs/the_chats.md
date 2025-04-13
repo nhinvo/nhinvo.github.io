@@ -2,6 +2,7 @@
 layout: default
 title:  "The Chats"
 parent: Guitar Tabs
+permalink: /guitar_tabs/the_chats
 ---
 <h1>The Chats Guitar Tabs</h1> 
 
