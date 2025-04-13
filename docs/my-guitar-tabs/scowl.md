@@ -23,7 +23,9 @@ parent: Guitar Tabs
 **Notes:** 
 - Downstrokes in the beginning: [Youtube Link](https://youtu.be/FIOXyHR-QnA?t=36)
 
-<pre class="fs-2 ls-5 lh-0 text-mono">
+<iframe width="1686" height="566" src="https://www.youtube.com/embed/FIOXyHR-QnA" title="SCOWL - Bloodhound (Multicam) live at Punk Rock Holiday 2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<pre class="fs-3 ls-5 lh-0.5 text-mono">
 e | --------------------------------------- |
 B | --------------------------------------- |
 G | --------------------------------------- |
@@ -64,16 +66,13 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 </pre>
 
 ## Psychic Dance Routine - In Progress 
-Artist: Scowl  
-Song: Psychic Dance Routine  
-Album: Psychic Dance Routine
+| Artist    | Song   | Album | Tuning | Capo |
+|:----------|:-------|:------|:-------|:-----|
+| Scowl | Psychic Dance Routine | Psychic Dance Routine | Standard | No Capo |
 
-Tuning: Standard   
-Capo: no capo   
+Note: based on Audiotree Live session: <a href="https://www.youtube.com/watch?v=YYghN-2HFrs" target="_blank">Youtube Link</a>
 
-Note: based on Audiotree Live session [Youtube Link](https://www.youtube.com/watch?v=YYghN-2HFrs).
-
-<pre class="fs-2 ls-5 lh-0 text-mono">
+<pre class="fs-3 ls-5 lh-0.5 text-mono">
 Intro 
 e | ------------------------------------------------ |
 B | ------------------------------------------------ |
