@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Template Page
+title:  template
 parent: Guitar Tabs
 ---
 <h1>Artist Name Guitar Tabs</h1> 
@@ -18,8 +18,6 @@ parent: Guitar Tabs
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
 | Standard | No Capo | In Progress/Completed |  
-
-</div>
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -62,8 +60,6 @@ E | ---------------------------------------------------------------- |
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
 | Standard | No Capo | In Progress/Completed |  
-
-</div>
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">

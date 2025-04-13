@@ -23,7 +23,8 @@ parent: Guitar Tabs
 <iframe width="400" height="250" src="https://www.youtube.com/embed/FIOXyHR-QnA?start=34" title="SCOWL - Bloodhound (Multicam) live at Punk Rock Holiday 2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 **Scowl Bloodhound Guitar Tabs:**  
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+<div class="code-example" markdown="1">  
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">  
 e | --------------------------------------- |
 B | --------------------------------------- |
 G | --------------------------------------- |
@@ -31,6 +32,7 @@ D | --6-7-6-7-6-9-9-9-9-6-7-6-7-6-5-5-5-5-- |
 A | --6-7-6-7-6-9-9-9-9-6-7-6-7-6-5-5-5-5-- |
 E | --4-5-4-5-4-7-7-7-7-4-5-4-5-4-3-3-3-3-- |
 [Repeat Twice]
+
 e | --------------------------------------------------------------------------- |
 B | --------------------------------------------------------------------------- |
 G | --------------------------------------------------------------------------- |
@@ -62,6 +64,7 @@ D | --6-10-9-9-9-9--6-10-9-9-9-9--6-10-9-9-9-9-5-5-5-5-5-5-5-5-- |
 A | --6-10-9-9-9-9--6-10-9-9-9-9--6-10-9-9-9-9-5-5-5-5-5-5-5-5-- |
 E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 </pre>
+</div>
 
 ## Psychic Dance Routine  
 ---------------------------------------------------------------
@@ -73,9 +76,10 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 
 **Note:** based on Audiotree Live session:  
 
-<iframe width="500" height="315" src="https://www.youtube.com/embed/GGRuspGmI_g?start=514" title="Scowl on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe width="400" height="250" src="https://www.youtube.com/embed/GGRuspGmI_g?start=514" title="Scowl on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 **Scowl Psychic Dance Routine Guitar Tabs:**  
+<div class="code-example" markdown="1">  
 <pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
 Intro 
 e | ------------------------------------------------ |
@@ -160,3 +164,4 @@ E | --5-5-5-5-5-5-5-5-5-5-5-5---5-8 -- |
   | --↓-↓-↓-↓-↓-↓-↓-↓-↓-↓-↓-↓-↓-↓-↓ -- |
 [Repeat 4 Times]
 </pre>
+</div>
