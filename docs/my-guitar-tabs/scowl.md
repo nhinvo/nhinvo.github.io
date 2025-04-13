@@ -13,17 +13,17 @@ parent: Guitar Tabs
 {:toc}
 
 ## Bloodhound 
-Artist: Scowl  
-Song: Bloodhound  
-Album: How Flowers Grow  
+**Artist:** Scowl  
+**Song:** Bloodhound  
+**Album:** How Flowers Grow  
 
-Tuning: Standard   
-Capo: no capo  
+**Tuning:** Standard   
+**Capo:** No Capo  
 
-Notes: 
+**Notes:** 
 - Downstrokes in the beginning: [Youtube Link](https://youtu.be/FIOXyHR-QnA?t=36)
 
-<pre class="fs-5 ls-10 text-mono">
+<pre class="fs-2 ls-5 lh-0 text-mono">
 e | --------------------------------------- |
 B | --------------------------------------- |
 G | --------------------------------------- |
@@ -73,7 +73,7 @@ Capo: no capo
 
 Note: based on Audiotree Live session [Youtube Link](https://www.youtube.com/watch?v=YYghN-2HFrs).
 
-<pre class="fs-5 ls-10 text-mono">
+<pre class="fs-2 ls-5 lh-0 text-mono">
 Intro 
 e | ------------------------------------------------ |
 B | ------------------------------------------------ |
