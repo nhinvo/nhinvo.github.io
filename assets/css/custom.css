@@ -1,0 +1,4 @@
+/* Reduce line spacing in code blocks */
+pre, code, pre code {
+    line-height: 1.0; /* or 1.0 for very tight */
+  }

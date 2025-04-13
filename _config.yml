@@ -12,6 +12,10 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
 
+just_the_docs:
+  custom_css:
+    - "assets/css/custom.css"
+    
 search_enabled: false  # site search
   
 heading_anchors: true  # heading anchors
