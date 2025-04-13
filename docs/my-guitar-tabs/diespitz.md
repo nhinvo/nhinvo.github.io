@@ -4,7 +4,6 @@ title:  "Die Spitz"
 parent: Guitar Tabs
 ---
 <h1>Die Spitz Tabs</h1> 
----------------------------------------------------------------
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -13,6 +12,7 @@ parent: Guitar Tabs
 {:toc}
 
 ## Teeth
+---------------------------------------------------------------
 ### Hair Of Dog  
 
 | Tuning | Capo | Status |  
@@ -81,6 +81,7 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 </pre>
 
 ## The Revenge of Evangeline 
+---------------------------------------------------------------
 ### Evangeline
 
 | Tuning | Capo | Status |  

@@ -3,8 +3,7 @@ layout: default
 title:  "Scowl"
 parent: Guitar Tabs
 ---
-<h1>Scowl Tabs</h1> 
----------------------------------------------------------------
+<h1>Scowl Guitar Tabs</h1> 
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -13,6 +12,7 @@ parent: Guitar Tabs
 {:toc}
 
 ## How Flowers Grow
+---------------------------------------------------------------
 ### Bloodhound  
 
 | Tuning | Capo | Status |  
@@ -64,6 +64,7 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 </pre>
 
 ## Psychic Dance Routine  
+---------------------------------------------------------------
 ### Psychic Dance Routine  
 
 | Tuning | Capo | Status |  
