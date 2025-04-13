@@ -4,7 +4,9 @@ title: Home
 permalink: /
 nav_order: 1
 ---
-## **Nhi Vo**  **Võ Ngọc Nhi**
+![Avatar of Nhi Vo](/assets/img/about_me_img/PXL_20220721_000907092.jpg){: width="96" height="96" .float-right .mx-4}   
+
+## **Nhi Vo**  
 
 <br> nvo AT mit DOT edu  
 
