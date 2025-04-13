@@ -4,7 +4,7 @@ title: Home
 permalink: /
 nav_order: 1
 ---
-![Avatar of Nhi Vo](/assets/img/about_me_img/PXL_20220721_000907092.jpg){: width="150" height="150" .float-right .mx-4}   
+![Avatar of Nhi Vo](/assets/img/about_me_img/PXL_20220721_000907092.jpg){: width="200" height="200" .float-right .mx-4}   
 
 ## **Nhi Vo**  
 

@@ -17,7 +17,7 @@ parent: Guitar Tabs
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | In Progress - missing Solo at the end |  
+| Standard | No Capo | In Progress {: .label .label-yellow } |  
 
 **Small Note:** Josh Hardy actually plays the first few chords like this (which is harder so I’m not sure why):  
 <div class="code-example" markdown="1">
@@ -29,9 +29,8 @@ D | --7-7-7-7-5 -7-7-7-7-5--7-7-7-7-5---10-10-10-10-10-10-- |
 A | --5-5-7-7-3--5-5-7-7-3--5-5-7-7-3---8 -8 -8 -8 -8 -10-- |
 E | ------5-5--------5-5--------5-5--------------------8 -- |
 </pre>
-</div>  
-
 <iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I?start=19" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+</div>  
 
 **The Chats Ticket Inspector Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -135,7 +134,7 @@ D | --7-10-12----12-10-7--7-10-12----13-13-13-13-15-15-15-15-- |
 A | --7-10-12----12-10-7--7-10-12----13-13-13-13-15-15-15-15-- |
 E | --5-8 -10----10-8 -5--5-8 -10----11-11-11-11-13-13-13-13-- |
 
-[Solo]
+[Solo - Missing]
 </pre>
 </div>
 
@@ -143,7 +142,7 @@ E | --5-8 -10----10-8 -5--5-8 -10----11-11-11-11-13-13-13-13-- |
 
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
-| Standard | No Capo | Completed | 
+| Standard | No Capo | Completed {: .label .label-green } | 
 
 **The Chats Struck By Lighting Guitar Tabs:**  
 <div class="code-example" markdown="1">
