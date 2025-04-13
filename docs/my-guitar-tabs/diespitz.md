@@ -20,9 +20,7 @@ parent: Guitar Tabs
 | Standard | No Capo | Completed |  
 
 **Die Spitz Hair Of Dog Guitar Tabs:**    
-  
-<pre class="fs-3 ls-5 lh-0.3 text-mono">
-
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
 [Intro - Repeat Twice]
 e | ------------------------- |
 B | ------------------------- |
@@ -80,7 +78,6 @@ G | ---------------------------------------7-7-7-7------ |
 D | --5-5-5-5-5-5-5-5/9-9-9/10-10-10-10-10-7-7-7-7-9-5-- |
 A | --5-5-5-5-5-5-5-5/9-9-9/10-10-10-10-10-5-5-5-5-9-5-- |
 E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
-
 </pre>
 
 ## The Revenge of Evangeline 
@@ -91,12 +88,10 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 | Standard | No Capo | Completed |  
 
 **Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
-
 <iframe width="420" height="315" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-**Die Spitz Evangeline Guitar Tabs:**    
-------------------------------------------  
-<pre class="fs-3 ls-4 lh-0.2 text-mono">
+**Die Spitz Evangeline Guitar Tabs:**      
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
 e | ----------------------------------- |
 B | ----------------------------------- |
 G | ----------------------------------- |
