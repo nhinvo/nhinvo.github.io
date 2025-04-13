@@ -12,14 +12,16 @@ parent: Guitar Tabs
 1. TOC
 {:toc}
 
-## Album: Teeth
+## Teeth
 ### Hair Of Dog  
 
-| Artist    | Song   | Album | Tuning | Capo | Status |  
-|-----------|--------|-------|--------|------|--------|  
-| Die Spitz | Hair Of Dog | Teeth | Standard | No Capo | Completed |  
+| Tuning | Capo | Status |  
+|--------|------|--------|  
+| Standard | No Capo | Completed |  
 
-<pre class="fs-3 ls-5 lh-0.5 text-mono">
+**Tabs:**    
+------------------------------------------  
+<pre class="fs-3 ls-5 lh-0.3 text-mono">
 
 [Intro - Repeat Twice]
 e | ------------------------- |
@@ -81,18 +83,20 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 
 </pre>
 
-## Album: The Revenge of Evangeline 
+## The Revenge of Evangeline 
 ### Evangeline
 
-| Artist    | Song   | Album | Tuning | Capo | Status |  
-|-----------|--------|-------|--------|------|--------|  
-| Die Spitz | Evangeline | The Revenge of Evangeline | Standard | No Capo | Completed |  
+| Tuning | Capo | Status |  
+|--------|------|--------|  
+| Standard | No Capo | Completed |  
 
-Note: Guitar - Ava Schrobilgen - based on KUTX Live Session:
+**Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
-<pre class="fs-3 ls-5 lh-0.5 text-mono">
+**Tabs:**    
+------------------------------------------  
+<pre class="fs-3 ls-4 lh-0.2 text-mono">
 e | ----------------------------------- |
 B | ----------------------------------- |
 G | ----------------------------------- |
