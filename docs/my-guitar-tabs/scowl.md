@@ -12,18 +12,14 @@ parent: Guitar Tabs
 1. TOC
 {:toc}
 
-## Bloodhound 
-**Artist:** Scowl  
-**Song:** Bloodhound  
-**Album:** How Flowers Grow  
+## Bloodhound  
 
-**Tuning:** Standard   
-**Capo:** No Capo  
+| Artist    | Song   | Album | Tuning | Capo | Status |  
+|-----------|--------|-------|--------|------|--------|  
+| Scowl | Bloodhound | How Flowers Grow | Standard | No Capo | Completed |  
 
-**Notes:** 
-- Downstrokes in the beginning: [Youtube Link](https://youtu.be/FIOXyHR-QnA?t=36)
-
-<iframe width="1686" height="566" src="https://www.youtube.com/embed/FIOXyHR-QnA" title="SCOWL - Bloodhound (Multicam) live at Punk Rock Holiday 2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+**Notes:** Downstrokes in the beginning:  
+<iframe width="420" height="315" src="https://www.youtube.com/embed/FIOXyHR-QnA" title="SCOWL - Bloodhound (Multicam) live at Punk Rock Holiday 2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 <pre class="fs-3 ls-5 lh-0.5 text-mono">
 e | --------------------------------------- |
@@ -65,14 +61,17 @@ A | --6-10-9-9-9-9--6-10-9-9-9-9--6-10-9-9-9-9-5-5-5-5-5-5-5-5-- |
 E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 </pre>
 
-## Psychic Dance Routine - In Progress 
-| Artist    | Song   | Album | Tuning | Capo |
-|:----------|:-------|:------|:-------|:-----|
-| Scowl | Psychic Dance Routine | Psychic Dance Routine | Standard | No Capo |
+## Psychic Dance Routine - In Progress  
 
-Note: based on Audiotree Live session: <a href="https://www.youtube.com/watch?v=YYghN-2HFrs" target="_blank">Youtube Link</a>
+| Artist    | Song   | Album | Tuning | Capo | Status |  
+|-----------|--------|-------|--------|------|--------|
+| Scowl | Psychic Dance Routine | Psychic Dance Routine | Standard | No Capo | In Progress |   
 
-<pre class="fs-3 ls-5 lh-0.5 text-mono">
+Note: based on Audiotree Live session: <a href="https://www.youtube.com/watch?v=YYghN-2HFrs" target="_blank">Youtube Link</a>  
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/YYghN-2HFrs" title="Scowl - Psychic Dance Routine | Audiotree Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+<pre class="fs-2.5 ls-4.5 lh-0.3 text-mono">
 Intro 
 e | ------------------------------------------------ |
 B | ------------------------------------------------ |

@@ -12,9 +12,29 @@ Below are some of the things that I have created. Just click to jump to the desi
 
 | Arts                   | Crafts                                 |
 |------------------------|----------------------------------------| 
-| [Drawings](#drawings)  | [Knit & Crochet](#crochet)		      | 
-| [Paintings](#paintings)| [Ceramics](#ceramics)		          | 
-| [Digital](#digital)    | [Embroidery](#embroidery)              | 
+| [Digital](#digital)    | [Knit & Crochet](#crochet)		      | 
+| [Drawings](#drawings)  | [Ceramics](#ceramics)		          | 
+| [Paintings](#paintings)| [Embroidery](#embroidery)              | 
+
+
+### Digital   <a class="anchor" id="digital"></a>
+--------------------------------------------------------------------------
+#### Boston PaintBox Program 2023 Submission: 
+<div id="image-table">
+    <table>
+	<tr>
+    	    <td style="padding:10px">
+        	    <img src="/assets/img/my-art/digital/BPB_0.png" width="220"/>
+      	    </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/digital/BPB_1.png" width="220"/>
+            </td>
+            <td style="padding:10px">
+            	<img src="/assets/img/my-art/digital/BPB_2.png" width="220"/>
+            </td>
+        </tr>
+    </table>
+</div>
 
 
 ### Drawings   <a class="anchor" id="drawings"></a>
@@ -75,26 +95,6 @@ Below are some of the things that I have created. Just click to jump to the desi
 	  <td>
 	    <img src="/assets/img/my-art/drawings/draw_2.png" width="220"/>
 	  </td>
-        </tr>
-    </table>
-</div>
-
-
-### Digital   <a class="anchor" id="digital"></a>
---------------------------------------------------------------------------
-#### Boston PaintBox Program 2023 Submission: 
-<div id="image-table">
-    <table>
-	<tr>
-    	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/digital/BPB_0.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/digital/BPB_1.png" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/digital/BPB_2.png" width="220"/>
-            </td>
         </tr>
     </table>
 </div>
