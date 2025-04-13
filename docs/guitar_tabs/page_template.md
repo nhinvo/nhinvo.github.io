@@ -15,9 +15,9 @@ parent: Guitar Tabs
 ---------------------------------------------------------------
 ### Song Name  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> |  Alternative Rock |
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -35,9 +35,9 @@ E | ---------------------------------------------------------------- |
 
 ### Another Song Name
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | 
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Rock | 
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -57,9 +57,9 @@ E | ---------------------------------------------------------------- |
 ---------------------------------------------------------------
 ### Song Name  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Pop | 
 
 **Artist Name Song Name Guitar Tabs:**  
 <div class="code-example" markdown="1">

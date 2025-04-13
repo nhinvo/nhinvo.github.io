@@ -11,7 +11,7 @@ parent: Guitar Tabs
 1. TOC
 {:toc}
 
-## Get Fucked
+## Get F*cked
 ---------------------------------------------------------------
 ### Ticket Inspector  
 

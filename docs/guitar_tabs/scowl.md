@@ -15,9 +15,9 @@ parent: Guitar Tabs
 ---------------------------------------------------------------
 ### Bloodhound  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Harcore Punk |  
 
 **Notes:** Downstrokes in the beginning:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/FIOXyHR-QnA?start=34" title="SCOWL - Bloodhound (Multicam) live at Punk Rock Holiday 2.3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
@@ -70,9 +70,9 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 ---------------------------------------------------------------
 ### Psychic Dance Routine  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |   
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |   
 
 **Note:** based on Audiotree Live session:  
 

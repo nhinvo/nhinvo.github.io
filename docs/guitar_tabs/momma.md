@@ -15,9 +15,9 @@ parent: Guitar Tabs
 ---------------------------------------------------------------
 ### Speeding 72  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |  
 
 **Notes:** Missing Chords - Guitar (Allegra Weingarten) - Based on Audiotree Live Session:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/G0CcfPtAl-U?start=948" title="Momma on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -124,9 +124,9 @@ E | ------------------------------------------------------- |
 
 ### Not A Runner
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | 
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock | 
 
 **Momma Not A Runner Guitar Tabs (Riff):**  
 <div class="code-example" markdown="1">
