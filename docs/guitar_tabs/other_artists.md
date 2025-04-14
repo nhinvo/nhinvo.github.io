@@ -59,9 +59,9 @@ E | ------------------------------------- |
 Verse - Repeat X Times
 e | ----------------------------- |
 B | ----------------------------- |
-G | --8-8-8-9-9-9-9-9-9---------- |
-D | --9-9-9-9-9-9-9-9-9---------- |
-A | --9-9-9-9-9-9-9-9-9---------- |
+G | --8-8-8-9(x14?)-4(x8?)-------- |
+D | --9-9-9-9(x14?)-5(x8?)-------- |
+A | --9-9-9-9(x14?)-5(x8?)-------- |
 E | ----------------------------- |
 </pre>
 </div>
@@ -70,6 +70,29 @@ E | ----------------------------- |
 # Cosmic Psychos  
 ---------------------------------------------------------------
 ## Blokes You Can Trust
+### Dead Roo   
+
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Punk Rock |
+
+<iframe width="400" height="250" src="https://www.youtube.com/embed/U5D15zvG7kI?list=OLAK5uy_npceYyimiJBkRBIRynLukIu0qLN9ldEXI" title="Dead Roo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Cosmic Psychos - Dead Roo Guitar Tabs:**  
+<div class="code-example" markdown="1">
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+e | --------------------------------------------------------- |
+B | --------------------------------------------------------- |
+G | ----------------------------------------------7-7-7--10-- |
+D | --7-7-7-7-7-7-7-7-7-7-7-7--10-10-10-10-10-10--7-7-7--10-- |
+A | --7-7-7-7-7-7-7-7-7-7-7-7--10-10-10-10-10-10--5-5-5--8 -- |
+E | --5-5-5-5-5-5-5-5-5-5-5-5--8 -8 -8 -8 -8 -8 ------------- |
+  | --↓-↓-↑-↑-↓-↑-↓-↓-↑-↑-↓-↑--↓ -↓ -↑ -↑ -↓ -↑ --↓-↓-↑--↑ -- | 
+[Repeat 8 times] 
+</pre>
+</div>
+
+
 ### I’m up You’re Out   
 
 | Tuning | Capo | Status | Genre |  
@@ -99,25 +122,5 @@ E | --9 -7-7-7-7-7-7-7-7-7-- |
 [Repeat 4 Times]
 
 Chorus (to be added)
-</pre>
-</div>
-
-### Dead Roo   
-
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Punk Rock |
-
-**Cosmic Psychos - Dead Roo Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
-e | --------------------------------------------------------- |
-B | --------------------------------------------------------- |
-G | ----------------------------------------------7-7-7--10-- |
-D | --7-7-7-7-7-7-7-7-7-7-7-7--10-10-10-10-10-10--7-7-7--10-- |
-A | --7-7-7-7-7-7-7-7-7-7-7-7--10-10-10-10-10-10--5-5-5--8 -- |
-E | --5-5-5-5-5-5-5-5-5-5-5-5--8 -8 -8 -8 -8 -8 ------------- |
-  | --↓-↓-↑-↑-↓-↑-↓-↓-↑-↑-↓-↑--↓ -↓ -↑ -↑ -↓ -↑ --↓-↓-↑--↑ -- | 
-[Repeat 8 times] 
 </pre>
 </div>
