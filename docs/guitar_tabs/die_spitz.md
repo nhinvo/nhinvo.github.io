@@ -16,9 +16,9 @@ permalink: /guitar_tabs/die_spitz
 ---------------------------------------------------------------
 ### Hair Of Dog  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |  
 
 **Die Spitz Hair Of Dog Guitar Tabs:**    
 <div class="code-example" markdown="1">
@@ -85,9 +85,9 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 
 ### Groping Dogs Gushing Blood  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
 
 **Note:** Tabs stops at 1:30:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/KAgZVVMmcpE?start=90" title="Groping Dogs Gushing Blood" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
@@ -139,15 +139,15 @@ D | --4-4-4-4-4-4-4-4-4-4-4-4-4-- |
 A | --4-4-4-4-4-4-4-4-4-4-4-4-4-- |
 E | --2-2-0-2-2-0-2-2-2-2-2-2-2-- |
 
-e | ------------------------------------------------------------ |
-B | ------------------------------------------------------------ |
+e | -------------------------------------------------------------- |
+B | -------------------------------------------------------------- |
 G | --------5-5-5-5--------5-5-5-5--------5-5-5-5----------------- |
 D | --4-4-4-5-5-5-5--4-4-4-5-5-5-5--4-4-4-5-5-5-5-10\9-9\7-7\5-5-- |
 A | --4-4-4-3-3-3-3--4-4-4-3-3-3-3--4-4-4-3-3-3-3-10\9-9\7-7\5-5-- |
 E | --2-2-0----------2-2-0----------2-2-0---------8 \7-7\5-5\3-3-- |
 
-e | -------------------------------------------------------------- |
-B | -------------------------------------------------------------- |
+e | ---------------------------------------------------------------- |
+B | ---------------------------------------------------------------- |
 G | --------5-5-5-5--------5-5-5-5--------5-5-5-5------------------- |
 D | --4-4-4-5-5-5-5--4-4-4-5-5-5-5--4-4-4-5-5-5-5-12\10-10\9-9\7-7-- |
 A | --4-4-4-3-3-3-3--4-4-4-3-3-3-3--4-4-4-3-3-3-3-12\10-10\9-9\7-7-- |
@@ -176,9 +176,9 @@ E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
 
 ### Slater  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Drop D | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Drop D | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
 
 **Note:** Guitar - Ellie Livingston 
 
@@ -197,9 +197,9 @@ D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3-0-0-0-0-8\7-0-7\6-0-6\5-3------- |
 
 ### Monkey Song  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Drop D | No Capo | <span class="label label-yellow">In Progress</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Drop D | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
 
 **Die Spitz Monkey Song Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -265,9 +265,9 @@ D | --0-3-0-6-5-0-3-5-5-5-5-6-6-6-6-- |
 ---------------------------------------------------------------
 ### Evangeline
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> |  
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |  
 
 **Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
 <iframe width="400" height="250" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
