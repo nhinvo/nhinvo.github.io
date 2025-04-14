@@ -21,7 +21,7 @@ permalink: /guitar_tabs/gel
 | Standard | No Capo | <span class="label label-green">In Progress</span> |  Hardcore Punk |
 
 **Note:** Tab stops at 0:25: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/F_-bn5Ws2Tw?start=25" title="Gel - Honed Blade | LCY Uncut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/F_-bn5Ws2Tw" title="Gel - Honed Blade | LCY Uncut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **GEL - Honed Blade Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -33,6 +33,38 @@ D | --5-4-5-8-5-4-5-8-5-5-5-8-11-8-8-10-- |
 A | --5-4-5-8-5-4-5-8-5-5-5-8-11-8-8-10-- |
 E | --3-2-3-6-3-2-3-6-3-3-3-6-9 -6-6-8 -- |
 [Repeat 6 Times]
+
+e | ----------------------------------------------- |
+B | ----------------------------------------------- |
+G | ----------------------------------------------- |
+D | --5(let ring)-8-5-5-8-5(let ring)-11-8-8-10-5-- |
+A | --5(let ring)-8-5-5-8-5(let ring)-11-8-8-10-5-- |
+E | --3(let ring)-6-3-3-6-3(let ring)-9 -6-6-8 -3-- |
+
+e | ------------------------------------- |
+B | ------------------------------------- |
+G | ------------------------------------- |
+D | --5-4-5-8-5-4-5-8-5-5-5-8-11-8-8-10-- |
+A | --5-4-5-8-5-4-5-8-5-5-5-8-11-8-8-10-- |
+E | --3-2-3-6-3-2-3-6-3-3-3-6-9 -6-6-8 -- |
+[Repeat 4 Times]
+
+Bonus - riff: 
+e | ------------------------------------- |
+B | ------------------------------------- |
+G | ------------------------------------- |
+D | ------------------------------------- |
+A | --------6----------------------------- |
+E | --8-7-8----------------------------------- |
+
+
+e | ----------------------------------------------- |
+B | ----------------------------------------------- |
+G | ----------------------------------------------- |
+D | --5(let ring)-8-5-5-8-5(let ring)-11-8-8-10-5-- |
+A | --5(let ring)-8-5-5-8-5(let ring)-11-8-8-10-5-- |
+E | --3(let ring)-6-3-3-6-3(let ring)-9 -6-6-8 -3-- |
+
 </pre>
 </div>
 

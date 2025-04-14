@@ -20,7 +20,7 @@ permalink: /guitar_tabs/the_chats
 |:------:|:----:|:------:|:-----:|  
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
 
-**Small Note:** Josh Hardy actually plays the first few chords like this (which is harder so I’m not sure why):  
+**Note:** Josh Hardy actually plays the first few chords like this (which is harder in my opinion):  
 <div class="code-example" markdown="1">
 <pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
 e | ------------------------------------------------------- |
@@ -33,7 +33,7 @@ E | ------5-5--------5-5--------5-5--------------------8 -- |
 
 <br>
 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I?start=18" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 </div>  
 
 **The Chats Ticket Inspector Guitar Tabs:**  
