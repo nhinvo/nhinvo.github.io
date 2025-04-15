@@ -34,3 +34,34 @@ For better logging of your SLURM scripts, consider adding Job ID and Array ID (i
 ## Python pathlib library 
 The Python <a href="https://docs.python.org/3/library/pathlib.html" target="_blank">pathlib</a> library is very useful for handling file paths. 
 
+```python
+from pathlib import Path
+
+target_directory = Path('genomes')  # convert to object 
+extension = 'fasta'
+
+# cycle through each file in a directory matching extension
+for file_path in target_directory.glob(f'*{extension}'):
+    # obtain file name without extension
+    file_name = file_path.stem 
+
+    print(f'Path to file: {file_path}')
+    print(f'File name: {file_name}\n')
+
+# obtain a list of files in a directory
+file_paths = list(target_directory.glob('*'))
+print(file_paths)
+```
+```
+Path to file: genomes/MED4.fasta
+File name: MED4
+
+Path to file: genomes/MIT9301.fasta
+File name: MIT9301
+
+Path to file: genomes/NATL2A.fasta
+File name: NATL2A
+
+[PosixPath('genomes/MED4.fasta'), PosixPath('genomes/MIT9301.fasta'), PosixPath('genomes/NATL2A.fasta'), PosixPath('genomes/NATL1A.fna')]
+```
+

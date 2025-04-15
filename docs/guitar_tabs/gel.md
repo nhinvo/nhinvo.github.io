@@ -52,7 +52,7 @@ E | --4-8-7-5-4-4-4-4-2-2-5-5-5-4-4-4-4-4-(more)- |
 
 | Tuning | Capo | Status | Genre |  
 |:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">In Progress</span> |  Hardcore Punk |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Hardcore Punk |
 
 **Note:** Tab stops at 0:25: 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/F_-bn5Ws2Tw" title="Gel - Honed Blade | LCY Uncut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
