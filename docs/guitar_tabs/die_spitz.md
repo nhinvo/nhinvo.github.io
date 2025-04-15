@@ -364,7 +364,8 @@ E | --7-7-7-7-7-7-7-7-0-0-0-0-0----7-7-7-8 -7-3-0-- |
 
 ## Little Flame
 ---------------------------------------------------------------
-### Little Flame
+### Little Flame  
+
 | Tuning | Capo | Status |  
 |:------:|:----:|:------:|  
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
