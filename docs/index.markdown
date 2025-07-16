@@ -4,7 +4,7 @@ title: Home
 permalink: /
 nav_order: 1
 ---
-![Avatar of Nhi Vo](/assets/img/about_me_img/PXL_20220721_000907092.jpg){: width="200" height="200" .float-right .mx-4}   
+![Avatar of Nhi Vo](assets/img/about_me_img/Screenshot (298).png){: width="200" height="200" .float-right .mx-4}   
 
 ## **Nhi Vo**  
 <br> nvo AT mit DOT edu  
@@ -14,15 +14,15 @@ nav_order: 1
     - *Minors*: Bioinformatics, Chemistry  
 
 ## Experiences
-- *Bioinformatics Research Associate (Full-time)*, **Massachusetts Institute of Technology** \
+- *Bioinformatics Research Associate*, **Massachusetts Institute of Technology** \
   Cambridge, MA | Feb 2023 - Present  
-- *Undergraduate Research Assistant (Part-time)*, **Florida Museum of Natural History** \
+- *Undergraduate Research Assistant*, **Florida Museum of Natural History** \
   Gainesville, FL | May 2022 - Aug 2022   
-- *Technology Supervisor (Part-time)*, **Information Technology at Purdue** \
+- *Technology Supervisor*, **Information Technology at Purdue** \
   West Lafayette, IN | Aug 2021 - Dec 2022  
-- *Data Analyst (Part-time)*, **Purdue University** \
+- *Data Analyst*, **Purdue University** \
   West Lafayette, IN | May 2022 - Aug 2022  
-- *Undergraduate Research Assistant  (Part-time)*, **Purdue University** \
+- *Undergraduate Research Assistant*, **Purdue University** \
   West Lafayette, IN | Aug 2021 - May 2022  
 
 
