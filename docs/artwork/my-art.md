@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "Artwork"
-nav_order: 3
+nav_order: 4
 permalink: /docs/art
 ---
 <h1>My Artworks</h1>  

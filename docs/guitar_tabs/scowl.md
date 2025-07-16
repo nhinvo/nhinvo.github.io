@@ -12,6 +12,31 @@ permalink: /guitar_tabs/scowl
 1. TOC
 {:toc}
 
+## Are We All Angels  
+---------------------------------------------------------------
+### B.A.B.E.  
+
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |   
+
+**Note:** based on kexp Live session:  
+<iframe width="400" height="250" src="https://www.youtube.com/embed/sXaADnkQ9zo?start=205" title="Scowl - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**Scowl B.A.B.E. Guitar Tabs:**  
+<div class="code-example" markdown="1">  
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+Intro 
+e | ---------------------------------------- |
+B | ---------------------------------------- |
+G | -----------------------------------8-8-- |
+D | --x-x-x-x-x-x-x--9-9-9-9-9-6-7-7-7-8-8-- |
+A | --x-x-x-x-x-x-x--9-9-9-9-9-6-7-7-7-6-6-- |
+E | --x-x-x-x-x-x-x--7-7-7-7-7-6-5-5-5------ |
+  | --↓-↑-↓-↑-↓-↑-↓--↓-↓-↑-↓-↑-↓-↓-↓-↑-↓-↓-- |
+</pre>
+</div>
+
 ## Psychic Dance Routine  
 ---------------------------------------------------------------
 ### Psychic Dance Routine  
