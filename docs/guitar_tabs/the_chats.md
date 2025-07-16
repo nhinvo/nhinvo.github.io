@@ -30,10 +30,6 @@ D | --7-7-7-7-5 -7-7-7-7-5--7-7-7-7-5---10-10-10-10-10-10-- |
 A | --5-5-7-7-3--5-5-7-7-3--5-5-7-7-3---8 -8 -8 -8 -8 -10-- |
 E | ------5-5--------5-5--------5-5--------------------8 -- |
 </pre>
-
-<br>
-
-<iframe width="400" height="250" src="https://www.youtube.com/embed/a4YpQOjwY_I" title="The Chats - Ticket Inspector (Live at Fortitude Music Hall, Brisbane) 2022." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 </div>  
 
 **The Chats Ticket Inspector Guitar Tabs:**  

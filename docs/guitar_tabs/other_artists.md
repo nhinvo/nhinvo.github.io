@@ -85,8 +85,6 @@ E | ----------------------------- |
 |:------:|:----:|:------:|:-----:|  
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Punk Rock |
 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/U5D15zvG7kI?list=OLAK5uy_npceYyimiJBkRBIRynLukIu0qLN9ldEXI" title="Dead Roo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 **Cosmic Psychos - Dead Roo Guitar Tabs:**  
 <div class="code-example" markdown="1">
 <pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
