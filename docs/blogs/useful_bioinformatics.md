@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Useful things for Bioinformatics"
-parent: Blogs
-nav_order: 1
 nav_exclude: true
 ---
 <h2><center>Useful things for Bioinformatics</center></h2>

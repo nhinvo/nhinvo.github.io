@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  template
-parent: Guitar Tabs
-permalink: /guitar_tabs/template
 nav_exclude: true
 ---
 <h1>Artist Name Guitar Tabs</h1> 
