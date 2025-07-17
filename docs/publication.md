@@ -5,6 +5,8 @@ permalink: /publications
 nav_order: 1.1
 ---
 ## **Publications**  
-- Allison Coe, James I. Mullet, **Nhi N. Vo**, Paul M. Berube, Maya I. Anjur-Dietrich, Eli Salcedo, Sierra M. Parker, Konnor VonEmster, Christina Bliem, Aldo A. Arellano, Kurt G. Castro, Jamie W. Becker, Sallie W. Chisholm. <a href="https://doi.org/10.1101/2025.03.20.644373" target="_blank">"ProSynTaxDB: A curated protein database and workflow for taxonomic classification of Prochlorococcus and Synechococcus in metagenomes"</a>. bioRxiv (2025): 2025-03.  
+- Coe, A., Mullet, J.I., **Vo, N.N.**, Berube, P.M., Anjur-Dietrich, M., Salcedo, E., Parker, S.M., VonEmster, K., Bliem, C., Arellano, A.A., et al. (2025). <a href="https://doi.org/10.1101/2025.03.20.644373" target="_blank">ProSynTaxDB: A curated protein database and workflow for taxonomic classification of Prochlorococcus and Synechococcus in metagenomes</a>. biorXiv. 10.1101/2025.03.20.644373.
+  
+- Anjur-Dietrich, M.I., Jones, K.J., Mullet, J.I., **Vo, N.N.**, Castro, K.G., Parker, S.M,, Chisholm, S.W.. (2025). Biofilm formation and dynamics in the marine cyanobacterium Prochlorococcus. (In preparation).
 
-- Allison Coe, Rogier Braakman, Steven J Biller, Aldo Arellano, Christina Bliem, **Nhi N Vo**, Konnor von Emster, Elaina Thomas, Michelle DeMers, Claudia Steglich, Jef Huisman, Sallie W Chisholm, <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">"Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus"</a>, ISME Communications, Volume 4, Issue 1, January 2024.  
+- Coe, A., Braakman, R., Biller, S.J., Arellano, A.A., Bliem, C., **Vo, N.N.**, VonEmster, K., Thomas, E., DeMers, M., Steglich, C., Huisman, J., Chisholm, S.W. (2024). <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus</a>. ISME Communications, Volume 4, Issue 1.
