@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Python Game"
-parent: My Projects
-nav_order: 4
 ---
 
 <h1><center>BIOL595 - Practical Biocomputing Final Project</center></h1>  

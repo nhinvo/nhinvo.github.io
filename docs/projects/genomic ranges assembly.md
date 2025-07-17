@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Genomic Ranges Assembly Tool"
-parent: My Projects
-nav_order: 7
 ---
 
 <h1><center>Genomic Ranges Assembly Tool</center></h1>  

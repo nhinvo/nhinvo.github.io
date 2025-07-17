@@ -1,9 +1,6 @@
 ---
 layout: default
 title:  "Removal of Duplicated .fasta Sequences"
-parent: My Projects
-nav_order: 1.1
-nav_exclude: true
 ---
 <h1><center>Removal of Duplicated Sequences</center></h1>  
 

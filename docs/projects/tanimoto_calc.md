@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Molecular Similarity of Drug Molecules"
-parent: My Projects
-nav_order: 2
 ---
 <h1><center>Fingerprinting and Molecular Similarity of Drug Molecules</center></h1>  
 

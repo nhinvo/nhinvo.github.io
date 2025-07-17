@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Molecular Docking of Drug Molecules"
-parent: My Projects
-nav_order: 3
 ---
 <h2><center>Molecular Docking of Ligands from DockCoV2 Database and generated ligands</center></h2>
 
