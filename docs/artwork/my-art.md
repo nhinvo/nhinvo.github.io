@@ -36,6 +36,14 @@ Below are some of the things that I have created. Just click to jump to the desi
     </table>
 </div>
 
+### Prochlorococcus on a Chitin Particle!
+Motivational poster inspired by: <a href="https://news.mit.edu/2023/ancestors-prochlorococcus-microbes-chitin-0511" target="_blank">"Like ancient mariners, ancestors of Prochlorococcus microbes rode out to sea on exoskeleton particles."</a>
+
+<figure>
+<img src="/assets/img/my-art/digital/pro_hang_in_there.jpg" alt="Trulli" style="width:40%">
+</figure>
+
+
 
 ## Drawings   <a class="anchor" id="drawings"></a>
 --------------------------------------------------------------------------
