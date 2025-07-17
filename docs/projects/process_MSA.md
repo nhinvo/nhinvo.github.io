@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Processing of Multiple Sequence Alignment Data"
+title:  404
+nav_exclude: true
 ---
 <h1><center>Processing of Multiple Sequence Alignment Data</center></h1>  
 

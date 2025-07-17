@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Python Game"
+title:  404
+nav_exclude: true
 ---
 
 <h1><center>BIOL595 - Practical Biocomputing Final Project</center></h1>  

@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Molecular Similarity of Drug Molecules"
+title:  404
+nav_exclude: true
 ---
 <h1><center>Fingerprinting and Molecular Similarity of Drug Molecules</center></h1>  
 

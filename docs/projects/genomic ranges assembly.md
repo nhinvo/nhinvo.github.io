@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Genomic Ranges Assembly Tool"
+title:  404
+nav_exclude: true
 ---
 
 <h1><center>Genomic Ranges Assembly Tool</center></h1>  
