@@ -1,3 +1,10 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+permalink: /404
+---
+
 <h1><center>Genomic Ranges Assembly Tool</center></h1>  
 
 ### Introduction

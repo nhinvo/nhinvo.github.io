@@ -1,3 +1,10 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+permalink: /404
+---
+
 <h2><center>Molecular Docking of Ligands from DockCoV2 Database and generated ligands</center></h2>
 
 ### Introduction

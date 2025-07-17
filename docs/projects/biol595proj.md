@@ -1,3 +1,10 @@
+---
+layout: default
+title: 404
+nav_exclude: true
+permalink: /404
+---
+
 <h1><center>BIOL595 - Practical Biocomputing Final Project</center></h1>  
 
 ### Introduction
