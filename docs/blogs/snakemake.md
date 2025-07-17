@@ -14,6 +14,7 @@ For example, you want to trim reads from files in your local computer, but also 
 
 
 **Example samples.tsv file**:     
+
 | sample         | forward read        | reverse read         |
 |:---------------|:--------------------|:---------------------|
 | local_sample_1 | local/path/fwd_read | local/path/rev_read  |

@@ -1,8 +1,3 @@
----
-layout: default
-title:  404
-nav_exclude: true
----
 <h1><center>Processing of Multiple Sequence Alignment Data</center></h1>  
 
 ### Introduction

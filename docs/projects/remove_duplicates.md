@@ -1,8 +1,3 @@
----
-layout: default
-title:  404
-nav_exclude: true
----
 <h1><center>Removal of Duplicated Sequences</center></h1>  
 
 ### Introduction
