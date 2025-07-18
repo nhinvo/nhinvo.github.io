@@ -40,5 +40,9 @@ footer_content: "Contact: nvo[at]mit[dot]edu"
 last_edit_timestamp: true
 last_edit_time_format: "%Y-%m-%d"
 
+# Google Analytics tracking 
 ga_tracking: "G-502Y4YLYN2"
 ga_tracking_anonymize_ip: true
+
+# Dark theme
+color_scheme: dark
