@@ -45,4 +45,4 @@ ga_tracking: "G-502Y4YLYN2"
 ga_tracking_anonymize_ip: true
 
 # Dark theme
-color_scheme: dark
+color_scheme: light
