@@ -9,32 +9,19 @@ nav_order: 1
 ## **Nhi Vo**  
 - nvo AT mit DOT edu  
 
-## Education 
-- *B.S. in Genetics*, **Purdue University**  
-    - *Minors*: Bioinformatics, Chemistry  
-    - West Lafayette  
-    - Aug 2019 - Dec 2022  
-    - GPA: 3.88  
-
-## Experiences
+### Experiences
 - *Bioinformatics Research Associate*, **Massachusetts Institute of Technology**  
-    - Cambridge, MA
-    - Feb 2023 - Present  
+    - Cambridge MA, Feb 2023 - Present  
 - *Research Assistant*, **Florida Museum of Natural History**  
-    - Gainesville, FL
-    - May 2022 - Aug 2022   
+    - Gainesville FL, May 2022 - Aug 2022   
 - *Technology Supervisor*, **Information Technology at Purdue**  
-    - West Lafayette, IN
-    - Aug 2021 - Dec 2022  
+    - West Lafayette IN, Aug 2021 - Dec 2022  
 - *Data Analyst*, **Purdue University**  
-    - West Lafayette, IN  
-    - May 2022 - Aug 2022   
+    - West Lafayette IN, May 2022 - Aug 2022   
 - *Research Assistant*, **Purdue University**  
-    - West Lafayette, IN  
-    - Aug 2021 - May 2022   
+    - West Lafayette IN, Aug 2021 - May 2022   
 
-
-## Technical Skills
+### Technical Skills
 - **Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R
 - **Workflow Languages**: Snakemake, Nextflow 
 - **Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn  
@@ -55,4 +42,10 @@ nav_order: 1
     - Anvio
     - ANI
     - and more
+
+### Education 
+- *B.S. in Genetics*, **Purdue University**  
+    - *Minors*: Bioinformatics, Chemistry  
+    - West Lafayette IN, Aug 2019 - Dec 2022  
+    - GPA: 3.88  
 
