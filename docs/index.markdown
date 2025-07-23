@@ -35,12 +35,15 @@ nav_order: 1
     - Differential Gene Expression Analysis  
     - Taxonomic Profiling 
 - **Bioinformatics**:  
-    - NGS Quality Control
-    - Gene Annotation 
-    - Read Mapping 
-    - BLAST 
-    - Anvio
-    - ANI
+    - NGS Quality Control: bbduk (BBMap), trimmomatic, filtlong
+    - Gene Annotation: Anvio, Prodigal, Prokka, eggNOG-mapper, COG, KEGG, GO
+    - Read Mapping: bowtie2, BWA-MEM, minimap2
+    - Genome Assembly: 
+        - Assemblers: SPAdes, megahit, Flye/metaFlye, canu
+        - Quality: checkM, checkM2, GTDB-tk
+    - Homology (sequence comparison): blastp, blastn, DIAMOND blast, mmseqs2
+    - ANI: fastANI, skani
+    - Files: BAM/SAM, VCF, pileup, GFF, FNA/FAA/FASTA, FASTQ
     - and more
 
 ### Education 
