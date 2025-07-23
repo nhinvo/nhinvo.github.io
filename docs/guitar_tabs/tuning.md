@@ -54,7 +54,7 @@ e (-20) --> D
 **Pinback - Fortress**  
 [Guitar Tabs](other_artists.md#pinback)  
 
-E (-20) --> D
+E (-20) --> D  
 A (-20) --> G  
 D  
 G  
