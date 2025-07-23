@@ -42,6 +42,51 @@ E | --------------------------3-3-3-3-3-x-------------- |
 </pre>
 </div>
 
+# Pinback
+---------------------------------------------------------------
+## The Real Ramona  
+### Fortress
+
+| Tuning | Capo | Status | Genre |  
+|:------:|:----:|:------:|:-----:|  
+| DGDGBe | No Capo | <span class="label label-green">Completed</span> |  Indie Rock |
+
+**Note:** Second part based on Live recording from 7pavement: 
+<iframe width="400" height="250" src="https://www.youtube.com/embed/-XC93pUxv1E?start=25" title="Pinback - Fortress live 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+
+**Pinback - Fortress Guitar Tabs:**  
+<div class="code-example" markdown="1">
+<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+(This first part is actually bass)
+e | --------------------------------- |
+B | --------------------------------- |
+G | --------------------------------- |
+D | --------------------------------- |
+G | ----7---7---7-----5---5---5------ |
+D | --0---0---0-----7---7---7---7-5-- |
+
+Two ways to play second part: 
+A) No slide (slightly less accurate - easier)
+e | ----------7-5-5-------- |
+B | ----------------8-5---- |
+G | --7-7-5-------------7-- |
+D | --------7-------------- |
+G | ----------------------- |
+D | ----------------------- |
+
+B) Yes slide (more accurate - harder)
+e | ------------------------------- |
+B | --3-3-1------12-10-10---------- |
+G | --------2/12----------12-9----- |
+D | ---------------------------12-- |
+G | ------------------------------- |
+D | ------------------------------- |
+
+
+
+</pre>
+</div>
+
 # Hello Mary 
 ---------------------------------------------------------------
 ## Emita Ox 
