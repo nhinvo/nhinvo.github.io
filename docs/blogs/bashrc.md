@@ -4,10 +4,9 @@ title:  "Useful .bashrc Things"
 parent: Blogs
 permalink: /blogs/bashrc
 ---
-<h1><center>Useful .bashrc Things</center></h1>
+<h1>Useful .bashrc Things</h1>
 
 ## Introduction
---------------------------------------------------------------------------------
 **What is .bashrc?**  
 A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.  
 It's used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt. 
@@ -19,7 +18,6 @@ I prefer setting all my aliases in .bashrc.
 **Note:** This page is for Linux command line only. 
 
 ## Setting Aliases (Shortcuts)
---------------------------------------------------------------------------------
 You can set shortcuts using `alias` in your .bashrc file:  
 ```
 # .bashrc
@@ -93,7 +91,6 @@ alias df='df -h .'
 
 
 ## Shell Prompt 
---------------------------------------------------------------------------------
 You can change the prompt of your command line (string that goes before `>`) using:  
 ```
 # .bashrc

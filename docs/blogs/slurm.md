@@ -4,10 +4,9 @@ title:  "Useful SLURM Things"
 parent: Blogs
 permalink: /blogs/slurm
 ---
-<h1><center>Useful SLURM/HPC Things</center></h1>
+<h1>Useful SLURM/HPC Things</h1>
 
 ## Useful Commands 
---------------------------------------------------------------------------------
 Below are some SLURM commands that I find useful.  
 
 
@@ -71,7 +70,6 @@ sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
 
 
 ## Terminology
---------------------------------------------------------------------------------
 **Cluster**: collection of multiple nodes that are connected  
 - Access a cluster by connecting to specific login nodes  
 
@@ -116,7 +114,6 @@ sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
 - If the number of CPUs requested in `–cpus-per-task` is greater than number of CPUs a compute node has: the _job will fail_  as `-c` tries to allocate cores within the same node.  
 
 ## SLURM Arrays
---------------------------------------------------------------------------------
 SLURM arrays can be used to run multiple tasks/processes in parallel (e.g. run the same analysis on a list/folder of input files).  
 
 SLURM has many useful internal variables (a longer list at this [page](https://docs.hpc.shef.ac.uk/en/latest/referenceinfo/scheduler/SLURM/SLURM-environment-variables.html#gsc.tab=0)), one of them being "`SLURM_ARRAY_TASK_ID`", which is a unique ID for each job in the array. 

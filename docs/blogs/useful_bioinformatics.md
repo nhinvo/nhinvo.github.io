@@ -3,7 +3,7 @@ layout: default
 title:  "Useful things for Bioinformatics"
 nav_exclude: true
 ---
-<h2><center>Useful things for Bioinformatics</center></h2>
+<h1>Useful things for Bioinformatics</h1>
 [Description]
 
 # High-performance Computing (HPC) | SLURM 

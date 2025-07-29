@@ -4,10 +4,9 @@ title:  "Useful Snakemake Things"
 parent: Blogs
 permalink: /blogs/snakemake
 ---
-<h1><center>Useful Snakemake Things</center></h1>
+<h1>Useful Snakemake Things</h1>
 
 ## Input files from multiple sources
---------------------------------------------------------------------------------
 To have Snakemake process input files from 2 different sources: local files and SRA files, use Snakemake [`ruleorder`](https://snakemake.readthedocs.io/en/stable/snakefiles/rules.html#handling-ambiguous-rules).  
 
 For example, you want to trim reads from files in your local computer, but also SRA files from online sources. Example use case in this taxonomic classification pipeline at this Git repo: [biofilm-prochlorococcus](https://github.com/nhinvo/biofilm-prochlorococcus/tree/main/TaxonomicClassification/Modified-ProSynTax-Workflow).  With `ruleorder`, you can tell Snakemake to perform the local trimming first, which will not work on SRA files due to missing input files. rule trim_sra will then be used as it connects to the SRA_download rule.  

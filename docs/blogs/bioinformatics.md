@@ -3,7 +3,7 @@ layout: default
 title:  "Useful Bioinformatics Things"
 nav_exclude: true
 ---
-<h1><center>Useful Bioinformatics Things</center></h1>
+<h1>Useful Bioinformatics Things</h1>
 
 ## Table of contents
 {: .no_toc .text-delta }

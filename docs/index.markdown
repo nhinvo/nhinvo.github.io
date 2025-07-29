@@ -5,7 +5,7 @@ permalink: /
 nav_order: 1
 ---
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-<img src="assets/img/about_me_img/Screenshot (298).png" alt="Avatar of Nhi Vo" width="100" height="100" class="float-right mx-4" />
+<img src="assets/img/about_me_img/Screenshot (298).png" alt="Avatar of Nhi Vo" width="100" height="100" style="float: right; margin-left: 1rem;" />
 ## **About Me**  
 Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
 </div>
