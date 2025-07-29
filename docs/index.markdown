@@ -14,7 +14,8 @@ Bioinformatics Research Associate with experience in developing and automating c
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
 **Bioinformatics Research Associate** - The Chisholm Lab  
 Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present  
-<div class="fs-2">
+
+<div class="fs-2"  markdown="1">
 - Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
     - <a href="https://github.com/nhinvo/genome-assembly-pipeline" target="_blank">Genome Assembly Pipeline Github Repository</a>
 - Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
@@ -34,7 +35,8 @@ Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Research Assistant** - The Kawahara Lab     
 Florida Museum of Natural History, Gainesville FL | May 2022 - Aug 2022     
-<div class="fs-2">
+
+<div class="fs-2"  markdown="1">
 - Ensured version control and reproducibility for phylogenetic analysis of 129 whole-genomes using Git and Conda
 - Troubleshot errors and enhanced a phylogenetic analysis pipeline by integrating Python and Bash functionalities
 </div>
@@ -43,7 +45,8 @@ Florida Museum of Natural History, Gainesville FL | May 2022 - Aug 2022
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Data Analyst** - Fernandez-Juricic Lab  
 Purdue University, West Lafayette IN | May 2022 - Aug 2022   
-<div class="fs-2">
+
+<div class="fs-2"  markdown="1">
 - Processed experimental data for machine learning model training by filtering, parsing, and formatting using Python
 - Created visualizations of biological data using Python plotting libraries and Adobe Illustrator, ranging from interactive
 plots for data exploration to publication-ready figures
@@ -53,7 +56,8 @@ plots for data exploration to publication-ready figures
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Research Assistant** - Kihara Bioinformatics Laboratory  
 Purdue University, West Lafayette IN | Aug 2021 - May 2022   
-<div class="fs-2">
+
+<div class="fs-2"  markdown="1">
 - Accelerated molecular docking simulations for 4,000+ protein-ligand pairs by 65% through leveraging parallelization and SLURM to optimize High-Performance Computing (HPC) utilization.
 - Documented analysis workflows, detailing setup, execution, and debugging to ensure clarity and reproducibility. 
 - Developed a cheminformatics workflow to evaluate the validity and accessibility of AI-generated drug molecules.
@@ -62,9 +66,10 @@ Purdue University, West Lafayette IN | Aug 2021 - May 2022
 
 ## **Education** 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-**A Bachelor of Science in Genetics**  
+<strong>A Bachelor of Science in Genetics</strong>  
 Purdue University, West Lafayette IN | Aug 2019 - Dec 2022  
-<div class="fs-2">
+
+<div class="fs-2"  markdown="1">
 - *Minors*: Bioinformatics, Chemistry     
 - GPA: 3.88  
 </div>
@@ -73,17 +78,22 @@ Purdue University, West Lafayette IN | Aug 2019 - Dec 2022
 ## **Technical Skills**
 <div class="code-example fs-2 fw-400 lh-0.3" markdown="1">
 **Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R  
+
 **Workflow Languages**: Snakemake, Nextflow   
+
 **Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn   
+
 **NGS Datasets:**   
 - Illumina, Oxford Nanopore, PacBio HiFi, Sanger  
 - RNA-seq/metatranscriptomics, DNA-seq/metagenomics, epigenomics  
+
 **Bioinformatics Pipelines:**   
 - Genome Assembly/Metagenomic Assembly (MAGs)  
 - Comparative Genomics (Pangenomics) Analysis   
 - Variant Calling: SNP, structural variant   
 - Differential Gene Expression Analysis    
 - Taxonomic Profiling   
+
 **Bioinformatics**:    
 - NGS Quality Control: bbduk (BBMap), trimmomatic, filtlong  
 - Gene Annotation: Anvio, Prodigal, Prokka, eggNOG-mapper, COG, KEGG, GO  

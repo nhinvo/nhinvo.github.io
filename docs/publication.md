@@ -5,12 +5,17 @@ permalink: /publications
 nav_order: 1.1
 ---
 ## **Publications**  
-<div class="code-example fs-3 fw-400 lh-0.2" style="position: relative; padding-bottom: 220px;" markdown="1">
-Coe, A., Mullet, J.I., **Vo, N.N.**, Berube, P.M., Anjur-Dietrich, M.I., Salcedo, E., Parker, S.M., VonEmster, K., Bliem, C., Arellano, A.A., Castro, K.G., Becker, J.W., Chisholm, S.W. (2025). <a href="https://doi.org/10.1101/2025.03.20.644373" target="_blank">ProSynTaxDB: A curated protein database and workflow for taxonomic classification of Prochlorococcus and Synechococcus in metagenomes</a>. biorXiv. 10.1101/2025.03.20.644373.  
-<img src="assets/img/publications/ProSynTax-tree.png" alt="ProSynTax Tree" width="200" height="200"
-     style="position: absolute; bottom: 0; left: 0; margin: 0.5rem;" />
-<img src="assets/img/publications/ProSynTax-wf.png" alt="ProSynTax Workflow" width="200" height="200"
-     style="position: absolute; bottom: 0; right: 0; margin: 0.5rem;" />
+<div class="code-example fs-3 fw-400 lh-0.2" style="margin-bottom: 2rem;" markdown="1">
+  Coe, A., Mullet, J.I., <strong>Vo, N.N.</strong>, Berube, P.M., Anjur-Dietrich, M.I., Salcedo, E., Parker, S.M., VonEmster, K., Bliem, C., Arellano, A.A., Castro, K.G., Becker, J.W., Chisholm, S.W. (2025).  
+  <a href="https://doi.org/10.1101/2025.03.20.644373" target="_blank">
+    ProSynTaxDB: A curated protein database and workflow for taxonomic classification of Prochlorococcus and Synechococcus in metagenomes
+  </a>. *bioRxiv*. https://doi.org/10.1101/2025.03.20.644373.
+  
+  <div style="display: flex; gap: 10px; margin-top: 1rem; flex-wrap: wrap;">
+    <img src="assets/img/publications/ProSynTax-tree.png" width="220" height="200" style="object-fit: contain;" />
+    <img src="assets/img/publications/ProSynTax-wf.png" width="220" height="200" style="object-fit: contain;" />
+    <img src="assets/img/publications/ProSynTax-benchmark.png" width="220" height="200" style="object-fit: contain;" />
+  </div>
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
