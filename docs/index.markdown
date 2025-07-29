@@ -11,8 +11,8 @@ Bioinformatics Research Associate with experience in developing and automating c
 ---------------------------------------------------------------
 
 ## **Experience**
-<div>
-<pre class="fs-3">
+<div markdown="1">
+<pre class="fs-3 fw-400 lh-0.5">
 **Bioinformatics Research Associate**  
 Massachusetts Institute of Technology - The Chisholm Lab   
 Feb 2023 - Present  
