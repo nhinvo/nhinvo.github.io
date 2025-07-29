@@ -4,9 +4,9 @@ title: Home
 permalink: /
 nav_order: 1
 ---
-## **About**  
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 <img src="assets/img/about_me_img/Screenshot (298).png" alt="Avatar of Nhi Vo" width="100" height="100" class="float-right mx-4" />
+## **About Me**  
 Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
 </div>
 
@@ -89,7 +89,7 @@ Purdue University, West Lafayette IN | Aug 2021 - May 2022
 
 ## **Education** 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-**B.S. in Genetics**  
+**A Bachelor of Science in Genetics**  
 Purdue University, West Lafayette IN | Aug 2019 - Dec 2022  
 - *Minors*: Bioinformatics, Chemistry     
 - GPA: 3.88  
