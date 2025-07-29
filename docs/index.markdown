@@ -8,7 +8,8 @@ nav_order: 1
 
 ## **About**  
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
+    <img src="assets/img/about_me_img/Screenshot (298).png" alt="Avatar of Nhi Vo" width="100" height="100" class="float-right mx-4" />
+    Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
 </div>
 
 ## **Experience**
@@ -16,7 +17,7 @@ Bioinformatics Research Associate with experience in developing and automating c
 **Bioinformatics Research Associate**  
 Massachusetts Institute of Technology | The Chisholm Lab   
 Cambridge MA | Feb 2023 - Present  
-
+<span class="fs-2">
 - Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
     - <a href="https://github.com/nhinvo/genome-assembly-pipeline" target="_blank">Genome Assembly Pipeline Github Repository</a>
 - Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
@@ -30,6 +31,7 @@ Cambridge MA | Feb 2023 - Present
 - Performed Differential Gene Expression analysis to detect transcriptional responses of cyanobacterial populations to nutrient perturbations. 
     - <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Publication</a>
 - Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
+</span>
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
