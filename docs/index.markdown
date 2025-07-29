@@ -14,7 +14,7 @@ Bioinformatics Research Associate with experience in developing and automating c
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
 **Bioinformatics Research Associate** - The Chisholm Lab  
 Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present  
-<span class="fs-1">
+<div class="fs-2">
 - Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
     - <a href="https://github.com/nhinvo/genome-assembly-pipeline" target="_blank">Genome Assembly Pipeline Github Repository</a>
 - Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
@@ -28,72 +28,72 @@ Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present
 - Performed Differential Gene Expression analysis to detect transcriptional responses of cyanobacterial populations to nutrient perturbations. 
     - <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Publication</a>
 - Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
-</span>
+</div>
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Research Assistant** - The Kawahara Lab     
 Florida Museum of Natural History, Gainesville FL | May 2022 - Aug 2022     
-<span class="fs-1">
+<div class="fs-2">
 - Ensured version control and reproducibility for phylogenetic analysis of 129 whole-genomes using Git and Conda
 - Troubleshot errors and enhanced a phylogenetic analysis pipeline by integrating Python and Bash functionalities
-</span>
+</div>
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Data Analyst** - Fernandez-Juricic Lab  
 Purdue University, West Lafayette IN | May 2022 - Aug 2022   
-<span class="fs-1">
+<div class="fs-2">
 - Processed experimental data for machine learning model training by filtering, parsing, and formatting using Python
 - Created visualizations of biological data using Python plotting libraries and Adobe Illustrator, ranging from interactive
 plots for data exploration to publication-ready figures
-</span>
+</div>
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **Research Assistant** - Kihara Bioinformatics Laboratory  
 Purdue University, West Lafayette IN | Aug 2021 - May 2022   
-<span class="fs-1">
+<div class="fs-2">
 - Accelerated molecular docking simulations for 4,000+ protein-ligand pairs by 65% through leveraging parallelization and SLURM to optimize High-Performance Computing (HPC) utilization.
 - Documented analysis workflows, detailing setup, execution, and debugging to ensure clarity and reproducibility. 
 - Developed a cheminformatics workflow to evaluate the validity and accessibility of AI-generated drug molecules.
-</span>
+</div>
 </div>
 
 ## **Education** 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
 **A Bachelor of Science in Genetics**  
 Purdue University, West Lafayette IN | Aug 2019 - Dec 2022  
-<span class="fs-1">
+<div class="fs-2">
 - *Minors*: Bioinformatics, Chemistry     
 - GPA: 3.88  
-</span>
+</div>
 </div>
 
 ## **Technical Skills**
-<div class="code-example fs-1 fw-400 lh-0.3" markdown="1">
-**Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R
-**Workflow Languages**: Snakemake, Nextflow 
-**Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn  
-**NGS Datasets:** 
-- Illumina, Oxford Nanopore, PacBio HiFi, Sanger
-- RNA-seq/metatranscriptomics, DNA-seq/metagenomics, epigenomics
-**Bioinformatics Pipelines:** 
-- Genome Assembly/Metagenomic Assembly (MAGs)
-- Comparative Genomics (Pangenomics) Analysis 
-- Variant Calling: SNP, structural variant 
-- Differential Gene Expression Analysis  
-- Taxonomic Profiling 
-**Bioinformatics**:  
-- NGS Quality Control: bbduk (BBMap), trimmomatic, filtlong
-- Gene Annotation: Anvio, Prodigal, Prokka, eggNOG-mapper, COG, KEGG, GO
-- Read Mapping: bowtie2, BWA-MEM, minimap2
-- Genome Assembly: 
-    - Assemblers: SPAdes, megahit, Flye/metaFlye, canu
-    - Quality: checkM, checkM2, GTDB-tk
-- Homology (sequence comparison): blastp, blastn, DIAMOND blast, mmseqs2
-- ANI: fastANI, skani
-- Files: BAM/SAM, VCF, pileup, GFF, FNA/FAA/FASTA, FASTQ
-- and more
+<div class="code-example fs-2 fw-400 lh-0.3" markdown="1">
+**Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R  
+**Workflow Languages**: Snakemake, Nextflow   
+**Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn   
+**NGS Datasets:**   
+- Illumina, Oxford Nanopore, PacBio HiFi, Sanger  
+- RNA-seq/metatranscriptomics, DNA-seq/metagenomics, epigenomics  
+**Bioinformatics Pipelines:**   
+- Genome Assembly/Metagenomic Assembly (MAGs)  
+- Comparative Genomics (Pangenomics) Analysis   
+- Variant Calling: SNP, structural variant   
+- Differential Gene Expression Analysis    
+- Taxonomic Profiling   
+**Bioinformatics**:    
+- NGS Quality Control: bbduk (BBMap), trimmomatic, filtlong  
+- Gene Annotation: Anvio, Prodigal, Prokka, eggNOG-mapper, COG, KEGG, GO  
+- Read Mapping: bowtie2, BWA-MEM, minimap2  
+- Genome Assembly:   
+    - Assemblers: SPAdes, megahit, Flye/metaFlye, canu  
+    - Quality: checkM, checkM2, GTDB-tk  
+- Homology (sequence comparison): blastp, blastn, DIAMOND blast, mmseqs2  
+- ANI: fastANI, skani  
+- Files: BAM/SAM, VCF, pileup, GFF, FNA/FAA/FASTA, FASTQ  
+- and more  
 </div>
 
