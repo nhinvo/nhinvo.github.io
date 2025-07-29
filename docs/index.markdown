@@ -7,12 +7,12 @@ nav_order: 1
 ![Avatar of Nhi Vo](assets/img/about_me_img/Screenshot (298).png){: width="100" height="100" .float-right .mx-4}   
 
 ## **About**  
+<div class="fs-5 fw-400 lh-1" markdown="1">
 Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
----------------------------------------------------------------
+</div>
 
 ## **Experience**
-<div markdown="1">
-<pre class="fs-3 fw-400 lh-0.5">
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **Bioinformatics Research Associate**  
 Massachusetts Institute of Technology - The Chisholm Lab   
 Feb 2023 - Present  
@@ -30,24 +30,27 @@ Cambridge MA
 - Performed Differential Gene Expression analysis to detect transcriptional responses of cyanobacterial populations to nutrient perturbations. 
     - <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Publication</a>
 - Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
-</pre>
 </div>
 
-
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **Research Assistant**  
 Florida Museum of Natural History - The Kawahara Lab     
 May 2022 - Aug 2022     
 Gainesville FL  
 - Ensured version control and reproducibility for phylogenetic analysis of 129 whole-genomes using Git and Conda
 - Troubleshot errors and enhanced a phylogenetic analysis pipeline by integrating Python and Bash functionalities
+</div>
 
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **Technology Supervisor**   
 Information Technology at Purdue  
 Aug 2021 - Dec 2022   
 West Lafayette IN  
 - Supervised a team of 10 lab support personnel, ensuring timely and effective resolution of IT-related concerns. 
 - Maintained communication and coordinated with various IT departments to resolve customer issues efficiently.
+</div>
 
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **Data Analyst**  
 Purdue University  
 May 2022 - Aug 2022   
@@ -55,8 +58,9 @@ West Lafayette IN
 - Processed experimental data for machine learning model training by filtering, parsing, and formatting using Python
 - Created visualizations of biological data using Python plotting libraries and Adobe Illustrator, ranging from interactive
 plots for data exploration to publication-ready figures
+</div>
 
-
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **Research Assistant**
 Purdue University  
 Aug 2021 - May 2022  
@@ -64,9 +68,10 @@ West Lafayette IN
 - Accelerated molecular docking simulations for 4,000+ protein-ligand pairs by 65% through leveraging parallelization and SLURM to optimize High-Performance Computing (HPC) utilization.
 - Documented analysis workflows, detailing setup, execution, and debugging to ensure clarity and reproducibility. 
 - Developed a cheminformatics workflow to evaluate the validity and accessibility of AI-generated drug molecules.
-
+</div>
 
 ## **Technical Skills**
+<div class="fs-5 fw-400 lh-1" markdown="1">
 - **Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R
 - **Workflow Languages**: Snakemake, Nextflow 
 - **Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn  
@@ -90,12 +95,15 @@ West Lafayette IN
     - ANI: fastANI, skani
     - Files: BAM/SAM, VCF, pileup, GFF, FNA/FAA/FASTA, FASTQ
     - and more
+</div>
 
 ## **Education** 
+<div class="fs-5 fw-400 lh-1" markdown="1">
 **B.S. in Genetics**  
 Purdue University  
 Aug 2019 - Dec 2022  
 West Lafayette IN  
-*Minors*: Bioinformatics, Chemistry     
-GPA: 3.88  
+- *Minors*: Bioinformatics, Chemistry     
+- GPA: 3.88  
+</div>
 
