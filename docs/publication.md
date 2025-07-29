@@ -22,9 +22,9 @@ nav_order: 1.1
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
   Coe, A., Braakman, R., Biller, S.J., Arellano, A.A., Bliem, C., <strong>Vo, N.N.</strong>, VonEmster, K., Thomas, E., DeMers, M., Steglich, C., Huisman, J., Chisholm, S.W. (2024). <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus</a>. ISME Communications, Volume 4, Issue 1.
 
-  <div style="display: flex; flex-direction: column; gap: 10px; margin-top: 1rem;">
-    <img src="assets/img/publications/dark-rnaseq-fig5.jpeg" style="width: 90%; height: auto; object-fit: contain;" />
-    <img src="assets/img/publications/dark-rnaseq-fig7.jpeg" style="width: 90%; height: auto; object-fit: contain;" />
+  <div style="display: flex; gap: 10px; margin-top: 1rem; flex-wrap: wrap;">
+    <img src="assets/img/publications/dark-rnaseq-fig5.jpeg" style="flex: 1 1 40%; max-width: 40%; height: auto; object-fit: contain;" />
+    <img src="assets/img/publications/dark-rnaseq-fig7.jpeg" style="flex: 1 1 40%; max-width: 40%; height: auto; object-fit: contain;" />
   </div>
 </div>
 

@@ -17,8 +17,7 @@ Below are some of the things that I have created. Just click to jump to the desi
 | [Paintings](#paintings)| [Embroidery](#embroidery)              | 
 
 
-## Digital   <a class="anchor" id="digital"></a>
---------------------------------------------------------------------------
+## Digital   <a class="anchor" id="digital"></a>  
 ### Boston PaintBox Program 2023 Submission  
 <div id="image-table">
     <table>
@@ -44,8 +43,7 @@ Motivational poster inspired by MIT News article: <a href="https://news.mit.edu/
 </figure>
 
 
-## Drawings   <a class="anchor" id="drawings"></a>
---------------------------------------------------------------------------
+## Drawings   <a class="anchor" id="drawings"></a>  
 ### Pencil  
 
 <div id="image-table">
@@ -107,8 +105,7 @@ Motivational poster inspired by MIT News article: <a href="https://news.mit.edu/
 </div>
 
 
-## Paintings   <a class="anchor" id="paintings"></a>
---------------------------------------------------------------------------
+## Paintings   <a class="anchor" id="paintings"></a>  
 ### Acrylic Deathclaw Painting on Canvas  
 <div id="image-table">
     <table>
@@ -182,8 +179,7 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
 </div>
 
 
-## Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>
-----------------------------------------------------------------------------------
+## Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>  
 ### Crocheted Flowers 
 Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.com/watch?v=L_k_xocVJXE" target="_blank">Youtube</a> and crocheted lily of the valley flowers were made following Jovelyn B.'s <a href="https://www.youtube.com/watch?v=Usio-jKwm9U" target="_blank">tutorial</a>. The glasswares were upcycled from unwanted glassware in biology labs at Lily, Purdue's Hall of Life Sciences. 
 <div id="image-table">
@@ -246,16 +242,8 @@ The green beanie was made by knitting a rectangle and sewing the sides together.
     </table>
 </div>
 
-### Plarn (plastic-yarn) Bag 
-Plastic bags can be converted to plarn using the technique seen in this <a href="https://www.youtube.com/watch?v=gQwTcizA7Oo" target="_blank">video</a>. Plarn can then be used just like regular yarn. Below is a plarn tote bag that I have been working on using plastic bags gathered from friends, roommates, cultural centers, and clubs. 
 
-<figure>
-<img src="/assets/img/my-art/crochet/plarn_bag.jpg" alt="Trulli" style="width:35%">
-</figure>
-
-
-## Ceramics <a class="anchor" id="ceramics"></a>
---------------------------------------------------------------------------
+## Ceramics <a class="anchor" id="ceramics"></a>  
 ### Planters  
 The planter below was hand-built, a ceramics technique that does not involve the pottery wheel, to give it a more organic look. Then it was painted using <a href="https://ceramica.fandom.com/wiki/Underglaze" target="_blank">underglaze</a>, which provided better control over color placement, before the piece was fired with clear glaze to seal all the colors in. Unfortunately, while inside the kiln, glaze from a piece above dripped onto the planter.  
 
@@ -294,8 +282,7 @@ This second planter was made using a pottery wheel, hence its sides are straight
 </div>
 
 
-## Embroidery   <a class="anchor" id="embroidery"></a>
---------------------------------------------------------------------------
+## Embroidery   <a class="anchor" id="embroidery"></a>  
 ### Flowers  
 <div id="image-table">
     <table>
