@@ -7,16 +7,16 @@ nav_order: 1
 ![Avatar of Nhi Vo](assets/img/about_me_img/Screenshot (298).png){: width="100" height="100" .float-right .mx-4}   
 
 ## **About**  
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
 </div>
 
 ## **Experience**
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **Bioinformatics Research Associate**  
-Massachusetts Institute of Technology - The Chisholm Lab   
-Feb 2023 - Present  
-Cambridge MA  
+Massachusetts Institute of Technology | The Chisholm Lab   
+Cambridge MA | Feb 2023 - Present  
+
 - Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
     - <a href="https://github.com/nhinvo/genome-assembly-pipeline" target="_blank">Genome Assembly Pipeline Github Repository</a>
 - Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
@@ -32,7 +32,7 @@ Cambridge MA
 - Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
 </div>
 
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **Research Assistant**  
 Florida Museum of Natural History - The Kawahara Lab     
 May 2022 - Aug 2022     
@@ -41,7 +41,7 @@ Gainesville FL
 - Troubleshot errors and enhanced a phylogenetic analysis pipeline by integrating Python and Bash functionalities
 </div>
 
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **Technology Supervisor**   
 Information Technology at Purdue  
 Aug 2021 - Dec 2022   
@@ -50,7 +50,7 @@ West Lafayette IN
 - Maintained communication and coordinated with various IT departments to resolve customer issues efficiently.
 </div>
 
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **Data Analyst**  
 Purdue University  
 May 2022 - Aug 2022   
@@ -60,7 +60,7 @@ West Lafayette IN
 plots for data exploration to publication-ready figures
 </div>
 
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **Research Assistant**
 Purdue University  
 Aug 2021 - May 2022  
@@ -71,7 +71,7 @@ West Lafayette IN
 </div>
 
 ## **Technical Skills**
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 - **Programming:** Python, Bash, Linux/Unix, SLURM/HPC, Git/GitHub, R
 - **Workflow Languages**: Snakemake, Nextflow 
 - **Data Analysis & Visualization:** Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Scikit-Learn  
@@ -98,7 +98,7 @@ West Lafayette IN
 </div>
 
 ## **Education** 
-<div class="fs-2 fw-400 lh-0.5" markdown="1">
+<div class="code-example fs-3 fw-400 lh-0" markdown="1">
 **B.S. in Genetics**  
 Purdue University  
 Aug 2019 - Dec 2022  

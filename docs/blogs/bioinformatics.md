@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  "Useful Bioinformatics Things"
-parent: Blogs
-permalink: /blogs/bioinformatics
 nav_exclude: true
 ---
 <h1><center>Useful Bioinformatics Things</center></h1>

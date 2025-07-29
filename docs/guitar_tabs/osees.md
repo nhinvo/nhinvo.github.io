@@ -1,8 +1,6 @@
 ---
 layout: default
 title:  Thee Oh Sees
-parent: Guitar Tabs
-permalink: /guitar_tabs/osees
 nav_exclude: true
 ---
 <h1>Thee Oh Sees (Osees) Guitar Tabs</h1> 
