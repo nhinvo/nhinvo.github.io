@@ -17,17 +17,10 @@ Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present
 
 <div class="fs-2"  markdown="1">
 - Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
-    - <a href="https://github.com/nhinvo/genome-assembly-pipeline" target="_blank">Genome Assembly Pipeline Github Repository</a>
 - Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
-    - <a href="https://github.com/jamesm224/ProSynTax-workflow/tree/main" target="_blank">ProSynTax Workflow Github Repository</a>
-    - <a href="https://doi.org/10.1101/2025.03.20.644373" target="_blank">Pre-print</a>
 - Developed bioinformatic workflows for methylation detection of PacBio (Revio, RSII, Sequel II, Sequel IIe) and Nanopore data.
-    - <a href="https://github.com/nhinvo/pacbio-methylation" target="_blank">PacBio Methylation Detection Github Repository</a>
-    - <a href="https://github.com/nhinvo/methylation-pipeline" target="_blank">Nanopore Methylation Detection Pipeline Github Repository</a>
 - Performed Variant Calling analysis of microbial populations to detect strain-level genetic differences. 
-    - <a href="https://github.com/nhinvo/biofilm-prochlorococcus" target="_blank">Variant Calling Analysis Github Repository</a>
 - Performed Differential Gene Expression analysis to detect transcriptional responses of cyanobacterial populations to nutrient perturbations. 
-    - <a href="https://doi.org/10.1093/ismeco/ycae131" target="_blank">Publication</a>
 - Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
 </div>
 </div>
