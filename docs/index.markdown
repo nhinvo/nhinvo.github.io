@@ -15,21 +15,15 @@ Bioinformatics Research Associate with experience in developing and automating c
 **Research Support Associate 2**, *The Chisholm Lab*  
 Massachusetts Institute of Technology, *Cambridge MA*  
 Feb. 2023 - Present   
-</div>
-
-<div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
+  
 **Research Assistant**, *The Kawahara Lab*     
 Florida Museum of Natural History, *Gainesville FL*   
 May. 2022 - Aug. 2022     
-</div>
-
-<div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
+ 
 **Data Analyst**, *Fernandez-Juricic Lab*    
 Purdue University, *West Lafayette IN*   
 May. 2022 - Aug. 2022   
-</div>
-
-<div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
+  
 **Research Assistant**, *Kihara Bioinformatics Laboratory*  
 Purdue University, *West Lafayette IN*  
 Aug. 2021 - May. 2022   
