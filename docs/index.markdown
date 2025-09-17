@@ -12,55 +12,34 @@ Bioinformatics Research Associate with experience in developing and automating c
 
 ## **Experience**
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
-**Bioinformatics Research Associate** - The Chisholm Lab  
-Massachusetts Institute of Technology, Cambridge MA | Feb 2023 - Present  
-
-<div class="fs-2"  markdown="1">
-- Developed and automated a pipeline for bacterial genome assembly, binning, classification, and gene annotation for Illumina, Oxford Nanopore, and PacBio Hifi raw reads, designed for High-Performance Computing (HPC) clusters.
-- Optimized a bioinformatics pipeline for taxonomic classification and abundance analysis of marine picocyanobacteria in metagenomics samples.
-- Developed bioinformatic workflows for methylation detection of PacBio (Revio, RSII, Sequel II, Sequel IIe) and Nanopore data.
-- Performed Variant Calling analysis of microbial populations to detect strain-level genetic differences. 
-- Performed Differential Gene Expression analysis to detect transcriptional responses of cyanobacterial populations to nutrient perturbations. 
-- Performed Bioinformatics analyses: BLAST, comparative genomics, ANI, Multiple Sequence Alignment.
-</div>
+**Research Support Associate 2**, *The Chisholm Lab*  
+Massachusetts Institute of Technology, *Cambridge MA*  
+Feb. 2023 - Present   
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-**Research Assistant** - The Kawahara Lab     
-Florida Museum of Natural History, Gainesville FL | May 2022 - Aug 2022     
-
-<div class="fs-2"  markdown="1">
-- Ensured version control and reproducibility for phylogenetic analysis of 129 whole-genomes using Git and Conda
-- Troubleshot errors and enhanced a phylogenetic analysis pipeline by integrating Python and Bash functionalities
-</div>
+**Research Assistant**, *The Kawahara Lab*     
+Florida Museum of Natural History, *Gainesville FL*   
+May. 2022 - Aug. 2022     
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-**Data Analyst** - Fernandez-Juricic Lab  
-Purdue University, West Lafayette IN | May 2022 - Aug 2022   
-
-<div class="fs-2"  markdown="1">
-- Processed experimental data for machine learning model training by filtering, parsing, and formatting using Python
-- Created visualizations of biological data using Python plotting libraries and Adobe Illustrator, ranging from interactive
-plots for data exploration to publication-ready figures
-</div>
+**Data Analyst**, *Fernandez-Juricic Lab*    
+Purdue University, *West Lafayette IN*   
+May. 2022 - Aug. 2022   
 </div>
 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-**Research Assistant** - Kihara Bioinformatics Laboratory  
-Purdue University, West Lafayette IN | Aug 2021 - May 2022   
-
-<div class="fs-2"  markdown="1">
-- Accelerated molecular docking simulations for 4,000+ protein-ligand pairs by 65% through leveraging parallelization and SLURM to optimize High-Performance Computing (HPC) utilization.
-- Documented analysis workflows, detailing setup, execution, and debugging to ensure clarity and reproducibility. 
-- Developed a cheminformatics workflow to evaluate the validity and accessibility of AI-generated drug molecules.
-</div>
+**Research Assistant**, *Kihara Bioinformatics Laboratory*  
+Purdue University, *West Lafayette IN*  
+Aug. 2021 - May. 2022   
 </div>
 
 ## **Education** 
 <div class="code-example fs-3 fw-400 lh-0.3" markdown="1">
-<strong>A Bachelor of Science in Genetics</strong>  
-Purdue University, West Lafayette IN | Aug 2019 - Dec 2022  
+<strong>Bachelor of Science in Genetics</strong>  
+Purdue University, *West Lafayette IN*  
+Aug. 2019 - Dec. 2022  
 
 <div class="fs-2"  markdown="1">
 - *Minors*: Bioinformatics, Chemistry     
