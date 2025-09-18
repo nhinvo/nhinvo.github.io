@@ -10,7 +10,7 @@ nav_order: 1
 Bioinformatics Research Associate with experience in developing and automating computational analysis of complex microbial data. 
 </div>
 
-## **Experience**
+## **Research Experience**
 <div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
 **Research Support Associate 2**, *The Chisholm Lab*  
 Massachusetts Institute of Technology, *Cambridge MA*  
@@ -27,6 +27,17 @@ May. 2022 - Aug. 2022
 **Research Assistant**, *Kihara Bioinformatics Laboratory*  
 Purdue University, *West Lafayette IN*  
 Aug. 2021 - May. 2022   
+</div>
+
+## **Experience**
+<div class="code-example fs-3 fw-400 lh-0.2" markdown="1">
+**Academic Tutor**  
+Purdue College of Science, *West Lafayette IN*  
+Aug. 2022 - Dec. 2022
+  
+**Technology Supervisor**     
+Information Technology at Purdue, *West Lafayette IN*   
+Aug. 2021 - Dec. 2022     
 </div>
 
 ## **Education** 
