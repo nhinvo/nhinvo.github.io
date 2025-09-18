@@ -18,7 +18,7 @@ nav_order: 1.1
     Anjur-Dietrich, M.I., Jones, K.J., Mullet, J.I., <strong>Vo, N.N.</strong>, Castro, K.G., Parker, S.M,, Chisholm, S.W. (2025). Biofilm formation and dynamics in the marine cyanobacterium Prochlorococcus. <em>bioRxiv</em>.
   </p>
 
-  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center;">
+  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center; display: inline-flex; gap: 10px;">
     <a href="https://doi.org/10.1101/2025.08.05.668435" class="btn" target="_blank">Show Publication</a>
     <a href="https://github.com/nhinvo/biofilm-prochlorococcus" class="btn" target="_blank">Show Github</a>
   </p>
@@ -35,7 +35,7 @@ nav_order: 1.1
     Coe, A., Parker, S.M., <strong>Vo, N.N.</strong>, Kearney, S., Pollack, S., Emster, K., Mullet, J., Castro, K.G., Chisholm, S.W. (2025). The Influence of Heterotrophic Communities on Cyanophage Infection Dynamics in Prochlorococcus and Synechococcus Cultures. <em>bioRxiv</em>. 
   </p>
 
-  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center;">
+  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center; display: inline-flex; gap: 10px;">
     <a href="https://doi.org/10.1101/2025.09.17.676900" class="btn" target="_blank">Show Publication</a>
     <a href="https://github.com/nhinvo/pro-het-phage-interaction" class="btn" target="_blank">Show Github</a>
   </p>
@@ -52,7 +52,7 @@ nav_order: 1.1
     Coe, A., Mullet, J.I., <strong>Vo, N.N.</strong>, Berube, P.M., Anjur-Dietrich, M.I., Salcedo, E., Parker, S.M., VonEmster, K., Bliem, C., Arellano, A.A., Castro, K.G., Becker, J.W., Chisholm, S.W. (2025). ProSynTaxDB: A curated protein database and workflow for taxonomic classification of Prochlorococcus and Synechococcus in metagenomes. <em>bioRxiv</em>. 
   </p>
 
-  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center;">
+  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center; display: inline-flex; gap: 10px;">
     <a href="https://doi.org/10.1101/2025.03.20.644373" class="btn" target="_blank">Show Publication</a>
     <a href="https://github.com/jamesm224/ProSynTax-workflow" class="btn" target="_blank">Show Github</a>
   </p>
@@ -65,10 +65,12 @@ nav_order: 1.1
 </div>
 
 
-<div class="code-example fs-3 fw-400 lh-0.2" style="margin-bottom: 2rem; padding-left: 2em; text-indent: -2em;" markdown="1">
-  Coe, A., Braakman, R., Biller, S.J., Arellano, A.A., Bliem, C., <strong>Vo, N.N.</strong>, VonEmster, K., Thomas, E., DeMers, M., Steglich, C., Huisman, J., Chisholm, S.W. (2024). Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus. ISME Communications, Volume 4, Issue 1.
+<div class="code-example fs-3 fw-400 lh-0.2" style="margin-bottom: 2rem;" markdown="1">  
+  <p style="margin: 0; padding-left: 2em; text-indent: -2em;">
+    Coe, A., Braakman, R., Biller, S.J., Arellano, A.A., Bliem, C., <strong>Vo, N.N.</strong>, VonEmster, K., Thomas, E., DeMers, M., Steglich, C., Huisman, J., Chisholm, S.W. (2024). Emergence of metabolic coupling to the heterotroph Alteromonas promotes dark survival in Prochlorococcus. ISME Communications, Volume 4, Issue 1.
+  </p>
 
-  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center;">
+  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center; display: inline-flex; gap: 10px;">
     <a href="https://doi.org/10.1093/ismeco/ycae131" class="btn" target="_blank">Show Publication</a>
   </p>
 
