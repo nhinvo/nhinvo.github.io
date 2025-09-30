@@ -8,7 +8,12 @@ nav_order: 1.1
 
 <div class="code-example fs-3 fw-400 lh-0.2" style="margin-bottom: 2rem;" markdown="1">  
   <p style="margin: 0; padding-left: 2em; text-indent: -2em;">
-    Ziegler, C.A., Mullet, J.I., Coe, A., <strong>Vo, N.N.</strong>, Salcedo, E., Arrigan, D., Parker, S.M., Chisholm, S.W. (2025). The shared and distinct roles of Prochlorococcus and co-occurring heterotrophs in regulating community fitness, as revealed by synthetic communities. (In Preparation).
+    Ziegler, C.A., Mullet, J.I., Coe, A., <strong>Vo, N.N.</strong>, Salcedo, E., Arrigan, D., Parker, S.M., Chisholm, S.W. (2025). The shared and distinct roles of Prochlorococcus and co-occurring heterotrophs in regulating community fitness, as revealed by synthetic communities. <em>bioRxiv</em>.
+  </p>
+
+  <p style="margin-top: 1rem; margin-bottom: 1.5rem; text-align: center; display: inline-flex; gap: 10px;">
+    <a href="https://doi.org/10.1101/2025.09.25.678681" class="btn" target="_blank">Show Publication</a>
+    <a href="https://github.com/jamesm224/community_dynamics" class="btn" target="_blank">Show Github</a>
   </p>
 </div>
 
