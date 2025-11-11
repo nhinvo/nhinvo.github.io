@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -23,12 +23,14 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a **Bioinformatics Research Associate** at MIT (<a href="httpshttps://chisholmlab.mit.edu/" target="_blank">The Chisholm Lab</a>), I develop and automate computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.
+I develop and automate computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.  
+
+This website presents my [**curriculum vitae **](/cv/), and [**publications**](/publications/).  
 
 Current Research Projects: 
-- Comparative Genomics and Pangenomics of Marine Picocyanobacteria 
-- Methylation and base modification of prokaryotes through long-read sequencing (PacBio and Nanopore)
+- Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  
+- Methylation and base modification of prokaryotes through long-read sequencing.  
 
 Past Research Projects: 
-- Structural and Single Nucleotide Variant detection in microbial populations 
-- Meta-transcriptomics analysis of microbial community gene expression 
+- Structural and Single Nucleotide Variant detection in microbial populations.   
+- Meta-transcriptomics analysis of microbial community gene expression.  

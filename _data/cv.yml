@@ -38,3 +38,19 @@
         - "Minors: Bioinformatics, Chemistry"
         - "GPA: 3.88/4.00"
         - "Dean's List & Semester Honors for 5 semesters"
+
+
+- title: Technical Skills
+  type: list
+  contents:
+    - <b>Programming:</b> Python, Bash/Shell, Linux/Unix, SLURM/HPC, Git/GitHub, Jupyter Notebook, R.
+    - <b>Data Analysis & Visualization:</b> Pandas, NumPy, SciPy, Matplotlib, Plotly, Seaborn, Adobe Illustrator, Excel, Scikit-Learn.
+    - <b>Workflow Languages:</b> Snakemake, Nextflow.
+    - <b>NGS Datasets:</b> Illumina, Oxford Nanopore, PacBio, Sanger, RNA-seq, (meta)transcriptomics, DNA-seq, (meta)genomics, epigenomics, single cell genomics.
+    - <b>Bioinformatics Analyses:</b> Whole Genome Assembly, Metagenomic Assembly (MAGs), Comparative Genomics Analysis, Pangenomics, Variant Calling, Differential Gene Expression Analysis, Taxonomic Profiling.
+    
+    
+- title: Other Interests
+  type: list
+  contents:
+    - <b>Hobbies:</b> Arts & Crafts, Guitar. 
