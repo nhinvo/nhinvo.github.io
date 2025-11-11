@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Interests
+permalink: /interests/
+description: Where I store my art and guitar tabs. 
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 4
+display_categories: [Art, Guitar Tabs]
 horizontal: false
 ---
 
