@@ -1,22 +1,13 @@
-- title: Curriculum Vitae
-  type: time_table
+- title: Nhi Vo 
+  type: map
   contents:
-    - title: Bioinformatics Research Associate II 
-      institution: Massachusetts Institute of Technology
-      year: "Feb 2023 - Present"
-      location: Cambridge, MA
-      
-- title: Education
-  type: time_table
-  contents:
-    - title: Bachelor of Science in Genetics
-      institution: Purdue University
-      year: Aug 19 - Dec 22
-      location: West Lafayette, IN
-      description:
-        - Minors: Bioinformatics, Chemistry
-        - GPA: 3.88/4.00
-        - Dean's List & Semester Honors for 5 semesters
+    - name: Contact
+      value: nvo at mit dot edu
+    - name: Github
+      value: 
+    - name: 
+      value: 
+
 
 - title: Experience
   type: time_table
@@ -42,9 +33,22 @@
       year: "Aug 21 - May 22"
 
     - title: Technology Supervisor
-      institution: Information Technology at Purdue
+      institution: Information Technology at Purdue (ITaP)
       location: West Lafayette, IN
       year: "Aug 21 - Dec 22"  
+
+      
+- title: Education
+  type: time_table
+  contents:
+    - title: Bachelor of Science in Genetics
+      institution: Purdue University
+      year: "Aug 19 - Dec 22"
+      location: West Lafayette, IN
+      description:
+        - "Minors: Bioinformatics, Chemistry"
+        - "GPA: 3.88/4.00"
+        - "Dean's List & Semester Honors for 5 semesters"
 
 
 - title: Open Source Projects
@@ -54,16 +58,6 @@
       year: 2015-now
       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
 
 - title: Academic Interests
   type: nested_list
