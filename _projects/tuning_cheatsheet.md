@@ -13,7 +13,7 @@ Page with guitar tuning and links to Songsterr tabs that I did not write myself.
 
 |               Artist               |           Song            |    Tuning    |                                                                     Link                                                                      |
 | :--------------------------------: | :-----------------------: | :----------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
-|            TEMPLATE_ROW            |       TEMPLATE_ROW        | TEMPLATE_ROW |                                           <a href="TEMPLATE_ROW" target="_blank">Songsterr tabs</a>                                           |
+|            TEMPLATE_ROW            |       TEMPLATE_ROW        | TEMPLATE_ROW |                                                                Songsterr tabs                                                                 |
 |             Big Thief              |        Velvet Ring        |   DAF#DAD    |                <a href="https://www.songsterr.com/a/wsa/big-thief-velvet-ring-tab-s555975" target="_blank">Songsterr tabs</a>                 |
 |              Deftones              | My Own Summer (Shove It)  | D#A#F#C#G#C# |             <a href="https://www.songsterr.com/a/wsa/deftones-my-own-summer-shove-it-tab-s595" target="_blank">Songsterr tabs</a>             |
 |               DRAIN                |     Feel The Pressure     | D#G#C#F#A#D# |               <a href="https://www.songsterr.com/a/wsa/drain-feel-the-pressure-tab-s570273" target="_blank">Songsterr tabs</a>                |
