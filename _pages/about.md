@@ -10,7 +10,7 @@ profile:
   image_circular: true # crops the image to make it circular
 
 selected_papers: true  # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -25,7 +25,7 @@ latest_posts:
 
 I develop and automate computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.  
 
-This website presents my [**curriculum vitae**](/cv/), and [**publications**](/publications/).  
+This website presents my [**curriculum vitae**](/cv/), [**Github Repositories**](/repositories/), and **publications**.    
 
 Current Research Projects: 
 - Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  

@@ -7,7 +7,7 @@ first_name: Nhi
 middle_name: V.
 last_name: Vo 
 contact_note: >
-  LinkedIn is the best way to reach me!
+  I'm always happy to chat, please feel free to reach out at nvo at mit dot edu, or my LinkedIn!
 description: 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
@@ -171,6 +171,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
+  - _pages/publications.md
   - _pages/blog.md
   - _pages/books.md
   - _pages/dropdown.md
