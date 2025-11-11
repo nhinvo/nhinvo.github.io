@@ -73,11 +73,46 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/die_spitz/";
+            },},{id: "projects-gel-guitar-tabs",
+          title: 'GEL Guitar Tabs',
+          description: "rip gel",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gel/";
             },},{id: "projects-momma-guitar-tabs",
           title: 'Momma Guitar Tabs',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/momma/";
+            },},{id: "projects-thee-oh-sees-osees-guitar-tabs",
+          title: 'Thee Oh Sees (Osees) Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/osees/";
+            },},{id: "projects-other-artists-guitar-tabs",
+          title: 'Other Artists - Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/other_artists/";
+            },},{id: "projects-scowl-guitar-tabs",
+          title: 'Scowl Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/scowl/";
+            },},{id: "projects-the-breeders-guitar-tabs",
+          title: 'The Breeders Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/the_breeders/";
+            },},{id: "projects-the-chats-guitar-tabs",
+          title: 'The Chats Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/the_chats/";
+            },},{id: "projects-tuning-cheat-sheet",
+          title: 'Tuning Cheat Sheet',
+          description: "Tunings of songs I like to play.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tuning_cheatsheet/";
             },},{
         id: 'social-github',
         title: 'GitHub',
