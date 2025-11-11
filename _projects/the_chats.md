@@ -2,7 +2,8 @@
 layout: page
 title: The Chats Guitar Tabs
 description: 
-img: 
+img: assets/img/guitar_tabs/the_chats.png
+importance: 5
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -10,19 +11,13 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
-## Get F*cked
+## Get F****d
 ---------------------------------------------------------------
 ### Ticket Inspector  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |  
+|  Tuning  |  Capo   |                       Status                        |   Genre   |
+| :------: | :-----: | :-------------------------------------------------: | :-------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |
 
 **Note:** Josh Hardy actually plays the first few chords like this (which is harder in my opinion):  
 <div class="code-example" markdown="1">
@@ -144,9 +139,9 @@ E | --5-8 -10----10-8 -5--5-8 -10----11-11-11-11-13-13-13-13-- |
 
 ### Struck By Lighting  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |  
+|  Tuning  |  Capo   |                      Status                      |   Genre   |
+| :------: | :-----: | :----------------------------------------------: | :-------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
 
 **The Chats Struck By Lighting Guitar Tabs:**  
 <div class="code-example" markdown="1">

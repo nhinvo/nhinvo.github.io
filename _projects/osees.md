@@ -3,18 +3,13 @@ layout: page
 title: Thee Oh Sees (Osees) Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/osees.png
+importance: 7
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
 toc:
   sidebar: left
 ---
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## Floating Coffin
 ### I Come from the Mountain

@@ -3,6 +3,7 @@ layout: page
 title: Other Artists - Guitar Tabs
 description: 
 img: 
+importance: 8
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -10,20 +11,14 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 # Throwing Muses  
 ---------------------------------------------------------------
 ## The Real Ramona  
 ### Not Too Soon  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> |  Alternative/Indie Rock |
+|  Tuning  |  Capo   |                      Status                      |         Genre          |
+| :------: | :-----: | :----------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock |
 
 **Throwing Muses - Not Too Soon Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -53,9 +48,9 @@ E | --------------------------3-3-3-3-3-x-------------- |
 ## Summer in Abaddon
 ### Fortress
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| DGDGBe | No Capo | <span class="label label-green">Completed</span> |  Indie Rock |
+| Tuning |  Capo   |                      Status                      |   Genre    |
+| :----: | :-----: | :----------------------------------------------: | :--------: |
+| DGDGBe | No Capo | <span class="label label-green">Completed</span> | Indie Rock |
 
 **Note:** Second part based on Live recording from 7pavement: 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/-XC93pUxv1E?start=25" title="Pinback - Fortress live 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
@@ -96,9 +91,9 @@ D | ------------------------------- |
 ## Emita Ox 
 ### Knowing You  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Alternative/Indie Rock |
+|  Tuning  |  Capo   |                       Status                        |         Genre          |
+| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/-WMoZTedBT4?start=67" title="Hello Mary on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -129,9 +124,9 @@ E | ----------------------------- |
 ## Buds  
 ### Eat More  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | Capo on 2 | <span class="label label-yellow">In Progress</span> |  Alternative/Indie Rock |
+|  Tuning  |   Capo    |                       Status                        |         Genre          |
+| :------: | :-------: | :-------------------------------------------------: | :--------------------: |
+| Standard | Capo on 2 | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=84" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -195,9 +190,9 @@ E | ---------------------------------------------------------- |
 
 ### The Wishing Well  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Alternative/Indie Rock |
+|  Tuning  |  Capo   |                       Status                        |         Genre          |
+| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=922" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -222,9 +217,9 @@ E | ------------------2------------------------------------------------- |
 ## Blokes You Can Trust
 ### Dead Roo   
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Punk Rock |
+|  Tuning  |  Capo   |                       Status                        |   Genre   |
+| :------: | :-----: | :-------------------------------------------------: | :-------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |
 
 **Cosmic Psychos - Dead Roo Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -243,9 +238,9 @@ E | --5-5-5-5-5-5-5-5-5-5-5-5--8 -8 -8 -8 -8 -8 ------------- |
 
 ### I’m up You’re Out   
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  Punk Rock |
+|  Tuning  |  Capo   |                       Status                        |   Genre   |
+| :------: | :-----: | :-------------------------------------------------: | :-------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |
 
 **Cosmic Psychos - I'm Up You're Out Guitar Tabs:**  
 <div class="code-example" markdown="1">

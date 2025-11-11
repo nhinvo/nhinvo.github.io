@@ -11,19 +11,13 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Household Name
 ---------------------------------------------------------------
 ### Speeding 72    
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock |  
+|  Tuning  |  Capo   |                      Status                      |         Genre          |
+| :------: | :-----: | :----------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock |
 
 **Notes:** Riff Only, Missing Chords - Guitar: Allegra Weingarten - Based on Audiotree Live Session:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/G0CcfPtAl-U?start=948" title="Momma on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -132,9 +126,9 @@ E | ------------------------------------------------------- |
 ---------------------------------------------------------------
 ### Not A Runner 
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock | 
+|  Tuning  |  Capo   |                      Status                      |         Genre          |
+| :------: | :-----: | :----------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock |
 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/oIAdF3MV66E" title="Not a Runner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
@@ -161,8 +155,8 @@ E | ------------------------------------------------------------ |
 
 ### Biohazard   
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|   
+|  Tuning  |  Capo   |                      Status                      |         Genre          |
+| :------: | :-----: | :----------------------------------------------: | :--------------------: |
 | Standard | No Capo | <span class="label label-green">Completed</span> | Alternative/Indie Rock |
 
 <iframe width="400" height="250" src="https://www.youtube.com/embed/GUzlXX58a94" title="Momma - Biohazard (Lyric Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -198,8 +192,8 @@ E | ------------------------------------------ |
 
 ### Habitat  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|   
+|  Tuning  |  Capo   |                       Status                        |         Genre          |
+| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Momma Habitat Guitar Tabs (Riff):**  
@@ -246,9 +240,9 @@ E | --------------------------- |
 
 ### Bug House
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock | 
+|  Tuning  |  Capo   |                       Status                        |         Genre          |
+| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Momma Bug House Guitar Tabs (Riff):**  
 <div class="code-example" markdown="1">

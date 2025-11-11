@@ -2,7 +2,8 @@
 layout: page
 title: The Breeders Guitar Tabs
 description: 
-img: 
+img: assets/img/guitar_tabs/the_breeders.png
+importance: 3
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -10,19 +11,13 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Last Splash
 ---------------------------------------------------------------
 ### Cannonball
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | 
+|  Tuning  |  Capo   |                       Status                        |
+| :------: | :-----: | :-------------------------------------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |
 
 **The Breeders Cannonball Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -53,9 +48,9 @@ E | --6-6-6-x-x-----------11-11-11-x-x-x-x-x-x-- |
 
 ### No Aloha  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+|  Tuning  |  Capo   |                       Status                        |
+| :------: | :-----: | :-------------------------------------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |
 
 **The Breeders No Aloha Guitar Tabs (Riff):**  
 <div class="code-example" markdown="1">
@@ -85,9 +80,9 @@ E | --9 -9 -9 -8 -6-6-6-- |
 
 ### Divine Hammer
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | 
+|  Tuning  |  Capo   |                       Status                        |
+| :------: | :-----: | :-------------------------------------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |
 
 **The Breeders Divine Hammer Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -119,9 +114,9 @@ E | ------------------ |
 ---------------------------------------------------------------
 ### Hellbound  
 
-| Tuning | Capo | Status |  
-|:------:|:----:|:------:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |  
+|  Tuning  |  Capo   |                       Status                        |
+| :------: | :-----: | :-------------------------------------------------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> |
 
 **The Breeders Hellbound Guitar Tabs:**  
 <div class="code-example" markdown="1">

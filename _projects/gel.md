@@ -3,18 +3,13 @@ layout: page
 title: GEL Guitar Tabs
 description: rip gel
 img: assets/img/guitar_tabs/gel.png
+importance: 6
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
 toc:
   sidebar: left
 ---
-
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
 
 ## Only Constant
 ---------------------------------------------------------------

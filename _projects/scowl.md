@@ -2,7 +2,8 @@
 layout: page
 title: Scowl Guitar Tabs
 description: 
-img: 
+img: assets/img/guitar_tabs/scowl.png
+importance: 4
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -10,19 +11,13 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Psychic Dance Routine  
 ---------------------------------------------------------------
 ### Psychic Dance Routine  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |   
+|  Tuning  |  Capo   |                       Status                        |     Genre     |
+| :------: | :-----: | :-------------------------------------------------: | :-----------: |
+| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |
 
 **Note:** based on Audiotree Live session:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/GGRuspGmI_g?start=514" title="Scowl on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
@@ -119,9 +114,9 @@ E | --5-5-5-5-5-5-5-5-5-5-5-5---5-8 -- |
 ---------------------------------------------------------------
 ### Bloodhound  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | Harcore Punk |  
+|  Tuning  |  Capo   |                      Status                      |    Genre     |
+| :------: | :-----: | :----------------------------------------------: | :----------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Harcore Punk |
 
 **Notes:** Downstrokes in the beginning
 
@@ -173,9 +168,9 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 ---------------------------------------------------------------
 ### B.A.B.E.  
 
-| Tuning | Capo | Status | Genre |  
-|:------:|:----:|:------:|:-----:|  
-| Standard | No Capo | <span class="label label-green">Completed</span> | Hardcore Punk |   
+|  Tuning  |  Capo   |                      Status                      |     Genre     |
+| :------: | :-----: | :----------------------------------------------: | :-----------: |
+| Standard | No Capo | <span class="label label-green">Completed</span> | Hardcore Punk |
 
 **Note:** based on KEXP Live session:  
 <iframe width="400" height="250" src="https://www.youtube.com/embed/sXaADnkQ9zo?start=223" title="Scowl - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -2,7 +2,7 @@
 layout: page
 title: Die Spitz Guitar Tabs
 description: 
-img: assets/img/guitar_tabs/die_spitz.jpg
+img: assets/img/guitar_tabs/die_spitz.png
 importance: 1.1
 category: Guitar Tabs
 related_publications: false
@@ -11,24 +11,18 @@ toc:
   sidebar: left
 ---
 
-## Table of contents
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
 ## Teeth (2023)  
 ---------------------------------------------------------------  
 ### Slater  
-  
 | Tuning |  Capo   |                      Status                      |   Genre   |
 | :----: | :-----: | :----------------------------------------------: | :-------: |
 | Drop D | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
-  
+
+&nbsp;  
 **Note:** 
 * Missing Ellie Livingston's Guitar Solo  
 * Based on Live Performance recorded by Julie's HC Music and Stuff:  
-<iframe style="width: 100%; height: 50vh;" src="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" title="Die Spitz - Slater/ Monkey Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 80%; height: 50vh;" src="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" title="Die Spitz - Slater/ Monkey Song" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   
 **Die Spitz Slater Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -93,7 +87,7 @@ D | ---------------------------------------------------------------- |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |
 
 Not based on this live performance, I just really like it:  
-<iframe width="400" height="250" src="https://www.youtube.com/embed/E76OI1yNY5M?start=1538&end=1729" title="DIE SPITZ LIVE AT HOTEL VEGAS 02.23.24 (Millionth Lone Star Party)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 80%; height: 50vh;" src="https://www.youtube.com/embed/E76OI1yNY5M?start=1538&end=1729" title="DIE SPITZ LIVE AT HOTEL VEGAS 02.23.24 (Millionth Lone Star Party)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Die Spitz Groping Dogs Gushing Blood Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -322,7 +316,7 @@ D | --0-3-0-6-5-0-3-5-5-5-5-6-6-6-6-- |
 | Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
 
 **Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
-<iframe width="400" height="250" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe style="width: 80%; height: 50vh;" src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 **Die Spitz Evangeline Guitar Tabs:**     
 <div class="code-example" markdown="1">
@@ -448,7 +442,7 @@ PART C - to be continued [2:59 in video]
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> |
 
 **Note:** based on Audiotree Live Session: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" title="Die Spitz on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 80%; height: 50vh;" src="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" title="Die Spitz on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Die Spitz Little Flame Guitar Tabs:**     
 <div class="code-example" markdown="1">
