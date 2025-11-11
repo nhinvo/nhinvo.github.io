@@ -6,7 +6,7 @@ subtitle: Bioinformatics Research Associate @ MIT. Boston, MA.
 
 profile:
   align: right
-  image: assets/img/about_me/prof_pic2.png
+  image: prof_pic.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Parsons Laboratory, Cambridge, MA</p>

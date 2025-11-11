@@ -1,14 +1,17 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - nhinvo
+  - jamesm224
 
-repo_description_lines_max: 2
+repo_description_lines_max: 10
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - nhinvo/genome-assembly-pipeline 
+  - nhinvo/biofilm-prochlorococcus
+  - nhinvo/pro-het-phage-interaction 
+  - jamesm224/ProSynTax-workflow
+  - nhinvo/rnaseq-absolute-pipeline 
+  - nhinvo/coding-templates 
+  - nhinvo/methylation-pipeline 
+  - nhinvo/illumina-read-mapping-pipeline 
+  - nhinvo/pacbio-methylation
+  - nhinvo/nanopore-preprocessing 
