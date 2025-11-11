@@ -25,7 +25,7 @@ latest_posts:
 
 I develop and automate computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.  
 
-This website presents my [**curriculum vitae**](/cv/), [**Github Repositories**](/repositories/), and **publications**.    
+This website presents my [**Curriculum Vitae**](/cv/), [**Github Repositories**](/repositories/), **Publications**, and [**Interests**](/interests/).    
 
 Current Research Projects: 
 - Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  

@@ -6,6 +6,9 @@ img: assets/img/guitar_tabs/momma.jpg
 importance: 2
 category: Guitar Tabs
 related_publications: false
+pretty_table: true
+toc:
+  sidebar: left
 ---
 
 ## Table of contents
