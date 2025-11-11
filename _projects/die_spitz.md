@@ -14,9 +14,11 @@ toc:
 ## Teeth (2023)  
 ---------------------------------------------------------------  
 ### Slater  
+
 | Tuning |  Capo   |                      Status                      |   Genre   |
 | :----: | :-----: | :----------------------------------------------: | :-------: |
 | Drop D | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
+
 
 **Note:** 
 * Missing Ellie Livingston's Guitar Solo  
