@@ -70,9 +70,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/useful_bashrc/";
           
         },
-      },{id: "post-my-customizations-to-al-folio-template",
+      },{id: "post-my-customizations-to-the-al-folio-template",
         
-          title: "My customizations to al-folio template",
+          title: "My customizations to the al-folio template",
         
         description: "Some notes on the changes I made to al-folio&#39;s base template.",
         section: "Posts",
@@ -116,6 +116,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/scowl/";
+            },},{id: "projects-sub-project-layout-interest",
+          title: 'sub-project layout interest',
+          description: "Let&#39;s see if this works",
+          section: "Projects",handler: () => {
+              window.location.href = "/interests/test/";
             },},{id: "projects-the-breeders-guitar-tabs",
           title: 'The Breeders Guitar Tabs',
           description: "",

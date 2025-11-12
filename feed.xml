@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-12T15:42:40+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Useful .bashrc Things</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Useful .bashrc Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="introduction">Introduction</h2> <p><strong>What is .bashrc?</strong><br/> A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.<br/> It’s used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt.</p> <p><strong>Compared to .bash_profile:</strong><br/> .bash_profile also sets configuration for Bash shell, but is executed only once when you log into your account.<br/> I prefer setting all my aliases in .bashrc.</p> <p><strong>Note:</strong> This page is for Linux command line only.</p> <h2 id="setting-aliases-shortcuts">Setting Aliases (Shortcuts)</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your .bashrc file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-12T21:51:41+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Useful .bashrc Things</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Useful .bashrc Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="introduction">Introduction</h2> <p><strong>What is .bashrc?</strong><br/> A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.<br/> It’s used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt.</p> <p><strong>Compared to .bash_profile:</strong><br/> .bash_profile also sets configuration for Bash shell, but is executed only once when you log into your account.<br/> I prefer setting all my aliases in .bashrc.</p> <p><strong>Note:</strong> This page is for Linux command line only.</p> <h2 id="setting-aliases-shortcuts">Setting Aliases (Shortcuts)</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your .bashrc file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
 
 # shortcut to move to parent directory and print files/folders
 alias ..='cd ..;pwd;ls'  
@@ -123,60 +123,18 @@ sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
 
 ## 2. using array on a directory of samples
 sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
-</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">My customizations to al-folio template</title><link href="https://nhinvo.github.io/blog/2025/site_modifications/" rel="alternate" type="text/html" title="My customizations to al-folio template"/><published>2025-11-11T19:10:00+00:00</published><updated>2025-11-11T19:10:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/site_modifications/"><![CDATA[<p>I learned how to modify the al-folio by looking at what other have done before. The examples of <code class="language-plaintext highlighter-rouge">Academics</code> websites linked on the repository’s <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.</p> <p>In case someone out there is reading, below are some notes on some things I have done in case you wanted to replicate.</p> <p>Note: I am NOT an expert in CSS/HTML. Everything I did was trial and error. If you intend on making the same modifications, please proceed with caution!</p> <h1 id="html-element-modifications">HTML Element Modifications</h1> <h2 id="table-modifications">Table Modifications</h2> <p>Original Code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table {
-
-  td,
-  th {
-    font-size: 1rem;
-    padding: 1px 1rem 1px 0;
-  }
-
-  th {
-    font-weight: bold;
-  }
-}
-</code></pre></div></div> <p>Modifications:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
-
-  th, 
-  td {
-    font-size: 1rem;
-    padding: 0.1rem 0.05rem;     // top/bottom and left/right 
-    background-color: $white-color;      // white background
-    border: 1px solid $black-color;  // border around cells 
-  }
-
-  th {
-    font-weight: bold;
-  }
-
-  tbody tr:last-of-type {
-    td {
-      padding-bottom: 1rem;      // extra space at bottom of table
-    }
-}
-</code></pre></div></div> <h1 id="about-page-modifications">About Page Modifications</h1> <h3 id="selected-publication-modifications">Selected Publication Modifications</h3> <p>I wanted to make the following changes to the “Selected Publication” section of the About page:</p> <ul> <li>Change the header title “Selected Publications” to “Publications”.</li> <li>Remove the hyperlink to the “Publications” page, as I don’t have a dedicated “Publications” page on my website.</li> <li> <p>Be able to link to this section in the description above using html name. Based on <a href="https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown" target="_blank">this</a> stack overflow thread.</p> </li> <li>Original <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ '/publications/' | relative_url }}"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>selected publications<span class="nt">&lt;/a&gt;</span>
-</code></pre></div> </div> </li> <li>Edited <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"publications"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>Publications<span class="nt">&lt;/a&gt;</span>
-</code></pre></div> </div> </li> </ul> <h1 id="cv-page-modifications">CV Page Modifications</h1> <h3 id="automated-publicated-section-modification">Automated Publicated Section Modification</h3> <p>Currently (as of 11/12/2025), I could not find how to include publications from the <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> file. Example <code class="language-plaintext highlighter-rouge">and</code> seem to have manual entries. I wanted to add a “Publications” section into my “CV” page, but using the same format as the “Publications” page.</p> <ul> <li>To automate adding publication section to CV, add the following code block in file <code class="language-plaintext highlighter-rouge">_layouts/cv.liquid</code> after the <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> block in the loop <code class="language-plaintext highlighter-rouge">{% for entry in site.data.cv %}</code> (i.e. after line 50): <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {% if entry.title == 'Experience' %}
-<span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"anchor"</span> <span class="na">id=</span><span class="s">"Publications"</span><span class="nt">&gt;&lt;/a&gt;</span>
-<span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card mt-3 p-3"</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"card-title font-weight-medium"</span><span class="nt">&gt;</span>Publication<span class="nt">&lt;/h3&gt;</span>
-  <span class="nt">&lt;div&gt;</span>
-    {% include selected_papers.liquid %}
+</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">My customizations to the al-folio template</title><link href="https://nhinvo.github.io/blog/2025/site_modifications/" rel="alternate" type="text/html" title="My customizations to the al-folio template"/><published>2025-11-11T19:10:00+00:00</published><updated>2025-11-11T19:10:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/site_modifications/"><![CDATA[<p>I learned how to modify the al-folio by looking at what others have done before. The example websites linked on the repository’s <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.</p> <p>In case someone out there is reading, below are notes on some (not all) things I have modified in case you wanted to replicate. Note: I am NOT an expert in CSS/HTML. Everything I did was trial and error. If you intend on making the same modifications, please proceed with caution!</p> <h2>About/Home Page</h2> <h3>Selected Publication Modifications</h3> <p>I wanted to make the following changes to the “Selected Publication” section of the About page:</p> <ul> <li>Change the header title “Selected Publications” to “Publications”.</li> <li>Remove the hyperlink to the “Publications” page, as I don’t have a dedicated “Publications” page on my website.</li> <li>Be able to link to this section in the description above using html name. Based on <a href="https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown" target="_blank">this</a> stack overflow thread.</li> </ul> <p>How I achieved this:</p> <ul> <li>Edited <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"publications"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>Publications<span class="nt">&lt;/a&gt;</span>
+</code></pre></div> </div> </li> <li>Original <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ '/publications/' | relative_url }}"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>selected publications<span class="nt">&lt;/a&gt;</span>
+</code></pre></div> </div> </li> </ul> <h2 id="cv-page">CV Page</h2> <h3 id="automated-publicated-section">Automated Publicated Section</h3> <p>Currently (as of 11/12/2025), I could not find how to include publications from the <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> file. Example <code class="language-plaintext highlighter-rouge">and</code> seem to have manual entries. I wanted to add a “Publications” section into my “CV” page, but using the same format as the “Publications” page.</p> <ul> <li>To automate adding publication section to CV, add the following code block in file <code class="language-plaintext highlighter-rouge">_layouts/cv.liquid</code> after the <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> block in the loop <code class="language-plaintext highlighter-rouge">{% for entry in site.data.cv %}</code> (i.e. after line 50): <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if entry.title == 'Experience' %}
+  <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"anchor"</span> <span class="na">id=</span><span class="s">"Publications"</span><span class="nt">&gt;&lt;/a&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"card mt-3 p-3"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;h3</span> <span class="na">class=</span><span class="s">"card-title font-weight-medium"</span><span class="nt">&gt;</span>Publications<span class="nt">&lt;/h3&gt;</span>
+    <span class="nt">&lt;div&gt;</span>
+      {% include selected_papers.liquid %}
+    <span class="nt">&lt;/div&gt;</span>
   <span class="nt">&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span>
-  {% endif %}
-</code></pre></div> </div> <ul> <li>I wanted this “Publications” section to be after the “Experience” section, which is why I added the if condition into the loop. <ul> <li>Originally, I had the “Publications” section at the end of the CV, outside of the for loop without the <code class="language-plaintext highlighter-rouge">if entry.title == 'Experience'</code> statement.</li> </ul> </li> </ul> </li> </ul> <h1 id="project-page-modifications">Project Page Modifications</h1> <p>To create the “Interest” page, I modified the <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> file.</p> <h2 id="1-editing-categories-headers">1. Editing Categories Headers.</h2> <p>I wanted to make the following edits to categories headers: left align text, change text color, and bold text.</p> <p>Project title in <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> defined in <code class="language-plaintext highlighter-rouge">&lt;h2 class="category"&gt;{{ category }}&lt;/h2&gt;</code>. Original code for <code class="language-plaintext highlighter-rouge">category</code> in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
-    color: var(--global-divider-color);
-    border-bottom: 1px solid var(--global-divider-color);
-    padding-top: 0.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    text-align: right;
-}
-</code></pre></div></div> <p>Edited code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
+{% endif %}
+</code></pre></div> </div> <ul> <li>I wanted this “Publications” section to be after the “Experience” section, which is why I added the if condition into the loop. <ul> <li>Originally, I had the “Publications” section at the end of the CV, outside of the for loop without the <code class="language-plaintext highlighter-rouge">if entry.title == 'Experience'</code> statement.</li> </ul> </li> </ul> </li> </ul> <h3 id="interest-page">Interest Page</h3> <p>To create the “Interest” page, I modified the <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> file.</p> <h4 id="editing-category-headers">Editing Category Headers</h4> <p>I wanted to make the following edits to category headers (i.e. “Art” and “Guitar Tabs”):</p> <ul> <li>Left align text</li> <li>Change text color</li> <li>Bold text</li> </ul> <p>How I edited this:</p> <ul> <li>Edited code in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
     color: var(--global-text-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
@@ -185,26 +143,15 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
     text-align: left;
     font-weight: bold;
 }
-</code></pre></div></div> <h2 id="2-editing-project-cards">2. Editing Project Cards.</h2> <p>Project cards are generated from <code class="language-plaintext highlighter-rouge">_include/projects.liquid</code>, which calls classes: <code class="language-plaintext highlighter-rouge">card-body</code>, <code class="language-plaintext highlighter-rouge">card-title</code>, and <code class="language-plaintext highlighter-rouge">card-text</code>, which are defined in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code>.</p> <p>I wanted to make the following edits to project cards: smaller <code class="language-plaintext highlighter-rouge">card-title</code> font size, less padding in the card.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// original 
-.card {
-  background-color: var(--global-card-bg-color);
-
-  .card-img {
-    width: 100%;
-    padding-top: 1.25rem;
-  }
-
-  .card-title {
-    color: var(--global-text-color);
-  }
-
-  .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
-  }
+</code></pre></div> </div> <ul> <li><code class="language-plaintext highlighter-rouge">_pages/projects.md</code> file defined project title/header in this line <code class="language-plaintext highlighter-rouge">&lt;h2 class="category"&gt;{{ category }}&lt;/h2&gt;</code>. Then I found that <code class="language-plaintext highlighter-rouge">category</code> was defined in <code class="language-plaintext highlighter-rouge">_base.scss</code>.</li> </ul> </li> <li>Original code block: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
+    color: var(--global-divider-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: right;
 }
-
-// edited 
-.card {
+</code></pre></div> </div> </li> </ul> <h4 id="editing-project-cards">Editing Project Cards</h4> <p>I wanted to make the following edits to project cards:</p> <ul> <li>Smaller <code class="language-plaintext highlighter-rouge">card-title</code> font size.</li> <li>Less padding in the card.</li> </ul> <p>How to achieve:</p> <ul> <li>Project cards are generated from <code class="language-plaintext highlighter-rouge">_include/projects.liquid</code>, which calls classes: <code class="language-plaintext highlighter-rouge">card-body</code>, <code class="language-plaintext highlighter-rouge">card-title</code>, and <code class="language-plaintext highlighter-rouge">card-text</code>, which are defined in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code>.</li> <li>Therefore this section was edited: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.card {
   background-color: var(--global-card-bg-color);
 
   .card-img {
@@ -221,24 +168,40 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 }
-</code></pre></div></div> <h2 id="3-creating-css-class-to-format-guitar-tabs">3. Creating CSS class to format guitar tabs.</h2> <p>Guitar tabs are best shown in mono-spaced fonts, therefore the built in code block was very helpful. However, I wanted additional modifications such as decreased. Therefore, I created a custom class, added to the bottom of the <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// My cysome code block class - for guitar tabs
-.guitar-tabs {
-  font-size: 0.5rem; // font size half the default 
-  font-weight: bold; // bolded the letters (instead of thin/normal)
-  letter-spacing: -1px; // spacing between letters 
-  line-height: 0.75; //spacing between lines      
-  font-family: monospace; // monospace font
-  color: $black-color; // optional text color
-  background-color: $code-bg-color-light; // white background
-  padding: 0.25rem 0.25rem 0.25rem 0.25rem; // optional: add some padding for better readability
-  border-radius: 4px; // slightly rounded corners
-}
-</code></pre></div></div> <p>To use this class:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Artist Name - Song Name Guitar Tabs: 
+</code></pre></div> </div> </li> <li>Original code block: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.card {
+  background-color: var(--global-card-bg-color);
 
-<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"guitar-tabs"</span><span class="nt">&gt;</span>
-E |---guitar-tabs-here----|
-<span class="nt">&lt;pre/&gt;</span>
-</code></pre></div></div> <h1 id="blog-page-modifications">Blog Page Modifications</h1> <h2 id="1-editing-the-main-blog-page">1. Editing the main blog page</h2> <ul> <li>In the <code class="language-plaintext highlighter-rouge">_config.yml</code> file, I removed the blog_name.</li> <li>I removed the block of code that generates the tags at the top: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if site.display_tags and site.display_tags.size &gt; 0 or site.display_categories and site.display_categories.size &gt; 0 %}
+  .card-img {
+    width: 100%;
+    padding-top: 1.25rem;
+  }
+
+  .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-body {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+</code></pre></div> </div> </li> </ul> <h4 id="creating-css-class-to-format-guitar-tabs">Creating CSS class to format guitar tabs</h4> <p>Guitar tabs are best shown in mono-spaced fonts, therefore the built in code block was very helpful. However, I wanted additional modifications such as decreased. Therefore, I created a custom class, added to the bottom of the <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  // My cysome code block class - for guitar tabs
+  .guitar-tabs {
+    font-size: 0.5rem; // font size half the default 
+    font-weight: bold; // bolded the letters (instead of thin/normal)
+    letter-spacing: -1px; // spacing between letters 
+    line-height: 0.75; //spacing between lines      
+    font-family: monospace; // monospace font
+    color: $black-color; // optional text color
+    background-color: $code-bg-color-light; // white background
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem; // optional: add some padding for better readability
+    border-radius: 4px; // slightly rounded corners
+  }
+</code></pre></div></div> <p>To use this class:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Artist Name - Song Name Guitar Tabs: 
+
+  <span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"guitar-tabs"</span><span class="nt">&gt;</span>
+  E |---guitar-tabs-here----|
+  <span class="nt">&lt;pre/&gt;</span>
+</code></pre></div></div> <h3 id="blog-page-modifications">Blog Page Modifications</h3> <h4 id="editing-the-main-blog-page">Editing the main blog page</h4> <ul> <li>In the <code class="language-plaintext highlighter-rouge">_config.yml</code> file, I removed the blog_name.</li> <li>I removed the block of code that generates the tags at the top: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if site.display_tags and site.display_tags.size &gt; 0 or site.display_categories and site.display_categories.size &gt; 0 %}
 
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tag-category-list"</span><span class="nt">&gt;</span>
     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">"p-0 m-0"</span><span class="nt">&gt;</span>
