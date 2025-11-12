@@ -15,16 +15,17 @@ toc:
 ---------------------------------------------------------------  
 ### Slater  
 
-| Tuning |  Capo   |                      Status                      |   Genre   |
-| :----: | :-----: | :----------------------------------------------: | :-------: |
-| Drop D | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
+| Tuning |  Capo   |  Status   |   Genre   |
+| :----: | :-----: | :-------: | :-------: |
+| Drop D | No Capo | Completed | Punk Rock |
 
+<br />  
 
 **Note:** 
 * Missing Ellie Livingston's Guitar Solo  
 * Based on Live Performance recorded by Julie's HC Music and Stuff:  
 <iframe 
-  style="width: 90%; aspect-ratio: 16 / 9;" 
+  style="width: 100%; aspect-ratio: 16 / 9;" 
   src="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
   title="Die Spitz - Slater/ Monkey Song" 
   frameborder="0" 
@@ -91,13 +92,13 @@ D | ---------------------------------------------------------------- |
 
 ### Groping Dogs Gushing Blood  
 
-|  Tuning  |  Capo   |                       Status                        |   Genre   |
-| :------: | :-----: | :-------------------------------------------------: | :-------: |
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Punk Rock |
+|  Tuning  |  Capo   |   Status    |   Genre   |
+| :------: | :-----: | :---------: | :-------: |
+| Standard | No Capo | In Progress | Punk Rock |
 
 Not based on this live performance, I just really like it:  
 <iframe 
-  style="width: 80%; aspect-ratio: 16 / 9;" 
+  style="width: 100%; aspect-ratio: 16 / 9;" 
   src="https://www.youtube.com/embed/E76OI1yNY5M?start=1538&end=1729" 
   title="DIE SPITZ LIVE AT HOTEL VEGAS 02.23.24 (Millionth Lone Star Party)" 
   frameborder="0" 
@@ -190,9 +191,9 @@ E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
 
 ### Hair Of Dog  
 
-|  Tuning  |  Capo   |                      Status                      |   Genre   |
-| :------: | :-----: | :----------------------------------------------: | :-------: |
-| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
+|  Tuning  |  Capo   |  Status   |   Genre   |
+| :------: | :-----: | :-------: | :-------: |
+| Standard | No Capo | Completed | Punk Rock |
 
 **Die Spitz Hair Of Dog Guitar Tabs:**    
 <div class="code-example" markdown="1">
@@ -260,9 +261,9 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 
 ### Monkey Song  
 
-| Tuning |  Capo   |                      Status                      |   Genre   |
-| :----: | :-----: | :----------------------------------------------: | :-------: |
-| Drop D | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
+| Tuning |  Capo   |  Status   |   Genre   |
+| :----: | :-----: | :-------: | :-------: |
+| Drop D | No Capo | Completed | Punk Rock |
 
 **Die Spitz Monkey Song Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -328,9 +329,9 @@ D | --0-3-0-6-5-0-3-5-5-5-5-6-6-6-6-- |
 ---------------------------------------------------------------
 ### Evangeline
 
-|  Tuning  |  Capo   |                      Status                      |   Genre   |
-| :------: | :-----: | :----------------------------------------------: | :-------: |
-| Standard | No Capo | <span class="label label-green">Completed</span> | Punk Rock |
+|  Tuning  |  Capo   |  Status   |   Genre   |
+| :------: | :-----: | :-------: | :-------: |
+| Standard | No Capo | Completed | Punk Rock |
 
 **Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
 <iframe 
@@ -393,12 +394,19 @@ E | --7-7-7-7-7-7-7-7-0-0-0-0-0----7-7-7-8 -7-3-0-- |
 ### I hate when girls die
 Noting song structure as PART A/B/C as I don't know how to tell Intro/Verse/Chorus apart for this song. 
 
-| Tuning |  Capo   |                       Status                       | Genre  |
-| :----: | :-----: | :------------------------------------------------: | :----: |
-| Drop D | No Capo | <span class="label label-green">In Progress</span> | Metal? |
+| Tuning |  Capo   |   Status    | Genre  |
+| :----: | :-----: | :---------: | :----: |
+| Drop D | No Capo | In Progress | Metal? |
 
 **Note:** based on live performance recorded by Upfront Video:  
-<iframe width="400" height="256" src="https://www.youtube.com/embed/Ro-WbKTxv6c?start=61" title="Die Spitz - “I hate When girls Die” / “Slater” / “Monkey Song” - 05/21/2024 - Valley Bar - Phoenix" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe 
+  style="width: 100%; aspect-ratio: 16 / 9;" 
+  src="https://www.youtube.com/embed/Ro-WbKTxv6c?start=61" title="Die Spitz - “I hate When girls Die” / “Slater” / “Monkey Song” - 05/21/2024 - Valley Bar - Phoenix" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
 **Die Spitz I hate when girls die Guitar Tabs:**     
 <div class="code-example" markdown="1">
@@ -462,12 +470,20 @@ PART C - to be continued [2:59 in video]
 
 ### Little Flame  
 
-|  Tuning  |  Capo   |                       Status                        |
-| :------: | :-----: | :-------------------------------------------------: |
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> |
+|  Tuning  |  Capo   |   Status    | Genre |
+| :------: | :-----: | :---------: | :---: |
+| Standard | No Capo | In Progress |   ?   |
 
 **Note:** based on Audiotree Live Session: 
-<iframe style="width: 80%; height: 50vh;" src="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" title="Die Spitz on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe 
+  style="width: 100%; aspect-ratio: 16 / 9;" 
+  src="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" 
+  title="Die Spitz on Audiotree Live (Full Session)" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  referrerpolicy="strict-origin-when-cross-origin" 
+  allowfullscreen>
+</iframe>
 
 **Die Spitz Little Flame Guitar Tabs:**     
 <div class="code-example" markdown="1">
@@ -484,10 +500,10 @@ E | ------------------------- |
 Riff (Ellie)
 e | -----12----12------------------------------------------------------- |
 B | --12----12---------------------------------------------------------- |
-G | ---------------------------------------------------------------- |
-D | ---------------------------------------------------------------- |
-A | ---------------------------------------------------------------- |
-E | ---------------------------------------------------------------- |
+G | -------------------------------------------------------------------- |
+D | -------------------------------------------------------------------- |
+A | -------------------------------------------------------------------- |
+E | -------------------------------------------------------------------- |
 
 </pre>
 </div>

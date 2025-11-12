@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GEL Guitar Tabs
-description: rip gel
+description: 
 img: assets/img/guitar_tabs/gel.png
 importance: 6
 category: Guitar Tabs
@@ -10,10 +10,10 @@ pretty_table: true
 toc:
   sidebar: left
 ---
-
-## Only Constant
+# RIP GEL   
+## Only Constant  
 ---------------------------------------------------------------
-### Dicey 
+### Dicey  
 
 |  Tuning  |  Capo   |                       Status                        |     Genre     |
 | :------: | :-----: | :-------------------------------------------------: | :-----------: |
@@ -54,7 +54,7 @@ E | --4-8-7-5-4-4-4-4-2-2-5-5-5-4-4-4-4-4-(more)- |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |
 
 **Note:** Tab stops at 0:25: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/F_-bn5Ws2Tw" title="Gel - Honed Blade | LCY Uncut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/F_-bn5Ws2Tw" title="Gel - Honed Blade | LCY Uncut" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **GEL - Honed Blade Guitar Tabs:**  
 <div class="code-example" markdown="1">

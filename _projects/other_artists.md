@@ -53,7 +53,7 @@ E | --------------------------3-3-3-3-3-x-------------- |
 | DGDGBe | No Capo | <span class="label label-green">Completed</span> | Indie Rock |
 
 **Note:** Second part based on Live recording from 7pavement: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/-XC93pUxv1E?start=25" title="Pinback - Fortress live 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/-XC93pUxv1E?start=25" title="Pinback - Fortress live 2025" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>  
 
 **Pinback - Fortress Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -96,7 +96,7 @@ D | ------------------------------- |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/-WMoZTedBT4?start=67" title="Hello Mary on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/-WMoZTedBT4?start=67" title="Hello Mary on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Hello Mary - Knowing You Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -129,7 +129,7 @@ E | ----------------------------- |
 | Standard | Capo on 2 | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=84" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=84" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Ovlov - Eat More Guitar Tabs:**  
 <div class="code-example" markdown="1">
@@ -195,7 +195,7 @@ E | ---------------------------------------------------------- |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
 
 **Note:** Based on Audiotree Live Session: 
-<iframe width="400" height="250" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=922" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=922" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Ovlov - The Wishing Well Guitar Tabs:**  
 <div class="code-example" markdown="1">

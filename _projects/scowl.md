@@ -20,7 +20,7 @@ toc:
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Hardcore Punk |
 
 **Note:** based on Audiotree Live session:  
-<iframe width="400" height="250" src="https://www.youtube.com/embed/GGRuspGmI_g?start=514" title="Scowl on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/GGRuspGmI_g?start=514" title="Scowl on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
 
 **Scowl Psychic Dance Routine Guitar Tabs:**  
 <div class="code-example" markdown="1">  
@@ -173,7 +173,7 @@ E | --4-8 -7-7-7-7--4-8 -7-7-7-7--4-8 -7-7-7-7-3-3-3-3-3-3-3-3-- |
 | Standard | No Capo | <span class="label label-green">Completed</span> | Hardcore Punk |
 
 **Note:** based on KEXP Live session:  
-<iframe width="400" height="250" src="https://www.youtube.com/embed/sXaADnkQ9zo?start=223" title="Scowl - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/sXaADnkQ9zo?start=223" title="Scowl - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Scowl B.A.B.E. Guitar Tabs:**  
 <div class="code-example" markdown="1">  
