@@ -89,6 +89,7 @@ I wanted to make the following edits to project cards: smaller `card-title` font
 ## 1. Editing the main blog page  
 - In the `_config.yml` file, I removed the blog_name. 
 - I removed the block of code that generates the tags at the top: 
+{% raw %}
   ````markdown
   {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -118,7 +119,10 @@ I wanted to make the following edits to project cards: smaller `card-title` font
     {% endif %}
 
   ````
+{% endraw %}
+
 - I removed the featured post section: 
+{% raw %}
   ````markdown
   {% assign featured_posts = site.posts | where: "featured", "true" %}
   {% if featured_posts.size > 0 %}
@@ -165,7 +169,10 @@ I wanted to make the following edits to project cards: smaller `card-title` font
 
   {% endif %}
   ````
+{% endraw %}
+
 - Removed read time
+{% raw %}
   ````markdown
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -181,7 +188,4 @@ I wanted to make the following edits to project cards: smaller `card-title` font
         {% endif %}
       </p>
   ````
-- I removed the feature that added tags to each blog post
-  ````markdown
-
-  ````
+{% endraw %}
