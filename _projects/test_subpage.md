@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Interests
-permalink: /interests/
-description: Where I store my art and guitar tabs. 
-nav: true
-nav_order: 4
-display_categories: [Art, Test]
+title: sub-project layout interest
+permalink: /interests/test/
+description: Let's see if this works 
+img: assets/img/guitar_tabs/die_spitz.png
+importance: 1
+category: Test
+related_publications: false
+display_categories: [Guitar Tabs]
 horizontal: true
 ---
 
