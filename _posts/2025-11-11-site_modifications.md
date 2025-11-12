@@ -56,6 +56,30 @@ table {
 }
 ````
 
+# About Page Modifications
+### Selected Publication Modifications  
+I wanted to make the following changes to the "Selected Publication" section of the About page: 
+  - Change the header title "Selected Publications" to "Publications".
+  - Remove the hyperlink to the "Publications" page, as I don't have a dedicated "Publications" page on my website. 
+  - Be able to link to this section in the description above using html name. Based on <a href="https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown" target="_blank">this</a> stack overflow thread. 
+
+- Original `_layouts/about.liquid` code: 
+  ````markdown
+  <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+  ````
+
+- Edited `_layouts/about.liquid` code: 
+  ````markdown
+  <a name="publications" style="color: inherit">Publications</a>
+  ````
+
+# Page Modifications
+### Modifications  
+Modifications 
+  - To automate adding publication section to CV 
+
+
+
 # Project Page Modifications 
 To create the "Interest" page, I modified the `_pages/projects.md` file.  
 
