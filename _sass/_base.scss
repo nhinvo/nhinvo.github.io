@@ -24,26 +24,16 @@ hr {
 }
 
 table {
-  display: table;
-  width: 100%;
-  border-collapse: collapse;
 
-  th, 
-  td {
+  td,
+  th {
     font-size: 1rem;
-    padding: 0.1rem 0.05rem;     // top/bottom and left/right 
-    background-color: $white-color;      // white background
-    border: 1px solid $black-color;  // border around cells 
+    padding: 1px 1rem 1px 0;
   }
 
   th {
     font-weight: bold;
   }
-
-  tbody tr:last-of-type {
-    td {
-      padding-bottom: 1rem;      // extra space at bottom of table
-    }
 }
 
 a,
