@@ -73,10 +73,23 @@ I wanted to make the following changes to the "Selected Publication" section of 
   <a name="publications" style="color: inherit">Publications</a>
   ````
 
-# Page Modifications
-### Modifications  
-Modifications 
-  - To automate adding publication section to CV 
+# CV Page Modifications
+### Automated Publicated Section Modification
+Currently (as of 11/12/2025), I could not find how to include publications from the `_bibliography/papers.bib` file. Example `` and `` seem to have manual entries. I wanted to add a "Publications" section into my "CV" page, but using the same format as the "Publications" page. 
+  - To automate adding publication section to CV, add the following code block in file `_layouts/cv.liquid` after the `<div>` block in the loop `{% for entry in site.data.cv %}` (i.e. after line 50): 
+{% raw %}
+  ````markdown
+  {% if entry.title == 'Experience' %}
+    <a class="anchor" id="Publications"></a>
+    <div class="card mt-3 p-3">
+      <h3 class="card-title font-weight-medium">Publication</h3>
+      <div>
+        {% include selected_papers.liquid %}
+      </div>
+    </div>
+  {% endif %}
+  ````
+{% endraw %}
 
 
 

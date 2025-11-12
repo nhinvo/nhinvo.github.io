@@ -48,13 +48,16 @@ layout: default
               {% endif %}
             </div>
           </div>
+          {% if entry.title == 'Experience' %}
+            <a class="anchor" id="Publications"></a>
+            <div class="card mt-3 p-3">
+              <h3 class="card-title font-weight-medium">Publication</h3>
+              <div>
+                {% include selected_papers.liquid %}
+              </div>
+            </div>
+          {% endif %}
         {% endfor %}
-        <a class="anchor" id="Publication"></a>
-        <div class="card mt-3 p-3">
-        <h3 class="card-title font-weight-medium">Publication</h3>
-        <div>
-          {% include selected_papers.liquid %}
-        </div>
       </div>
     </article>
   </div>
