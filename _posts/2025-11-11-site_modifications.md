@@ -6,6 +6,7 @@ description: Some notes on the changes I made to al-folio's base template.
 tags: HTML CSS code website github-pages
 categories: coding
 ---
+{% raw %}
 I learned how to modify the al-folio by looking at what other have done before. The examples of `Academics` websites linked on the repository's <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.     
 
 In case someone out there is reading, below are some notes on some things I have done in case you wanted to replicate.  
@@ -77,7 +78,6 @@ I wanted to make the following changes to the "Selected Publication" section of 
 ### Automated Publicated Section Modification
 Currently (as of 11/12/2025), I could not find how to include publications from the `_bibliography/papers.bib` file. Example `` and `` seem to have manual entries. I wanted to add a "Publications" section into my "CV" page, but using the same format as the "Publications" page. 
   - To automate adding publication section to CV, add the following code block in file `_layouts/cv.liquid` after the `<div>` block in the loop `{% for entry in site.data.cv %}` (i.e. after line 50): 
-{% raw %}
   ````markdown
   {% if entry.title == 'Experience' %}
     <a class="anchor" id="Publications"></a>
@@ -89,8 +89,8 @@ Currently (as of 11/12/2025), I could not find how to include publications from 
     </div>
   {% endif %}
   ````
-{% endraw %}
-
+    - I wanted this "Publications" section to be after the "Experience" section, which is why I added the if condition into the loop. 
+      - Originally, I had the "Publications" section at the end of the CV, outside of the for loop without the `if entry.title == 'Experience'` statement. 
 
 
 # Project Page Modifications 
@@ -199,7 +199,6 @@ E |---guitar-tabs-here----|
 ## 1. Editing the main blog page  
 - In the `_config.yml` file, I removed the blog_name. 
 - I removed the block of code that generates the tags at the top: 
-{% raw %}
   ````markdown
   {% if site.display_tags and site.display_tags.size > 0 or site.display_categories and site.display_categories.size > 0 %}
 
@@ -229,10 +228,8 @@ E |---guitar-tabs-here----|
     {% endif %}
 
   ````
-{% endraw %}
 
 - I removed the featured post section: 
-{% raw %}
   ````markdown
   {% assign featured_posts = site.posts | where: "featured", "true" %}
   {% if featured_posts.size > 0 %}
@@ -279,10 +276,8 @@ E |---guitar-tabs-here----|
 
   {% endif %}
   ````
-{% endraw %}
 
 - Removed read time
-{% raw %}
   ````markdown
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -298,4 +293,6 @@ E |---guitar-tabs-here----|
         {% endif %}
       </p>
   ````
+
+
 {% endraw %}
