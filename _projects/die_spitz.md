@@ -35,8 +35,7 @@ toc:
 </iframe>
   
 **Die Spitz Slater Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-1 lh-0.2 text-mono">
+<p class="guitar-tabs">
 P.S.  (pick scrape/slide)
 
 Verse
@@ -86,8 +85,7 @@ G | ---------------------------------------------------------------- |
 D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5-- |
 A | ---------------------------------------------------------------- |
 D | ---------------------------------------------------------------- |
-</pre>
-</div>
+</p>
 
 
 ### Groping Dogs Gushing Blood  
