@@ -116,11 +116,6 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/scowl/";
-            },},{id: "projects-sub-project-layout-interest",
-          title: 'sub-project layout interest',
-          description: "Let&#39;s see if this works",
-          section: "Projects",handler: () => {
-              window.location.href = "/interests/test/";
             },},{id: "projects-the-breeders-guitar-tabs",
           title: 'The Breeders Guitar Tabs',
           description: "",
