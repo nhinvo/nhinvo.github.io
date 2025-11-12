@@ -24,15 +24,34 @@ hr {
 }
 
 table {
+  display: table;
+  width: 100%;
+  border-collapse: separate;
 
-  td,
-  th {
+  th, 
+  td {
     font-size: 1rem;
-    padding: 1px 1rem 1px 0;
+    min-width: 7.5rem;           // ensures cells don’t shrink too much
+    padding: 0.5rem 0.75rem;     // nicer spacing
+    background-color: $white-color;      // white background
+    border-bottom: 1px solid $black-color; // subtle horizontal line
+    border-left: 1px solid $black-color; // subtle vertical line
   }
 
   th {
     font-weight: bold;
+    border-bottom: 1px solid $black-color; // slightly darker line under header
+  }
+
+  tbody tr:last-of-type {
+    th,
+    td {
+      border-bottom: 0;          // remove bottom border from last row
+    }
+
+    td {
+      padding-bottom: 1rem;      // extra space at bottom of table
+    }
   }
 }
 
