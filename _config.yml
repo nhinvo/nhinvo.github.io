@@ -94,7 +94,7 @@ pagination:
   enabled: true
 
 related_blog_posts:
-  enabled: true
+  enabled: false
   max_related: 5
 
 # Giscus comments (RECOMMENDED)
@@ -172,7 +172,6 @@ kramdown:
 include: ["_pages", "_scripts"]
 exclude:
   - _pages/publications.md
-  - _pages/blog.md
   - _pages/books.md
   - _pages/dropdown.md
   - _pages/news.md

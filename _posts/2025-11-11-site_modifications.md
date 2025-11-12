@@ -7,7 +7,7 @@ tags: HTML CSS code website github-pages
 categories: coding
 ---
 
-Note: I am NOT an expert in CSS/HTML, in fact I have very limited experience in them. Everything I did was trial and error. Proceed with caution!  
+Note: I am NOT an expert in CSS/HTML, in fact I have very limited experience. Everything I did was trial and error. Proceed with caution!  
 
 # Project Page Modifications  
 ## 1. Editing Categories Headers.  
@@ -41,18 +41,43 @@ h2.category {
 ## 1. Editing Project Cards.  
 Project cards are generated from `_include/projects.liquid`, which calls classes: `card-body`, `card-title`, and `card-text`, which are defined in `_sass/_base.scss`.  
 
-I wanted to make the following edits to project cards: 
--    
+I wanted to make the following edits to project cards: smaller `card-title` font size, less padding in the card. 
 
 ````markdown
 // original 
+.card {
+  background-color: var(--global-card-bg-color);
+
+  .card-img {
+    width: 100%;
+    padding-top: 1.25rem;
+  }
+
   .card-title {
     color: var(--global-text-color);
   }
 
+  .card-body {
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+  }
+}
+
 // edited 
+.card {
+  background-color: var(--global-card-bg-color);
+
+  .card-img {
+    width: 100%;
+    padding-top: 1rem;
+  }
+
   .card-title {
     color: var(--global-text-color);
     font-size: 1rem; // smaller than default
   }
+
+  .card-body {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+}
 ````
