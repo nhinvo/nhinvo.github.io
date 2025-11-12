@@ -52,6 +52,17 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
+      },{id: "post-al-folio-customizations",
+        
+          title: "al-folio Customizations",
+        
+        description: "an example of a blog post with some code",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2015/site_modifications/";
+          
+        },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
