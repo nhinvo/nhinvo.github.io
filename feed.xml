@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-12T05:39:16+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Useful .bashrc Things</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Useful .bashrc Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="introduction">Introduction</h2> <p><strong>What is .bashrc?</strong><br/> A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.<br/> It’s used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt.</p> <p><strong>Compared to .bash_profile:</strong><br/> .bash_profile also sets configuration for Bash shell, but is executed only once when you log into your account.<br/> I prefer setting all my aliases in .bashrc.</p> <p><strong>Note:</strong> This page is for Linux command line only.</p> <h2 id="setting-aliases-shortcuts">Setting Aliases (Shortcuts)</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your .bashrc file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-12T06:23:26+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Useful .bashrc Things</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Useful .bashrc Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="introduction">Introduction</h2> <p><strong>What is .bashrc?</strong><br/> A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.<br/> It’s used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt.</p> <p><strong>Compared to .bash_profile:</strong><br/> .bash_profile also sets configuration for Bash shell, but is executed only once when you log into your account.<br/> I prefer setting all my aliases in .bashrc.</p> <p><strong>Note:</strong> This page is for Linux command line only.</p> <h2 id="setting-aliases-shortcuts">Setting Aliases (Shortcuts)</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your .bashrc file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
 
 # shortcut to move to parent directory and print files/folders
 alias ..='cd ..;pwd;ls'  
@@ -123,7 +123,41 @@ sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
 
 ## 2. using array on a directory of samples
 sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
-</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">al-folio Customizations</title><link href="https://nhinvo.github.io/blog/2015/site_modifications/" rel="alternate" type="text/html" title="al-folio Customizations"/><published>2015-07-15T15:09:00+00:00</published><updated>2015-07-15T15:09:00+00:00</updated><id>https://nhinvo.github.io/blog/2015/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2015/site_modifications/"><![CDATA[<p>Note: I am NOT an expert in CSS/HTML, in fact I have very limited experience. Everything I did was trial and error. Proceed with caution!</p> <h1 id="project-page-modifications">Project Page Modifications</h1> <p>To create the “Interest” page, I modified the <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> file.</p> <h2 id="1-editing-categories-headers">1. Editing Categories Headers.</h2> <p>I wanted to make the following edits to categories headers: left align text, change text color, and bold text.</p> <p>Project title in <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> defined in <code class="language-plaintext highlighter-rouge">&lt;h2 class="category"&gt;&lt;/h2&gt;</code>. Original code for <code class="language-plaintext highlighter-rouge">category</code> in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
+</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">My customizations to al-folio template</title><link href="https://nhinvo.github.io/blog/2025/site_modifications/" rel="alternate" type="text/html" title="My customizations to al-folio template"/><published>2025-11-11T19:10:00+00:00</published><updated>2025-11-11T19:10:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/site_modifications/"><![CDATA[<p>I learned how to modify the al-folio by looking at what other have done before. The examples of <code class="language-plaintext highlighter-rouge">Academics</code> websites linked on the repository’s <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.</p> <p>In case someone out there is reading, below are some notes on some things I have done in case you wanted to replicate.</p> <p>Note: I am NOT an expert in CSS/HTML. Everything I did was trial and error. If you intend on making the same modifications, please proceed with caution!</p> <h1 id="html-element-modifications">HTML Element Modifications</h1> <h2 id="table-modifications">Table Modifications</h2> <p>Original Code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table {
+
+  td,
+  th {
+    font-size: 1rem;
+    padding: 1px 1rem 1px 0;
+  }
+
+  th {
+    font-weight: bold;
+  }
+}
+</code></pre></div></div> <p>Modifications:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>table {
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+
+  th, 
+  td {
+    font-size: 1rem;
+    padding: 0.1rem 0.05rem;     // top/bottom and left/right 
+    background-color: $white-color;      // white background
+    border: 1px solid $black-color;  // border around cells 
+  }
+
+  th {
+    font-weight: bold;
+  }
+
+  tbody tr:last-of-type {
+    td {
+      padding-bottom: 1rem;      // extra space at bottom of table
+    }
+}
+</code></pre></div></div> <h1 id="project-page-modifications">Project Page Modifications</h1> <p>To create the “Interest” page, I modified the <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> file.</p> <h2 id="1-editing-categories-headers">1. Editing Categories Headers.</h2> <p>I wanted to make the following edits to categories headers: left align text, change text color, and bold text.</p> <p>Project title in <code class="language-plaintext highlighter-rouge">_pages/projects.md</code> defined in <code class="language-plaintext highlighter-rouge">&lt;h2 class="category"&gt;&lt;/h2&gt;</code>. Original code for <code class="language-plaintext highlighter-rouge">category</code> in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
     padding-top: 0.5rem;
@@ -140,7 +174,7 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
     text-align: left;
     font-weight: bold;
 }
-</code></pre></div></div> <h2 id="1-editing-project-cards">1. Editing Project Cards.</h2> <p>Project cards are generated from <code class="language-plaintext highlighter-rouge">_include/projects.liquid</code>, which calls classes: <code class="language-plaintext highlighter-rouge">card-body</code>, <code class="language-plaintext highlighter-rouge">card-title</code>, and <code class="language-plaintext highlighter-rouge">card-text</code>, which are defined in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code>.</p> <p>I wanted to make the following edits to project cards: smaller <code class="language-plaintext highlighter-rouge">card-title</code> font size, less padding in the card.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// original 
+</code></pre></div></div> <h2 id="2-editing-project-cards">2. Editing Project Cards.</h2> <p>Project cards are generated from <code class="language-plaintext highlighter-rouge">_include/projects.liquid</code>, which calls classes: <code class="language-plaintext highlighter-rouge">card-body</code>, <code class="language-plaintext highlighter-rouge">card-title</code>, and <code class="language-plaintext highlighter-rouge">card-text</code>, which are defined in <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code>.</p> <p>I wanted to make the following edits to project cards: smaller <code class="language-plaintext highlighter-rouge">card-title</code> font size, less padding in the card.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// original 
 .card {
   background-color: var(--global-card-bg-color);
 
@@ -176,6 +210,23 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   }
 }
+</code></pre></div></div> <h2 id="3-creating-css-class-to-format-guitar-tabs">3. Creating CSS class to format guitar tabs.</h2> <p>Guitar tabs are best shown in mono-spaced fonts, therefore the built in code block was very helpful. However, I wanted additional modifications such as decreased. Therefore, I created a custom class, added to the bottom of the <code class="language-plaintext highlighter-rouge">_sass/_base.scss</code> file.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// My cysome code block class - for guitar tabs
+.guitar-tabs {
+  font-size: 0.5rem; // font size half the default 
+  font-weight: bold; // bolded the letters (instead of thin/normal)
+  letter-spacing: -1px; // spacing between letters 
+  line-height: 0.75; //spacing between lines      
+  font-family: monospace; // monospace font
+  color: $black-color; // optional text color
+  background-color: $code-bg-color-light; // white background
+  padding: 0.25rem 0.25rem 0.25rem 0.25rem; // optional: add some padding for better readability
+  border-radius: 4px; // slightly rounded corners
+}
+</code></pre></div></div> <p>To use this class:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Artist Name - Song Name Guitar Tabs: 
+
+<span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">"guitar-tabs"</span><span class="nt">&gt;</span>
+E |---guitar-tabs-here----|
+<span class="nt">&lt;pre/&gt;</span>
 </code></pre></div></div> <h1 id="blog-page-modifications">Blog Page Modifications</h1> <h2 id="1-editing-the-main-blog-page">1. Editing the main blog page</h2> <ul> <li>In the <code class="language-plaintext highlighter-rouge">_config.yml</code> file, I removed the blog_name.</li> <li> <p>I removed the block of code that generates the tags at the top:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if site.display_tags and site.display_tags.size &gt; 0 or site.display_categories and site.display_categories.size &gt; 0 %}
 
   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"tag-category-list"</span><span class="nt">&gt;</span>
@@ -260,4 +311,4 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
       &amp;nbsp; &amp;middot; &amp;nbsp; {{ post.external_source }}
       {% endif %}
     &lt;/p&gt;
-</span></code></pre></div> </div> </li> </ul>]]></content><author><name></name></author><category term="coding"/><category term="HTML"/><category term="CSS"/><category term="code"/><category term="website"/><category term="github-pages"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry></feed>
+</span></code></pre></div> </div> </li> </ul>]]></content><author><name></name></author><category term="coding"/><category term="HTML"/><category term="CSS"/><category term="code"/><category term="website"/><category term="github-pages"/><summary type="html"><![CDATA[Some notes on the changes I made to al-folio's base template.]]></summary></entry></feed>

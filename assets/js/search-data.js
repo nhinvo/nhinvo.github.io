@@ -70,15 +70,15 @@ ninja.data = [{
             window.location.href = "/blog/2025/useful_bashrc/";
           
         },
-      },{id: "post-al-folio-customizations",
+      },{id: "post-my-customizations-to-al-folio-template",
         
-          title: "al-folio Customizations",
+          title: "My customizations to al-folio template",
         
-        description: "an example of a blog post with some code",
+        description: "Some notes on the changes I made to al-folio&#39;s base template.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2015/site_modifications/";
+            window.location.href = "/blog/2025/site_modifications/";
           
         },
       },{id: "projects-die-spitz-guitar-tabs",
