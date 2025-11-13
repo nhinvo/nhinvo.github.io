@@ -18,14 +18,37 @@ max_width: 80%
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid 
+          path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
+          class="img-fluid rounded z-depth-1" width="100%" 
+        %}
 
-        <pre class="mt-2">
-Live performance excerpt — Austin, TX (2023)
-Note:
-- Missing Ellie Livingston's Guitar Solo  
-- Based on Live Performance recorded by Julie's HC Music and Stuff:  
-        </pre>
+        <p>
+          Live performance excerpt — Austin, TX (2023)<br>
+          Note:<br>
+          - Missing Ellie Livingston's Guitar Solo<br>
+          - Based on Live Performance recorded by Julie's HC Music and Stuff
+        </p>
+
+    <table class="table table-bordered mt-3">
+      <thead>
+        <tr>
+          <th>Tuning</th>
+          <th>Capo</th>
+          <th>Status</th>
+          <th>Genre</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Standard</td>
+          <td>No Capo</td>
+          <td>In Progress</td>
+          <td>Punk Rock</td>
+        </tr>
+      </tbody>
+    </table>
+    
     </div>
     <div class="col-sm mt-3 mt-md-0">
       <pre class="guitar-tabs">
