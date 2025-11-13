@@ -1430,9 +1430,9 @@ figure.cover {
 // My cysome code block class - for guitar tabs
 .guitar-tabs {
   font-size: 0.8rem; // font size 80% of the default 
-  font-weight: normal; 
+  font-weight: lighter;  // relative to parent  
   letter-spacing: -1px; // spacing between letters 
-  line-height: 0.75; //spacing between lines      
+  line-height: 0.78; //spacing between lines      
   font-family: monospace; // monospace font
   color: $black-color; // optional text color
   background-color: $code-bg-color-light; // white background

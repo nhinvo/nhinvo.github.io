@@ -14,11 +14,12 @@ max_width: 80%
 
 ## Teeth (2023)  
 ---------------------------------------------------------------  
-### Slater  
+<div class="border p-3 rounded">
+<h3 id="slater">Slater</h3>  
 
-<div class="row mt-3 g-0">
-<div class="col-sm mt-3 mt-md-0">
-  <table class="table table-bordered mt-3">
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
     <thead>
       <tr>
         <th>Tuning</th>
@@ -37,10 +38,10 @@ max_width: 80%
     </tbody>
   </table>
 
-  <div class="ratio ratio-16x9">
+  <div class="ratio ratio-16x9 mt-3">
     {% include video.liquid 
       path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
-      class="img-fluid rounded z-depth-1" 
+      class="img-fluid rounded z-depth-1" width="100%" 
     %}
   </div>
 
@@ -51,7 +52,9 @@ max_width: 80%
   </p>
 </div>
 
-<div class="col-sm mt-3 mt-md-0">
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Slater Guitar Tabs:</p>
+
 <pre class="guitar-tabs">
 P.S. (pick scrape/slide)
 Verse
@@ -87,6 +90,7 @@ D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5---- |
 A | ------------------------------------------------------------------ |
 D | ------------------------------------------------------------------ |
 </pre>
+</div>
 </div>
 </div>
 
