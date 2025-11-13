@@ -9,7 +9,7 @@ related_publications: false
 pretty_table: true
 toc:
   sidebar: left
-max_width: 80%
+max_width: 90%
 ---
 
 ## Teeth (2023)  
