@@ -16,58 +16,51 @@ max_width: 80%
 ---------------------------------------------------------------  
 ### Slater  
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        <div class="ratio ratio-16x9">
-          {% include video.liquid 
-            path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
-            class="img-fluid rounded z-depth-1" 
-          %}
-        </div>
+<div class="row mt-3 g-0">
+<div class="col-sm mt-3 mt-md-0">
+  <table class="table table-bordered mt-3">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Punk Rock</td>
+      </tr>
+    </tbody>
+  </table>
 
-        <p>
-          Live performance excerpt — Austin, TX (2023)<br>
-          Note:<br>
-          - Missing Ellie Livingston's Guitar Solo<br>
-          - Based on Live Performance recorded by Julie's HC Music and Stuff
-        </p>
+  <div class="ratio ratio-16x9">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
 
-    <table class="table table-bordered mt-3">
-      <thead>
-        <tr>
-          <th>Tuning</th>
-          <th>Capo</th>
-          <th>Status</th>
-          <th>Genre</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Standard</td>
-          <td>No Capo</td>
-          <td>In Progress</td>
-          <td>Punk Rock</td>
-        </tr>
-      </tbody>
-    </table>
-    
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-      <pre class="guitar-tabs">
-P.S. (pick scrape/slide)
-Verse
-
-      </pre>
-    </div>
+  <p>
+    Notes:<br>
+    - Missing Ellie Livingston's Guitar Solo<br>
+    - Based on Live Performance recorded by Julie's HC Music and Stuff
+  </p>
 </div>
 
-e | ------------------------------------------------------------------ |
-B | ------------------------------------------------------------------ |
-G | ------------------------------------------------------------------ |
-D | ------------------------------------------------------------------ |
-A | ------------------------------------------------------------------ |
-D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5---- |
-[Repeat 5 Times] 
+<div class="col-sm mt-3 mt-md-0">
+<pre class="guitar-tabs">
+P.S. (pick scrape/slide)
+Verse
+e | ------------------------------------------------------------------ | x5
+B | ------------------------------------------------------------------ | x5
+G | ------------------------------------------------------------------ | x5
+D | ------------------------------------------------------------------ | x5
+A | ------------------------------------------------------------------ | x5
+D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5---- | x5 
 
 e | ------------------------------------------------------------------ |
 B | ------------------------------------------------------------------ |
@@ -83,7 +76,6 @@ G | ------------------------ | x3      G | --------------------------- |
 D | ------------------------ | x3      D | --3-3-3-3-3-3-1-1-1-1-1-1-- |
 A | ---------------2-3-2---- | x3      A | --3-3-3-3-3-3-1-1-1-1-1-1-- |
 D | --12\5-2-3-2-3-------3-- | x3      D | --3-3-3-3-3-3-1-1-1-1-1-1-- |
-[Repeat 3 Times]
 
 Verse x 3 | Chorus x 3 | Solo (too hard I cannot tab) | Chorus x 6
 
@@ -94,7 +86,9 @@ G | ------------------------------------------------------------------ |
 D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5---- |
 A | ------------------------------------------------------------------ |
 D | ------------------------------------------------------------------ |
-
+</pre>
+</div>
+</div>
 
 
 ### Groping Dogs Gushing Blood  
