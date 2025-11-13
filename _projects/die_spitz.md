@@ -18,10 +18,12 @@ max_width: 80%
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid 
-          path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
-          class="img-fluid rounded z-depth-1" width="100%" 
-        %}
+        <div class="ratio ratio-16x9">
+          {% include video.liquid 
+            path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
+            class="img-fluid rounded z-depth-1" 
+          %}
+        </div>
 
         <p>
           Live performance excerpt — Austin, TX (2023)<br>
@@ -54,6 +56,11 @@ max_width: 80%
       <pre class="guitar-tabs">
 P.S. (pick scrape/slide)
 Verse
+
+      </pre>
+    </div>
+</div>
+
 e | ------------------------------------------------------------------ |
 B | ------------------------------------------------------------------ |
 G | ------------------------------------------------------------------ |
@@ -87,9 +94,6 @@ G | ------------------------------------------------------------------ |
 D | --0-0-0-0-8\7-0-7\6-0-6\5-3-5-3----0-0-0-0-8\7-0-7\6-0-6\5-3-5---- |
 A | ------------------------------------------------------------------ |
 D | ------------------------------------------------------------------ |
-      </pre>
-    </div>
-</div>
 
 
 
