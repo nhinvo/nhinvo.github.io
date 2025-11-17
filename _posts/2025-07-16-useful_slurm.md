@@ -1,74 +1,103 @@
 ---
 layout: post
 title: Useful SLURM/HPC Things
-date: 2025-11-11 21:15:00
-description: an example of a blog post with some code
-tags: code Bash Linux
+date: 2025-07-16 
+description: SLURM commands that I use often. 
+tags: code Bash Linux SLURM HPC 
 categories: coding
 ---
 
 ## Useful Commands 
 Below are some SLURM commands that I find useful.  
 
-
 **Submit jobs without a script:**  
 Use the parameter `--wrap` to submit a single command as a job.  
 
 For example, to copy large directories:  
-```
-sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'rsync -av path/to/source .'
-```
+  ```
+  sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'rsync -av path/to/source .'
+  ```
 
 Or to run a Python script that might take a long time:  
-```
-sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'python3 my_python_script.py' -J MY_PYTHON_JOB
-```
+  ```
+  sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'python3 my_python_script.py' -J MY_PYTHON_JOB
+  ```
 
 **Change array throttling limit:**  
 Number of array jobs being run at once can be changed.  
-```
-scontrol update ArrayTaskThrottle=[total_job] JobId=[job_ID]
-```
+  ```
+  scontrol update ArrayTaskThrottle=[total_job] JobId=[job_ID]
+  ```
 
 **Batch calcelling jobs:**  
 Cancel jobs with shared name:  
-```
-squeue -u USERNAME | grep 'JOB_NAME' | awk '{print $1}' | xargs scancel
-```
+  ```
+  squeue -u USERNAME | grep 'JOB_NAME' | awk '{print $1}' | xargs scancel
+  ```
 
 Cancel jobs with shared Job ID (if jobs you want to cancel all start with "9916"):  
-```
-squeue -u USERNAME | grep '^9916' | awk '{print $1}' | xargs scancel
-```
+  ```
+  squeue -u USERNAME | grep '^9916' | awk '{print $1}' | xargs scancel
+  ```
 
 **Cores available in a partition:**  
 Output: A=allocated, I=idle, O=other, T=total
-```
-sinfo -p [partition_name] -o "%n %e %m %a %c %C"
-```
+  ```
+  sinfo -p [partition_name] -o "%n %e %m %a %c %C"
+  ```
 
 **Information about a Node:**  
-```
-scontrol show node NODE_NAME
-```
+  ```
+  scontrol show node NODE_NAME
+  ```
 Output:  
 - CPUTot: how many CPUs
 - RealMemory: mem available
 - ThreadsPerCore: how many thread per CPU
 
 **Previously submitted jobs:**  
-```
-# previous jobs from a user
-sacct -u USERNAME
+  ```
+  # previous jobs from a user
+  sacct -u USERNAME
 
-# to see jobs from start (-S) to end (-E)
-sacct -u USERNAME --delimiter "," -S 2023-11-29 -E 2023-11-30
-sacct -u USERNAME -S now-2days -E now
+  # to see jobs from start (-S) to end (-E)
+  sacct -u USERNAME --delimiter "," -S 2023-11-29 -E 2023-11-30
+  sacct -u USERNAME -S now-2days -E now
 
-# to obtain jobs that failed/cancelled/etc. 
-sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
-```
+  # to obtain jobs that failed/cancelled/etc. 
+  sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
+  ```
 
+## SLURM Arrays
+SLURM arrays can be used to run multiple tasks/processes in parallel (e.g. run the same analysis on a list/folder of input files).  
+
+SLURM has many useful internal variables (a longer list at this [page](https://docs.hpc.shef.ac.uk/en/latest/referenceinfo/scheduler/SLURM/SLURM-environment-variables.html#gsc.tab=0)), one of them being "`SLURM_ARRAY_TASK_ID`", which is a unique ID for each job in the array. 
+
+An example of SLURM array script:  
+  ```
+  #!/usr/bin/env bash
+  #SBATCH --job-name JOB_NAME
+  #SBATCH -t 5:00:00
+  #SBATCH -p PARTITION_NAME 
+  #SBATCH -c 1   
+  #SBATCH --mem 1G
+  #SBATCH --array=START-END%JOBS # e.g. 1-10%5 (1 to 10 by 5)
+  #SBATCH -o %a-%j.out
+  #SBATCH -e %a-%j.err
+
+  echo "$(date): SLURM Job ID: ${SLURM_JOB_ID}"
+  echo "$(date): Array index number: ${SLURM_ARRAY_TASK_ID} (out of: ${SLURM_ARRAY_TASK_MAX})"
+  echo "$(date): Array Job ID: ${SLURM_ARRAY_JOB_ID}"
+  echo "$(date): CPU Requested/Allocated for task: ${SLURM_CPUS_PER_TASK}"
+
+  # 2 ways to access file paths using SLURM arrays: 
+
+  ## 1. using array from a sample.tsv file:
+  sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
+
+  ## 2. using array on a directory of samples
+  sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
+  ```
 
 ## Terminology
 **Cluster**: collection of multiple nodes that are connected  
@@ -113,34 +142,3 @@ sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
   - `--ntasks=24` → allocates a job with 24 tasks, each task takes up 1 core/CPU, _may be split across multiple nodes_  
   - `--cpus-per-task=24` → allocates a job with 1 task, 24 CPUs for that task - total of 24 CPUs _on a single node_  
 - If the number of CPUs requested in `–cpus-per-task` is greater than number of CPUs a compute node has: the _job will fail_  as `-c` tries to allocate cores within the same node.  
-
-## SLURM Arrays
-SLURM arrays can be used to run multiple tasks/processes in parallel (e.g. run the same analysis on a list/folder of input files).  
-
-SLURM has many useful internal variables (a longer list at this [page](https://docs.hpc.shef.ac.uk/en/latest/referenceinfo/scheduler/SLURM/SLURM-environment-variables.html#gsc.tab=0)), one of them being "`SLURM_ARRAY_TASK_ID`", which is a unique ID for each job in the array. 
-
-An example of SLURM array script:  
-```
-#!/usr/bin/env bash
-#SBATCH --job-name JOB_NAME
-#SBATCH -t 5:00:00
-#SBATCH -p PARTITION_NAME 
-#SBATCH -c 1   
-#SBATCH --mem 1G
-#SBATCH --array=START-END%JOBS # e.g. 1-10%5 (1 to 10 by 5)
-#SBATCH -o %a-%j.out
-#SBATCH -e %a-%j.err
-
-echo "$(date): SLURM Job ID: ${SLURM_JOB_ID}"
-echo "$(date): Array index number: ${SLURM_ARRAY_TASK_ID} (out of: ${SLURM_ARRAY_TASK_MAX})"
-echo "$(date): Array Job ID: ${SLURM_ARRAY_JOB_ID}"
-echo "$(date): CPU Requested/Allocated for task: ${SLURM_CPUS_PER_TASK}"
-
-# 2 ways to access file paths using SLURM arrays: 
-
-## 1. using array from a sample.tsv file:
-sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
-
-## 2. using array on a directory of samples
-sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
-```
