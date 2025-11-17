@@ -37,40 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-useful-slurm-hpc-things",
-        
-          title: "Useful SLURM/HPC Things",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/useful_slurm/";
-          
-        },
-      },{id: "post-useful-things-for-bioinformatics",
-        
-          title: "Useful things for Bioinformatics",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/useful_bioinformatics/";
-          
-        },
-      },{id: "post-useful-bashrc-things",
-        
-          title: "Useful .bashrc Things",
-        
-        description: "an example of a blog post with some code",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/useful_bashrc/";
-          
-        },
-      },{id: "post-my-customizations-to-the-al-folio-template",
+        },{id: "post-my-customizations-to-the-al-folio-template",
         
           title: "My customizations to the al-folio template",
         
@@ -79,6 +46,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/site_modifications/";
+          
+        },
+      },{id: "post-command-line-shortcuts-to-save-you-time",
+        
+          title: "Command line shortcuts to save you time",
+        
+        description: "I love adding command line shortcuts, and you should too.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/useful_bashrc/";
+          
+        },
+      },{id: "post-useful-slurm-hpc-things",
+        
+          title: "Useful SLURM/HPC Things",
+        
+        description: "SLURM commands that I use often.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/useful_slurm/";
           
         },
       },{id: "projects-die-spitz-guitar-tabs",

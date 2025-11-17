@@ -1,129 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-13T06:33:24+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">Useful .bashrc Things</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Useful .bashrc Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="introduction">Introduction</h2> <p><strong>What is .bashrc?</strong><br/> A configuration file for Bash shell, can be used to personalize your command-line. This file is executed each time a new terminal window opens.<br/> It’s used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt.</p> <p><strong>Compared to .bash_profile:</strong><br/> .bash_profile also sets configuration for Bash shell, but is executed only once when you log into your account.<br/> I prefer setting all my aliases in .bashrc.</p> <p><strong>Note:</strong> This page is for Linux command line only.</p> <h2 id="setting-aliases-shortcuts">Setting Aliases (Shortcuts)</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your .bashrc file:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
-
-# shortcut to move to parent directory and print files/folders
-alias ..='cd ..;pwd;ls'  
-
-# adding params to ls (human readable + sort by file size)
-alias ls='ls --human-readable --size -1 -S --classify'  
-</code></pre></div></div> <p>After adding the alias above, start a new terminal to use your new shortcuts.</p> <p><strong>Shortcuts for SLURM</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
-
-# show the queue for my account/user
-alias myq='squeue -u USERNAME -l'
-
-# show the queue for a partition 
-alias pn_q='squeue -p PARTITION_NAME'
-
-# additional params to sinfo 
-alias sinfo=sinfo --format="%21P %12l %5D %10T %5c %9m %N" --states=ALLOC,ALLOCATED,COMP,COMPLETING,IDLE,MIX,MIXED
-
-# show idle nodes on partitions 
-alias sinfo_idle=sinfo --format="%21P %12l %5D %10T %5c %9m %N" --states=IDLE
-</code></pre></div></div> <p><strong>Shortcuts for Conda/Mamba</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
-
-alias condaa='mamba activate'
-alias condad='mamba deactivate'
-
-# shortcut for a commonly activated/used conda environment 
-# I have one that contains pandas, numpy, matplotlib and other Python data packages
-alias CONDA_ENV_NAME='mamba activate CONDA_ENV_NAME'
-</code></pre></div></div> <p><strong>Other Linux/Bash Shortcuts</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
-
-# change group recursively 
-alias chgrp='chgrp -R GROUPNAME *'  
-
-# change permission recursively
-alias chmod='chmod -R g+rwx *' 
-
-# clear terminal screen
-alias c='clear'  
-
-# display directory structure better  
-alias tree='tree --dirsfirst -F'  
-
-# make directory and all parent directories with verbosity
-alias mkdir='mkdir -p -v' 
-
-# prompts user before deleting file (can be anoying, but safe)
-alias rm='rm -i'  
-
-# obtain file size in human readable with max depth of 1 
-alias du='du -h --max-depth=1 .'  
-
-# how much storage is left in current storage 
-alias df='df -h .'
-</code></pre></div></div> <h2 id="shell-prompt">Shell Prompt</h2> <p>You can change the prompt of your command line (string that goes before <code class="language-plaintext highlighter-rouge">&gt;</code>) using:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># .bashrc
-
-# Editing shell prompt 
-PS1='nvo&gt; '
-</code></pre></div></div> <p>In the command line, my prompt will now be:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvo&gt; echo Hello world
-Hello world
-</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">Useful things for Bioinformatics</title><link href="https://nhinvo.github.io/blog/2025/useful_bioinformatics/" rel="alternate" type="text/html" title="Useful things for Bioinformatics"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bioinformatics</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bioinformatics/"><![CDATA[<h1 id="high-performance-computing-hpc--slurm">High-performance Computing (HPC) | SLURM</h1> <hr/> <h2 id="checking-available-hpc-resource">Checking Available HPC Resource</h2> <h2 id="slurm-script">SLURM Script</h2> <h3 id="best-practices">Best Practices</h3> <p><strong>Don’t:</strong></p> <ul> <li>Submit many SLURM arrays for each small/fast jobs → inefficient <ul> <li>Scheduler will likely have trouble managing many short-lived jobs</li> <li>SLURM arrays are most efficient when each process is already multithreaded and can take advantage of all cores in the node</li> <li>SLURM arrays should ideally only be used in scenarios where &lt; 250 long-running elements are submitted</li> <li>Workloads that process hundreds/thousands of inputs that run for a few minutes/hours → should use GNU parallel instead</li> <li>Favor a single job running on a full node: will be faster + more efficient</li> </ul> </li> </ul> <h3 id="sbatch-resource-specifications">##SBATCH Resource Specifications</h3> <p>For better logging of your SLURM scripts, consider adding Job ID and Array ID (if running SLURM arrays) to .out and .err files.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#SBATCH -o log-%j_%a.out
-#SBATCH -e log-%j_%a.err
-</code></pre></div></div> <h1 id="python">Python</h1> <hr/> <h2 id="python-pathlib-library">Python pathlib library</h2> <p>The Python <a href="https://docs.python.org/3/library/pathlib.html" target="_blank">pathlib</a> library is very useful for handling file paths.</p> <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="n">pathlib</span> <span class="kn">import</span> <span class="n">Path</span>
-
-<span class="n">target_directory</span> <span class="o">=</span> <span class="nc">Path</span><span class="p">(</span><span class="sh">'</span><span class="s">genomes</span><span class="sh">'</span><span class="p">)</span>  <span class="c1"># convert to object 
-</span><span class="n">extension</span> <span class="o">=</span> <span class="sh">'</span><span class="s">fasta</span><span class="sh">'</span>
-
-<span class="c1"># cycle through each file in a directory matching extension
-</span><span class="k">for</span> <span class="n">file_path</span> <span class="ow">in</span> <span class="n">target_directory</span><span class="p">.</span><span class="nf">glob</span><span class="p">(</span><span class="sa">f</span><span class="sh">'</span><span class="s">*</span><span class="si">{</span><span class="n">extension</span><span class="si">}</span><span class="sh">'</span><span class="p">):</span>
-    <span class="c1"># obtain file name without extension
-</span>    <span class="n">file_name</span> <span class="o">=</span> <span class="n">file_path</span><span class="p">.</span><span class="n">stem</span> 
-
-    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">'</span><span class="s">Path to file: </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="sh">'</span><span class="p">)</span>
-    <span class="nf">print</span><span class="p">(</span><span class="sa">f</span><span class="sh">'</span><span class="s">File name: </span><span class="si">{</span><span class="n">file_name</span><span class="si">}</span><span class="se">\n</span><span class="sh">'</span><span class="p">)</span>
-
-<span class="c1"># obtain a list of files in a directory
-</span><span class="n">file_paths</span> <span class="o">=</span> <span class="nf">list</span><span class="p">(</span><span class="n">target_directory</span><span class="p">.</span><span class="nf">glob</span><span class="p">(</span><span class="sh">'</span><span class="s">*</span><span class="sh">'</span><span class="p">))</span>
-<span class="nf">print</span><span class="p">(</span><span class="n">file_paths</span><span class="p">)</span>
-</code></pre></div></div> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Path to file: genomes/MED4.fasta
-File name: MED4
-
-Path to file: genomes/MIT9301.fasta
-File name: MIT9301
-
-Path to file: genomes/NATL2A.fasta
-File name: NATL2A
-
-[PosixPath('genomes/MED4.fasta'), PosixPath('genomes/MIT9301.fasta'), PosixPath('genomes/NATL2A.fasta'), PosixPath('genomes/NATL1A.fna')]
-</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">Useful SLURM/HPC Things</title><link href="https://nhinvo.github.io/blog/2025/useful_slurm/" rel="alternate" type="text/html" title="Useful SLURM/HPC Things"/><published>2025-11-11T21:15:00+00:00</published><updated>2025-11-11T21:15:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_slurm</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_slurm/"><![CDATA[<h2 id="useful-commands">Useful Commands</h2> <p>Below are some SLURM commands that I find useful.</p> <p><strong>Submit jobs without a script:</strong><br/> Use the parameter <code class="language-plaintext highlighter-rouge">--wrap</code> to submit a single command as a job.</p> <p>For example, to copy large directories:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'rsync -av path/to/source .'
-</code></pre></div></div> <p>Or to run a Python script that might take a long time:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'python3 my_python_script.py' -J MY_PYTHON_JOB
-</code></pre></div></div> <p><strong>Change array throttling limit:</strong><br/> Number of array jobs being run at once can be changed.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol update ArrayTaskThrottle=[total_job] JobId=[job_ID]
-</code></pre></div></div> <p><strong>Batch calcelling jobs:</strong><br/> Cancel jobs with shared name:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>squeue -u USERNAME | grep 'JOB_NAME' | awk '{print $1}' | xargs scancel
-</code></pre></div></div> <p>Cancel jobs with shared Job ID (if jobs you want to cancel all start with “9916”):</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>squeue -u USERNAME | grep '^9916' | awk '{print $1}' | xargs scancel
-</code></pre></div></div> <p><strong>Cores available in a partition:</strong><br/> Output: A=allocated, I=idle, O=other, T=total</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sinfo -p [partition_name] -o "%n %e %m %a %c %C"
-</code></pre></div></div> <p><strong>Information about a Node:</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>scontrol show node NODE_NAME
-</code></pre></div></div> <p>Output:</p> <ul> <li>CPUTot: how many CPUs</li> <li>RealMemory: mem available</li> <li>ThreadsPerCore: how many thread per CPU</li> </ul> <p><strong>Previously submitted jobs:</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># previous jobs from a user
-sacct -u USERNAME
-
-# to see jobs from start (-S) to end (-E)
-sacct -u USERNAME --delimiter "," -S 2023-11-29 -E 2023-11-30
-sacct -u USERNAME -S now-2days -E now
-
-# to obtain jobs that failed/cancelled/etc. 
-sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
-</code></pre></div></div> <h2 id="terminology">Terminology</h2> <p><strong>Cluster</strong>: collection of multiple nodes that are connected</p> <ul> <li>Access a cluster by connecting to specific login nodes</li> </ul> <p><strong>Node</strong>: individual computer consisting of 1 or more sockets</p> <ul> <li>Login nodes (frontend node): for connecting to cluster of a facility <ul> <li>Can be used for testing and performing interactive tasks</li> </ul> </li> <li>Backend nodes (compute nodes): reserved for executing computations <ul> <li>Not accessible by users - scheduler manages access</li> </ul> </li> <li>Running jobs across multiple nodes: applications need MPI to not be limited by number of cores on a single node <ul> <li>Allows for communication across nodes - Slurm does not constrain job to single node by default</li> </ul> </li> </ul> <p><strong>CPU</strong> (central processing unit): widely used in field of HPC but lacks a precise definition</p> <ul> <li>CPU = physical chip that has 1-32 cores</li> </ul> <p><strong>Core</strong>: smallest unit of computing, has one or more threads</p> <ul> <li>Can run a single process or thread <ul> <li>Unless core is configured to have 2 threads</li> </ul> </li> </ul> <p><strong>Thread</strong>: a way of multi-tasking - allows multiple simultaneous tasks to share the same core</p> <ul> <li>Multiple threads ≠ multiple cores</li> </ul> <p><strong>Socket</strong> (processor): physical package which contains multiple cores sharing the same memory</p> <p><strong>Task &amp; Process</strong>: both refer to a single running program (used interchangeably)</p> <ul> <li>Single task/process may use multiple cores (called multithreading), but won’t run across nodes</li> <li>MPI application = multiple separate programs communicating with each other</li> <li>Slurm task = allocation unit; process = actual program running</li> <li>Tasks = processes run in parallel inside the user submitted job</li> </ul> <p><strong>-n (—ntasks)</strong>:</p> <ul> <li>Useful to run commands in parallel within the same batch script</li> <li>Example: request 2 tasks and run read mapping command on 2 samples in parallel (similar to submitting arrays but processes are paralleled within the same script)</li> <li>Useful StackOverflow answer: <a href="https://stackoverflow.com/questions/39186698/what-does-the-ntasks-or-n-tasks-does-in-slurm">link</a></li> </ul> <p><strong>-c (–cpus-per-task)</strong>: number of CPUs allocated per task (number of cores to allocate)</p> <ul> <li>This is usually the <code class="language-plaintext highlighter-rouge">--threads</code> param in bioinformatics software</li> </ul> <p><strong>–ntasks vs –cpus-per-task</strong>:</p> <ul> <li>Both allocates cores (-n=1 and -c=1 allocates 1 core to job) <ul> <li><code class="language-plaintext highlighter-rouge">--ntasks=24</code> → allocates a job with 24 tasks, each task takes up 1 core/CPU, <em>may be split across multiple nodes</em></li> <li><code class="language-plaintext highlighter-rouge">--cpus-per-task=24</code> → allocates a job with 1 task, 24 CPUs for that task - total of 24 CPUs <em>on a single node</em></li> </ul> </li> <li>If the number of CPUs requested in <code class="language-plaintext highlighter-rouge">–cpus-per-task</code> is greater than number of CPUs a compute node has: the <em>job will fail</em> as <code class="language-plaintext highlighter-rouge">-c</code> tries to allocate cores within the same node.</li> </ul> <h2 id="slurm-arrays">SLURM Arrays</h2> <p>SLURM arrays can be used to run multiple tasks/processes in parallel (e.g. run the same analysis on a list/folder of input files).</p> <p>SLURM has many useful internal variables (a longer list at this <a href="https://docs.hpc.shef.ac.uk/en/latest/referenceinfo/scheduler/SLURM/SLURM-environment-variables.html#gsc.tab=0">page</a>), one of them being “<code class="language-plaintext highlighter-rouge">SLURM_ARRAY_TASK_ID</code>”, which is a unique ID for each job in the array.</p> <p>An example of SLURM array script:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#!/usr/bin/env bash
-#SBATCH --job-name JOB_NAME
-#SBATCH -t 5:00:00
-#SBATCH -p PARTITION_NAME 
-#SBATCH -c 1   
-#SBATCH --mem 1G
-#SBATCH --array=START-END%JOBS # e.g. 1-10%5 (1 to 10 by 5)
-#SBATCH -o %a-%j.out
-#SBATCH -e %a-%j.err
-
-echo "$(date): SLURM Job ID: ${SLURM_JOB_ID}"
-echo "$(date): Array index number: ${SLURM_ARRAY_TASK_ID} (out of: ${SLURM_ARRAY_TASK_MAX})"
-echo "$(date): Array Job ID: ${SLURM_ARRAY_JOB_ID}"
-echo "$(date): CPU Requested/Allocated for task: ${SLURM_CPUS_PER_TASK}"
-
-# 2 ways to access file paths using SLURM arrays: 
-
-## 1. using array from a sample.tsv file:
-sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
-
-## 2. using array on a directory of samples
-sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
-</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><summary type="html"><![CDATA[an example of a blog post with some code]]></summary></entry><entry><title type="html">My customizations to the al-folio template</title><link href="https://nhinvo.github.io/blog/2025/site_modifications/" rel="alternate" type="text/html" title="My customizations to the al-folio template"/><published>2025-11-11T19:10:00+00:00</published><updated>2025-11-11T19:10:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/site_modifications/"><![CDATA[<p>I learned how to modify the al-folio by looking at what others have done before. The example websites linked on the repository’s <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.</p> <p>In case someone out there is reading, below are notes on some (not all) things I have modified in case you wanted to replicate. Note: I am NOT an expert in CSS/HTML. Everything I did was trial and error. If you intend on making the same modifications, please proceed with caution!</p> <h2>About/Home Page</h2> <h3>Selected Publication Modifications</h3> <p>I wanted to make the following changes to the “Selected Publication” section of the About page:</p> <ul> <li>Change the header title “Selected Publications” to “Publications”.</li> <li>Remove the hyperlink to the “Publications” page, as I don’t have a dedicated “Publications” page on my website.</li> <li>Be able to link to this section in the description above using html name. Based on <a href="https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown" target="_blank">this</a> stack overflow thread.</li> </ul> <p>How I achieved this:</p> <ul> <li>Edited <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"publications"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>Publications<span class="nt">&lt;/a&gt;</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nhinvo.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nhinvo.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2025-11-17T22:04:45+00:00</updated><id>https://nhinvo.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">My customizations to the al-folio template</title><link href="https://nhinvo.github.io/blog/2025/site_modifications/" rel="alternate" type="text/html" title="My customizations to the al-folio template"/><published>2025-11-11T19:10:00+00:00</published><updated>2025-11-11T19:10:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/site_modifications</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/site_modifications/"><![CDATA[<p>I learned how to modify the al-folio by looking at what others have done before. The example websites linked on the repository’s <a href="https://github.com/alshedivat/al-folio/tree/main#:~:text=sending%20a%20PR.-,Academics,-%E2%98%85%20%E2%98%85%20%E2%98%85" target="_blank">README</a> was very helpful.</p> <p>In case someone out there is reading, below are notes on some (not all) things I have modified in case you wanted to replicate. Note: I am NOT an expert in CSS/HTML. Everything I did was trial and error. If you intend on making the same modifications, please proceed with caution!</p> <h2>About/Home Page</h2> <h3>Selected Publication Modifications</h3> <p>I wanted to make the following changes to the “Selected Publication” section of the About page:</p> <ul> <li>Change the header title “Selected Publications” to “Publications”.</li> <li>Remove the hyperlink to the “Publications” page, as I don’t have a dedicated “Publications” page on my website.</li> <li>Be able to link to this section in the description above using html name. Based on <a href="https://stackoverflow.com/questions/2822089/how-to-link-to-part-of-the-same-document-in-markdown" target="_blank">this</a> stack overflow thread.</li> </ul> <p>How I achieved this:</p> <ul> <li>Edited <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">name=</span><span class="s">"publications"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>Publications<span class="nt">&lt;/a&gt;</span>
 </code></pre></div> </div> </li> <li>Original <code class="language-plaintext highlighter-rouge">_layouts/about.liquid</code> code: <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"{{ '/publications/' | relative_url }}"</span> <span class="na">style=</span><span class="s">"color: inherit"</span><span class="nt">&gt;</span>selected publications<span class="nt">&lt;/a&gt;</span>
 </code></pre></div> </div> </li> </ul> <h2 id="cv-page">CV Page</h2> <h3 id="automated-publicated-section">Automated Publicated Section</h3> <p>Currently (as of 11/12/2025), I could not find how to include publications from the <code class="language-plaintext highlighter-rouge">_bibliography/papers.bib</code> file. Example <code class="language-plaintext highlighter-rouge">and</code> seem to have manual entries. I wanted to add a “Publications” section into my “CV” page, but using the same format as the “Publications” page.</p> <ul> <li>To automate adding publication section to CV, add the following code block in file <code class="language-plaintext highlighter-rouge">_layouts/cv.liquid</code> after the <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> block in the loop <code class="language-plaintext highlighter-rouge">{% for entry in site.data.cv %}</code> (i.e. after line 50): <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{% if entry.title == 'Experience' %}
   <span class="nt">&lt;a</span> <span class="na">class=</span><span class="s">"anchor"</span> <span class="na">id=</span><span class="s">"Publications"</span><span class="nt">&gt;&lt;/a&gt;</span>
@@ -285,4 +160,109 @@ sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
       &amp;nbsp; &amp;middot; &amp;nbsp; {{ post.external_source }}
       {% endif %}
     &lt;/p&gt;
-</span></code></pre></div> </div> </li> </ul>]]></content><author><name></name></author><category term="coding"/><category term="HTML"/><category term="CSS"/><category term="code"/><category term="website"/><category term="github-pages"/><summary type="html"><![CDATA[Some notes on the changes I made to al-folio's base template.]]></summary></entry></feed>
+</span></code></pre></div> </div> </li> </ul>]]></content><author><name></name></author><category term="coding"/><category term="HTML"/><category term="CSS"/><category term="code"/><category term="website"/><category term="github-pages"/><summary type="html"><![CDATA[Some notes on the changes I made to al-folio's base template.]]></summary></entry><entry><title type="html">Command line shortcuts to save you time</title><link href="https://nhinvo.github.io/blog/2025/useful_bashrc/" rel="alternate" type="text/html" title="Command line shortcuts to save you time"/><published>2025-08-08T00:00:00+00:00</published><updated>2025-08-08T00:00:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_bashrc</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_bashrc/"><![CDATA[<h2 id="what-are-shortcuts">What are shortcuts?</h2> <p>The shortcuts discussed below are custom commands. I often create these shortcuts to save me time typing out commands that I use often. For example:</p> <ul> <li>When I want to view jobs I have running on the HPC (high-performance computing) clusters, instead of typing: <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvo&gt; squeue -u nvo
+         JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+       5514838 sched_mit      job      nvo  R 23-09:16:05      1 node421
+</code></pre></div> </div> </li> <li>I created a shortcut in my <code class="language-plaintext highlighter-rouge">.bashrc</code> file (explained further below), so that I can just type <code class="language-plaintext highlighter-rouge">myq</code> to obtain the same data: <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nvo&gt; myq
+            JOBID PARTITION     NAME     USER    STATE       TIME TIME_LIMI  NODES NODELIST(REASON)
+          5514838 sched_mit      job      nvo  RUNNING 23-09:20:17 26-00:00:00      1 node421
+</code></pre></div> </div> </li> </ul> <h2 id="what-is-bashrc">What is .bashrc?</h2> <p>A configuration file for Bash shell. This can be used to personalize your command-line. This file gets executed each time a new terminal window opens. It can be used to set environment variables, define aliases (shortcuts), create custom functions, and customize prompt. There is another configuration file for your Bash shell: <code class="language-plaintext highlighter-rouge">.bash_profile</code>. However, this is executed only once, when you log into your account. Therefore, I prefer setting all my aliases in .bashrc. Lastly, everything on this page is for Linux/UNIX command line only, I cannot guarantee that this will work on other operating systems.</p> <h2 id="how-do-i-set-shortcuts-for-my-command-line">How do I set shortcuts for my command line?</h2> <p>You can set shortcuts using <code class="language-plaintext highlighter-rouge">alias</code> in your configuration file, which is located in your home directory: <code class="language-plaintext highlighter-rouge">~/.bashrc</code>. Note: name of shortcut cannot be an already existing command. For example, to move to the parent directory, and then print the path and list files in that directory:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # .bashrc
+  alias ..='cd ..;pwd;ls'  
+</code></pre></div></div> <p>After adding the alias above to <code class="language-plaintext highlighter-rouge">~/.bashrc</code>, start a new terminal to use your new shortcuts:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  nvo&gt; pwd
+  /home/nvo/bin
+  nvo&gt; ..
+  /home/nvo
+  bin  chisholm_lab  Desktop  Downloads  libexec  ondemand  orcd
+</code></pre></div></div> <h2 id="shortcuts-that-i-have">Shortcuts that I have</h2> <h3 id="general-shortcuts">General shortcuts</h3> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # .bashrc
+
+  # change group recursively 
+  alias chgrp='chgrp -R GROUPNAME *'  
+
+  # clear terminal screen
+  alias c='clear'  
+
+  # display directory structure better  
+  alias tree='tree --dirsfirst -F'  
+
+  # make directory and all parent directories with verbosity
+  alias mkdir='mkdir -p -v' 
+
+  # prompts user before deleting file (can be anoying, but safe)
+  alias rm='rm -i'  
+
+  # obtain file size in human readable with max depth of 1 
+  alias du='du -h --max-depth=1 .'  
+
+  # how much storage is left in current storage 
+  alias df='df -h .'
+</code></pre></div></div> <h3 id="shortcuts-for-slurm">Shortcuts for SLURM</h3> <p>Some shortcuts relating to SLURM/HPC:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # .bashrc
+
+  # show the queue for my account/user
+  alias myq='squeue -u [USERNAME] -l'
+
+  # show the queue for a partition 
+  alias p_name_q='squeue -p [PARTITION_NAME]'
+
+  # show your jobs on a partition
+  alias myq_p='squeue -p [PARTITION_NAME] -u [USERNAME]'
+
+  # start an interactive session 
+  alias interactive='salloc -N 1 -n 5 -w [NODENAME] --time=12:00:00 -p [PARTITION_NAME]'
+
+  # additional params to sinfo 
+  alias sinfo=sinfo --format="%21P %12l %5D %10T %5c %9m %N" --states=ALLOC,ALLOCATED,COMP,COMPLETING,IDLE,MIX,MIXED
+
+  # show idle nodes on partitions 
+  alias sinfo_idle=sinfo --format="%21P %12l %5D %10T %5c %9m %N" --states=IDLE
+</code></pre></div></div> <h2 id="shortcuts-for-condamamba">Shortcuts for Conda/Mamba</h2> <p>Some shortcuts relating to Conda/Mamba (depending on which you prefer):</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # .bashrc
+
+  alias condaa='mamba activate'
+  alias condad='mamba deactivate'
+
+  # shortcut for a commonly activated/used conda environment 
+  # I have one that contains pandas, numpy, matplotlib and other Python data packages
+  alias CONDA_ENV_NAME='mamba activate CONDA_ENV_NAME'
+</code></pre></div></div> <h2 id="shell-prompt">Shell Prompt</h2> <p>You can change the prompt of your command line (string that goes before <code class="language-plaintext highlighter-rouge">&gt;</code>) using:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # .bashrc
+  # Editing shell prompt 
+  PS1='nvo&gt; '
+</code></pre></div></div> <p>In the command line, my prompt will now be:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  nvo&gt; echo Hello world
+  Hello world
+</code></pre></div></div>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><category term="Shell"/><summary type="html"><![CDATA[I love adding command line shortcuts, and you should too.]]></summary></entry><entry><title type="html">Useful SLURM/HPC Things</title><link href="https://nhinvo.github.io/blog/2025/useful_slurm/" rel="alternate" type="text/html" title="Useful SLURM/HPC Things"/><published>2025-07-16T00:00:00+00:00</published><updated>2025-07-16T00:00:00+00:00</updated><id>https://nhinvo.github.io/blog/2025/useful_slurm</id><content type="html" xml:base="https://nhinvo.github.io/blog/2025/useful_slurm/"><![CDATA[<h2 id="useful-commands">Useful Commands</h2> <p>Below are some SLURM commands that I find useful.</p> <p><strong>Submit jobs without a script:</strong><br/> Use the parameter <code class="language-plaintext highlighter-rouge">--wrap</code> to submit a single command as a job.</p> <p>For example, to copy large directories:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'rsync -av path/to/source .'
+</code></pre></div></div> <p>Or to run a Python script that might take a long time:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  sbatch -p PARTITION_NAME -t 12:00:00 --mem 10G --wrap 'python3 my_python_script.py' -J MY_PYTHON_JOB
+</code></pre></div></div> <p><strong>Change array throttling limit:</strong><br/> Number of array jobs being run at once can be changed.</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  scontrol update ArrayTaskThrottle=[total_job] JobId=[job_ID]
+</code></pre></div></div> <p><strong>Batch calcelling jobs:</strong><br/> Cancel jobs with shared name:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  squeue -u USERNAME | grep 'JOB_NAME' | awk '{print $1}' | xargs scancel
+</code></pre></div></div> <p>Cancel jobs with shared Job ID (if jobs you want to cancel all start with “9916”):</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  squeue -u USERNAME | grep '^9916' | awk '{print $1}' | xargs scancel
+</code></pre></div></div> <p><strong>Cores available in a partition:</strong><br/> Output: A=allocated, I=idle, O=other, T=total</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  sinfo -p [partition_name] -o "%n %e %m %a %c %C"
+</code></pre></div></div> <p><strong>Information about a Node:</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  scontrol show node NODE_NAME
+</code></pre></div></div> <p>Output:</p> <ul> <li>CPUTot: how many CPUs</li> <li>RealMemory: mem available</li> <li>ThreadsPerCore: how many thread per CPU</li> </ul> <p><strong>Previously submitted jobs:</strong></p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # previous jobs from a user
+  sacct -u USERNAME
+
+  # to see jobs from start (-S) to end (-E)
+  sacct -u USERNAME --delimiter "," -S 2023-11-29 -E 2023-11-30
+  sacct -u USERNAME -S now-2days -E now
+
+  # to obtain jobs that failed/cancelled/etc. 
+  sacct -u USERNAME -S now-3days -E now | grep -v -e 'COMPLETED' -e 'RUNNING'
+</code></pre></div></div> <h2 id="slurm-arrays">SLURM Arrays</h2> <p>SLURM arrays can be used to run multiple tasks/processes in parallel (e.g. run the same analysis on a list/folder of input files).</p> <p>SLURM has many useful internal variables (a longer list at this <a href="https://docs.hpc.shef.ac.uk/en/latest/referenceinfo/scheduler/SLURM/SLURM-environment-variables.html#gsc.tab=0">page</a>), one of them being “<code class="language-plaintext highlighter-rouge">SLURM_ARRAY_TASK_ID</code>”, which is a unique ID for each job in the array.</p> <p>An example of SLURM array script:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  #!/usr/bin/env bash
+  #SBATCH --job-name JOB_NAME
+  #SBATCH -t 5:00:00
+  #SBATCH -p PARTITION_NAME 
+  #SBATCH -c 1   
+  #SBATCH --mem 1G
+  #SBATCH --array=START-END%JOBS # e.g. 1-10%5 (1 to 10 by 5)
+  #SBATCH -o %a-%j.out
+  #SBATCH -e %a-%j.err
+
+  echo "$(date): SLURM Job ID: ${SLURM_JOB_ID}"
+  echo "$(date): Array index number: ${SLURM_ARRAY_TASK_ID} (out of: ${SLURM_ARRAY_TASK_MAX})"
+  echo "$(date): Array Job ID: ${SLURM_ARRAY_JOB_ID}"
+  echo "$(date): CPU Requested/Allocated for task: ${SLURM_CPUS_PER_TASK}"
+
+  # 2 ways to access file paths using SLURM arrays: 
+
+  ## 1. using array from a sample.tsv file:
+  sample_path=$(sed "${SLURM_ARRAY_TASK_ID}q;d" sample.tsv | cut -f1 | tr -d '\r')
+
+  ## 2. using array on a directory of samples
+  sample_path=$(realpath path/to/files/* | sed -n ${SLURM_ARRAY_TASK_ID}p)
+</code></pre></div></div> <h2 id="terminology">Terminology</h2> <p><strong>Cluster</strong>: collection of multiple nodes that are connected</p> <ul> <li>Access a cluster by connecting to specific login nodes</li> </ul> <p><strong>Node</strong>: individual computer consisting of 1 or more sockets</p> <ul> <li>Login nodes (frontend node): for connecting to cluster of a facility <ul> <li>Can be used for testing and performing interactive tasks</li> </ul> </li> <li>Backend nodes (compute nodes): reserved for executing computations <ul> <li>Not accessible by users - scheduler manages access</li> </ul> </li> <li>Running jobs across multiple nodes: applications need MPI to not be limited by number of cores on a single node <ul> <li>Allows for communication across nodes - Slurm does not constrain job to single node by default</li> </ul> </li> </ul> <p><strong>CPU</strong> (central processing unit): widely used in field of HPC but lacks a precise definition</p> <ul> <li>CPU = physical chip that has 1-32 cores</li> </ul> <p><strong>Core</strong>: smallest unit of computing, has one or more threads</p> <ul> <li>Can run a single process or thread <ul> <li>Unless core is configured to have 2 threads</li> </ul> </li> </ul> <p><strong>Thread</strong>: a way of multi-tasking - allows multiple simultaneous tasks to share the same core</p> <ul> <li>Multiple threads ≠ multiple cores</li> </ul> <p><strong>Socket</strong> (processor): physical package which contains multiple cores sharing the same memory</p> <p><strong>Task &amp; Process</strong>: both refer to a single running program (used interchangeably)</p> <ul> <li>Single task/process may use multiple cores (called multithreading), but won’t run across nodes</li> <li>MPI application = multiple separate programs communicating with each other</li> <li>Slurm task = allocation unit; process = actual program running</li> <li>Tasks = processes run in parallel inside the user submitted job</li> </ul> <p><strong>-n (—ntasks)</strong>:</p> <ul> <li>Useful to run commands in parallel within the same batch script</li> <li>Example: request 2 tasks and run read mapping command on 2 samples in parallel (similar to submitting arrays but processes are paralleled within the same script)</li> <li>Useful StackOverflow answer: <a href="https://stackoverflow.com/questions/39186698/what-does-the-ntasks-or-n-tasks-does-in-slurm">link</a></li> </ul> <p><strong>-c (–cpus-per-task)</strong>: number of CPUs allocated per task (number of cores to allocate)</p> <ul> <li>This is usually the <code class="language-plaintext highlighter-rouge">--threads</code> param in bioinformatics software</li> </ul> <p><strong>–ntasks vs –cpus-per-task</strong>:</p> <ul> <li>Both allocates cores (-n=1 and -c=1 allocates 1 core to job) <ul> <li><code class="language-plaintext highlighter-rouge">--ntasks=24</code> → allocates a job with 24 tasks, each task takes up 1 core/CPU, <em>may be split across multiple nodes</em></li> <li><code class="language-plaintext highlighter-rouge">--cpus-per-task=24</code> → allocates a job with 1 task, 24 CPUs for that task - total of 24 CPUs <em>on a single node</em></li> </ul> </li> <li>If the number of CPUs requested in <code class="language-plaintext highlighter-rouge">–cpus-per-task</code> is greater than number of CPUs a compute node has: the <em>job will fail</em> as <code class="language-plaintext highlighter-rouge">-c</code> tries to allocate cores within the same node.</li> </ul>]]></content><author><name></name></author><category term="coding"/><category term="code"/><category term="Bash"/><category term="Linux"/><category term="SLURM"/><category term="HPC"/><summary type="html"><![CDATA[SLURM commands that I use often.]]></summary></entry></feed>
