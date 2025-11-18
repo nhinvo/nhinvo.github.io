@@ -53,18 +53,18 @@
 - title: Other Interests
   type: nested_list
   contents:
-    - title: Currently Reading (as of 11/17/25)
+    - title: Currently Reading - as of 11/17/25
       items: 
         - System Collapse - Martha Wells (6th book in the Murderbot Diaries series)
         - The Two Towers - J.R.R Tolkien (2nd book in the Lord of The Rings series)
     - title: Music/Guitar
       items: 
         - I play the guitar and I find tabbing songs by ear incredibly rewarding. 
-        - All my guitar tabs are accessible on my [**Interests**](/interests/) page. 
+        - All my guitar tabs are accessible on my <a href="https://nhinvo.github.io/interests/#Guitar%20Tabs">Interest</a> page. 
         - I am self-taught and am not musically trained therefore the tabs might not be perfect.
     - title: Arts & Crafts
       items: 
-        - Check out my work [**here**](/projects/my-art/)! 
+        - Check out my work <a href="https://nhinvo.github.io/projects/my-art/">here</a>! 
     - title:   
       items: 
         - Always happy to discuss books, art and music, along with receiving your recommendations!   
