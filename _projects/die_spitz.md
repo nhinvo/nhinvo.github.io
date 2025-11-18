@@ -41,7 +41,7 @@ max_width: 90%
   <div class="ratio ratio-16x9 mt-3">
     {% include video.liquid 
       path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
-      class="img-fluid rounded z-depth-1" width="100%" 
+      class="img-fluid rounded z-depth-1" 
     %}
   </div>
 
