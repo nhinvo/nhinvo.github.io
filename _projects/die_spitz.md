@@ -38,18 +38,18 @@ custom_zoom: 80%
     </tbody>
   </table>
 
+  <p>
+    Notes:<br>
+    - Missing Ellie Livingston's Guitar Solo<br>
+    - Based on Live Performance recorded by Julie's HC Music and Stuff
+  </p>
+
   <div class="mt-3">
     {% include video.liquid 
       path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
       class="img-fluid rounded z-depth-1" 
     %}
   </div>
-
-  <p>
-    Notes:<br>
-    - Missing Ellie Livingston's Guitar Solo<br>
-    - Based on Live Performance recorded by Julie's HC Music and Stuff
-  </p>
 </div>
 
 <div class="col-md-6 mt-3 mt-md-0">
@@ -96,31 +96,45 @@ D | ------------------------------------------------------------------ |
 
 ### Groping Dogs Gushing Blood  
 
-|  Tuning  |  Capo   |   Status    |   Genre   |
-| :------: | :-----: | :---------: | :-------: |
-| Standard | No Capo | In Progress | Punk Rock |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Punk Rock</td>
+      </tr>
+    </tbody>
+  </table>
 
-Not based on this live performance, I just really like it:  
-<iframe 
-  style="width: 100%; aspect-ratio: 16 / 9;" 
-  src="https://www.youtube.com/embed/E76OI1yNY5M?start=1538&end=1729" 
-  title="DIE SPITZ LIVE AT HOTEL VEGAS 02.23.24 (Millionth Lone Star Party)" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/E76OI1yNY5M?start=1538&end=1729" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
 
-**Die Spitz Groping Dogs Gushing Blood Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
-e | ----------------------------- |
-B | ----------------------------- |
-G | ----------------------------- |
-D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
-[repeat 8 times] 
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Groping Dogs Gushing Blood Guitar Tabs</p>
+
+<pre class="guitar-tabs">
+e | ----------------------------- | x8
+B | ----------------------------- | x8
+G | ----------------------------- | x8
+D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x8
+A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x8
+E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- | x8
 
 e | --------------------------------------------- |
 B | --------------------------------------------- |
@@ -129,13 +143,12 @@ D | --4-4-4-4-4-4-4-4-4-5-5-5/7-7-7-7-7-7-6-5-4-- |
 A | --4-4-4-4-4-4-4-4-4-5-5-5/7-7-7-7-7-7-6-5-4-- |
 E | --2-2-0-2-2-0-2-2-0-3-3-3/5-5-5-5-5-5-4-3-2-- |
 
-e | ----------------------------- |
-B | ----------------------------- |
-G | ----------------------------- |
-D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
-[repeat 4 times] 
+e | ----------------------------- | x4
+B | ----------------------------- | x4
+G | ----------------------------- | x4
+D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x4
+A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x4
+E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- | x4
 
 e | --------------------------------------------- |
 B | --------------------------------------------- |
@@ -165,13 +178,12 @@ D | --4-4-4-5-5-5-5--4-4-4-5-5-5-5--4-4-4-5-5-5-5-10\9-9\7-7\5-5-- |
 A | --4-4-4-3-3-3-3--4-4-4-3-3-3-3--4-4-4-3-3-3-3-10\9-9\7-7\5-5-- |
 E | --2-2-0----------2-2-0----------2-2-0---------8 \7-7\5-5\3-3-- |
 
-e | ---------------------------------------------------------------- |
-B | ---------------------------------------------------------------- |
-G | --------5-5-5-5--------5-5-5-5--------5-5-5-5------------------- |
-D | --4-4-4-5-5-5-5--4-4-4-5-5-5-5--4-4-4-5-5-5-5-12\10-10\9-9\7-7-- |
-A | --4-4-4-3-3-3-3--4-4-4-3-3-3-3--4-4-4-3-3-3-3-12\10-10\9-9\7-7-- |
-E | --2-2-0----------2-2-0----------2-2-0---------10\8 -8 \7-7\5-5-- |
-[Repeat Twice]
+e | ---------------------------------------------------------------- | x2
+B | ---------------------------------------------------------------- | x2
+G | --------5-5-5-5--------5-5-5-5--------5-5-5-5------------------- | x2
+D | --4-4-4-5-5-5-5--4-4-4-5-5-5-5--4-4-4-5-5-5-5-12\10-10\9-9\7-7-- | x2
+A | --4-4-4-3-3-3-3--4-4-4-3-3-3-3--4-4-4-3-3-3-3-12\10-10\9-9\7-7-- | x2
+E | --2-2-0----------2-2-0----------2-2-0---------10\8 -8 \7-7\5-5-- | x2
 
 e | ------------------------------------------------------- |
 B | ------------------------------------------------------- |
@@ -180,28 +192,54 @@ D | --4-4-4-7-7-7-7--4-4-4-7-7-7-7--4-4-4-7-7-7-7-7-6-5-4-- |
 A | --4-4-4-7-7-7-7--4-4-4-7-7-7-7--4-4-4-7-7-7-7-7-6-5-4-- |
 E | --2-2-0-5-5-5-5--2-2-0-5-5-5-5--2-2-0-5-5-5-5-5-4-3-2-- |
 
-e | ----------------------------- |
-B | ----------------------------- |
-G | ----------------------------- |
-D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- |
-E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- |
-[Repeat Twice] 
+e | ----------------------------- | x2
+B | ----------------------------- | x2
+G | ----------------------------- | x2
+D | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x2
+A | --4-4-4-4-4-4-4-4-4-5-5-5-5-- | x2
+E | --2-2-0-2-2-0-2-2-0-3-3-3-0-- | x2
 
 [Rest of Song]
 </pre>
+</div>
 </div>
 
 
 ### Hair Of Dog  
 
-|  Tuning  |  Capo   |  Status   |   Genre   |
-| :------: | :-----: | :-------: | :-------: |
-| Standard | No Capo | Completed | Punk Rock |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>Completed</td>
+        <td>Punk Rock</td>
+      </tr>
+    </tbody>
+  </table>
 
-**Die Spitz Hair Of Dog Guitar Tabs:**    
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/5EU6Iqs4W0M?list=RD5EU6Iqs4W0M" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
+
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Hair Of Dog Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
 [Intro - Repeat Twice]
 e | ------------------------- |
 B | ------------------------- |
@@ -261,17 +299,45 @@ A | --5-5-5-5-5-5-5-5/9-9-9/10-10-10-10-10-5-5-5-5-9-5-- |
 E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 </pre>
 </div>
+</div>
 
 
 ### Monkey Song  
 
-| Tuning |  Capo   |  Status   |   Genre   |
-| :----: | :-----: | :-------: | :-------: |
-| Drop D | No Capo | Completed | Punk Rock |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Punk Rock</td>
+      </tr>
+    </tbody>
+  </table>
 
-**Die Spitz Monkey Song Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/8Za3Dg3x9o0?list=RD8Za3Dg3x9o0?start=333" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
+
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Moneky Song Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
+
 Intro
 e | --------------------------------------------------------------------- |
 B | --------------------------------------------------------------------- |
