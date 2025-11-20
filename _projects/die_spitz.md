@@ -8,7 +8,7 @@ category: Guitar Tabs
 related_publications: false
 pretty_table: true
 toc:
-  sidebar: left
+  beginning: true
 max_width: 90%
 custom_zoom: 80%
 ---
@@ -38,7 +38,7 @@ custom_zoom: 80%
     </tbody>
   </table>
 
-  <div class="ratio ratio-16x9 mt-3">
+  <div class="mt-3">
     {% include video.liquid 
       path="https://www.youtube.com/embed/RFAuyJkb83I?start=32&end=190" 
       class="img-fluid rounded z-depth-1" 
