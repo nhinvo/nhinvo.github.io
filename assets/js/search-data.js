@@ -59,6 +59,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/useful_bashrc/";
           
         },
+      },{id: "post-snakemake-job-grouping-for-faster-runtime",
+        
+          title: "Snakemake Job Grouping for faster runtime",
+        
+        description: "How to utilize Snakemake&#39;s --groups to make your pipeline for efficient.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/snakemake_job_grouping/";
+          
+        },
       },{id: "post-useful-slurm-hpc-things",
         
           title: "Useful SLURM/HPC Things",
@@ -100,6 +111,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/other_artists/";
+            },},{id: "projects-ovlov",
+          title: 'Ovlov',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ovlov/";
             },},{id: "projects-scowl-guitar-tabs",
           title: 'Scowl Guitar Tabs',
           description: "",
