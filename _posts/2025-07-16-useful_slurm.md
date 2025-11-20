@@ -4,7 +4,8 @@ title: Useful SLURM/HPC Things
 date: 2025-07-16 
 description: SLURM commands that I use often. 
 tags: code Bash Linux SLURM HPC 
-categories: coding
+toc:
+  sidebar: left
 ---
 
 ## Useful Commands 

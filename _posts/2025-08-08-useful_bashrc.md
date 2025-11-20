@@ -5,6 +5,8 @@ date: 2025-08-08
 description: I love adding command line shortcuts, and you should too. 
 tags: code Bash Linux Shell
 categories: coding
+toc:
+  sidebar: left
 ---
 
 ## What are shortcuts?  
