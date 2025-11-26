@@ -3,7 +3,7 @@ layout: page
 title: Die Spitz Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/die_spitz.png
-importance: 1.1
+importance: 1
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -327,7 +327,7 @@ E | --3-3-3-3-3-3-3-3/7-7-7/8 -8 -8 -8 -8 ---------7-3-- |
 
   <div class="mt-3">
     {% include video.liquid 
-      path="https://www.youtube.com/embed/8Za3Dg3x9o0?list=RD8Za3Dg3x9o0?start=333" 
+      path="https://www.youtube.com/embed/KVKVdWPyklE?list=RDKVKVdWPyklE" 
       class="img-fluid rounded z-depth-1" 
     %}
   </div>
@@ -393,30 +393,51 @@ A | --2-5-2-8-7-2-5-7-7-7-7-8-8-8-8-- |
 D | --0-3-0-6-5-0-3-5-5-5-5-6-6-6-6-- |
 </pre>
 </div>
-
+</div>
 
 ## The Revenge of Evangeline (2022)
 ---------------------------------------------------------------
 ### Evangeline
 
-|  Tuning  |  Capo   |  Status   |   Genre   |
-| :------: | :-----: | :-------: | :-------: |
-| Standard | No Capo | Completed | Punk Rock |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>Completed</td>
+        <td>Punk Rock</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p>
+    Notes:<br>
+    - Ava's Guitar<br>
+    - Based on KUTX Live Session:
+  </p>
 
-**Note:** Guitar - Ava Schrobilgen - based on KUTX Live Session:
-<iframe 
-  style="width: 100%; aspect-ratio: 16 / 9;" 
-  src="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" 
-  title="Die Spitz Live in KUTX Studio 1A -April 2023 Artist of the Month" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>  
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/9dFxhY_CNEQ?start=230" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
 
-**Die Spitz Evangeline Guitar Tabs:**     
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Evangeline Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
 e | ----------------------------------- |
 B | ----------------------------------- |
 G | ----------------------------------- |
@@ -458,29 +479,51 @@ E | --7-7-7-7-7-7-7-7-0-0-0-0-0----7-7-7-8 -7-3-0-- |
 [Repeat X Times]
 </pre>
 </div>
+</div>
 
 ## Singles
 ---------------------------------------------------------------
 ### I hate when girls die
-Noting song structure as PART A/B/C as I don't know how to tell Intro/Verse/Chorus apart for this song. 
 
-| Tuning |  Capo   |   Status    | Genre  |
-| :----: | :-----: | :---------: | :----: |
-| Drop D | No Capo | In Progress | Metal? |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Drop D</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Metal (?)</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p>
+    Notes:<br>
+    - Noting song structure as PART A/B/C as I don't know how to tell Intro/Verse/Chorus apart for this song.<br>
+    - Based on live performance recorded by Upfront Video:  
+  </p>
 
-**Note:** based on live performance recorded by Upfront Video:  
-<iframe 
-  style="width: 100%; aspect-ratio: 16 / 9;" 
-  src="https://www.youtube.com/embed/Ro-WbKTxv6c?start=61" title="Die Spitz - “I hate When girls Die” / “Slater” / “Monkey Song” - 05/21/2024 - Valley Bar - Phoenix" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/Ro-WbKTxv6c?start=61" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
 
-**Die Spitz I hate when girls die Guitar Tabs:**     
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz I hate when girls die Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
 PART A - Repeat Twice
 Light Palm Mute (I think) Low E (Drop D) only 
 E | --0-0-0-0-0-0-0-7-7-6-6-0--0-0-0-0-0-0-7-6-5-0--0-0-0-0-0-0-7-7-6-6-0-0-0-0-0-- |
@@ -537,27 +580,48 @@ D | --7-7-7-7-7-7-- |
 PART C - to be continued [2:59 in video]
 </pre>
 </div>
+</div>
 
 ### Little Flame  
 
-|  Tuning  |  Capo   |   Status    | Genre |
-| :------: | :-----: | :---------: | :---: |
-| Standard | No Capo | In Progress |   ?   |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Alternative Rock (?)</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  <p>
+    Notes:<br>
+    - Based on Audiotree Live Session: 
+  </p>
 
-**Note:** based on Audiotree Live Session: 
-<iframe 
-  style="width: 100%; aspect-ratio: 16 / 9;" 
-  src="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" 
-  title="Die Spitz on Audiotree Live (Full Session)" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" 
-  allowfullscreen>
-</iframe>
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/3BcpfDvq6Vs?start=709" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
 
-**Die Spitz Little Flame Guitar Tabs:**     
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Die Spitz Little Flame Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
 Chord (Chloe)
 e | ------------------------- |
 B | ------------------------- |
@@ -576,4 +640,5 @@ A | -------------------------------------------------------------------- |
 E | -------------------------------------------------------------------- |
 
 </pre>
+</div>
 </div>

@@ -3,7 +3,7 @@ layout: page
 title: Other Artists - Guitar Tabs
 description: 
 img: 
-importance: 8
+importance: 100
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -86,38 +86,39 @@ D | ------------------------------- |
 </pre>
 </div>
 
-# Hello Mary 
----------------------------------------------------------------
-## Emita Ox 
-### Knowing You  
+## Pinback
+### Tripoli
 
-|  Tuning  |  Capo   |                       Status                        |         Genre          |
-| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
+| Tuning |  Capo   |                      Status                      |   Genre    |
+| :----: | :-----: | :----------------------------------------------: | :--------: |
+| Standard | No Capo | In Progress | Indie Rock |
 
-**Note:** Based on Audiotree Live Session: 
-<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/-WMoZTedBT4?start=67" title="Hello Mary on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/qObroc0QC-U?list=RDqObroc0QC-U" title="Tripoli" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Hello Mary - Knowing You Guitar Tabs:**  
+**Pinback Tripoli Guitar Tabs:**  
 <div class="code-example" markdown="1">
 <pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
-Intro - Repeat Twice
-e | ------------------------------------- |
-B | ------------------------------------- |
-G | --8-8-8-9-9-8-8-8-9-9-8-8-8-9-7-6-4-- |
-D | --9-9-9-9-9-9-9-9-9-9-9-9-9-9-7-7-5-- |
-A | --9-9-9-9-9-9-9-9-9-9-9-9-9-9-7-7-5-- |
-E | ------------------------------------- |
+e | ------------------------------------------------------------ |
+B | ------------------------------------------------------------ |
+G | ------------------------------------------------------------ |
+D | ------------------------------------------------------------ |
+A | --5---5-7---7-9----9-12----12-10----10-9----9-9----9-7---7-- |
+E | ----7-----9-----10------12-------12------12-----10-----9---- | 
+[Repeat for the entire song] 
 
-Verse - Repeat X Times
-e | ----------------------------- |
-B | ----------------------------- |
-G | --8-8-8-9(x14?)-4(x8?)-------- |
-D | --9-9-9-9(x14?)-5(x8?)-------- |
-A | --9-9-9-9(x14?)-5(x8?)-------- |
-E | ----------------------------- |
+(starts at the beginning of the 3rd time of part above): 
+e | ------------------------------ | x4  
+B | --7---5-------3------5-------- | x4  
+G | ----7---6-4-6---6-4----7-6---- | x4  
+D | ---------------------------7-- | x4  
+A | ------------------------------ | x4  
+E | ------------------------------ | x4  
+
+[Chords that I don't know how to tab]  
+
 </pre>
 </div>
+
 
 # Cosmic Psychos  
 ---------------------------------------------------------------

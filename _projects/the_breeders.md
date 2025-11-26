@@ -3,7 +3,7 @@ layout: page
 title: The Breeders Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/the_breeders.png
-importance: 3
+importance: 6
 category: Guitar Tabs
 related_publications: false
 pretty_table: true

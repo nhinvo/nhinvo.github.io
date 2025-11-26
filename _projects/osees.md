@@ -3,7 +3,7 @@ layout: page
 title: Thee Oh Sees (Osees) Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/osees.png
-importance: 7
+importance: 9
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -11,30 +11,14 @@ toc:
   sidebar: left
 ---
 
-## Floating Coffin
-### I Come from the Mountain
-
-|  Tuning  |  Capo   |                       Status                        |    Genre    |
-| :------: | :-----: | :-------------------------------------------------: | :---------: |
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Garage Rock |
-
-**Note:** Based on KEXP live performance:  
-
-
-**Osees Tidal Wave Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
-
-
-</pre>
-</div>
-
 ## Singles Collection Volume 1 & 2
 ### Tidal Wave
 
 |  Tuning  |  Capo   |                       Status                        |    Genre    |
 | :------: | :-----: | :-------------------------------------------------: | :---------: |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Garage Rock |
+
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/FrMacbbLxuc?list=RDFrMacbbLxuc?start=214" title="Thee Oh Sees - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Osees Tidal Wave Guitar Tabs Version 1 (more accurate):**  
 <div class="code-example" markdown="1">

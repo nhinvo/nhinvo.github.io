@@ -3,7 +3,7 @@ layout: page
 title: GEL Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/gel.png
-importance: 6
+importance: 8
 category: Guitar Tabs
 related_publications: false
 pretty_table: true

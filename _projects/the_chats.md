@@ -3,7 +3,7 @@ layout: page
 title: The Chats Guitar Tabs
 description: 
 img: assets/img/guitar_tabs/the_chats.png
-importance: 5
+importance: 7
 category: Guitar Tabs
 related_publications: false
 pretty_table: true

@@ -3,7 +3,7 @@ layout: page
 title: Ovlov
 description: 
 img: assets/img/guitar_tabs/ovlov.jpg
-importance: 4.5
+importance: 5
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
@@ -39,7 +39,7 @@ max_width: 90%
 
   <div class="mt-3">
     {% include video.liquid 
-      path="https://www.youtube.com/embed/T4ybvcagSXs?list=RDT4ybvcagSXs?start=669" 
+      path="https://www.youtube.com/embed/h9rS6MO7nP0?list=RDh9rS6MO7nP0" 
       class="img-fluid rounded z-depth-1" 
     %}
   </div>
@@ -100,16 +100,39 @@ E | ---------------------------------------------------------- | x3
 
 ### The Wishing Well  
 
-|  Tuning  |  Capo   |                       Status                        |         Genre          |
-| :------: | :-----: | :-------------------------------------------------: | :--------------------: |
-| Standard | No Capo | <span class="label label-yellow">In Progress</span> | Alternative/Indie Rock |
+<div class="row mt-0 g-0">
+<div class="col-md-6 mt-3 mt-md-0">
+  <table class="table table-bordered text-center">
+    <thead>
+      <tr>
+        <th>Tuning</th>
+        <th>Capo</th>
+        <th>Status</th>
+        <th>Genre</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Standard</td>
+        <td>No Capo</td>
+        <td>In Progress</td>
+        <td>Alternative/Indie Rock</td>
+      </tr>
+    </tbody>
+  </table>
 
-**Note:** Based on Audiotree Live Session: 
-<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/OTUtzxBnmzU?list=RDOTUtzxBnmzU?start=922" title="Ovlov on Audiotree Live (Full Session)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="mt-3">
+    {% include video.liquid 
+      path="https://www.youtube.com/embed/y18DhdbH2NQ?list=RDy18DhdbH2NQ" 
+      class="img-fluid rounded z-depth-1" 
+    %}
+  </div>
+</div>
 
-**Ovlov - The Wishing Well Guitar Tabs:**  
-<div class="code-example" markdown="1">
-<pre class="fs-2 fw-400 ls-2 lh-0.5 text-mono">
+<div class="col-md-6 mt-3 mt-md-0">
+<p>Ovlov The Wishing Well Guitar Tabs:</p>
+
+<pre class="guitar-tabs">
 e | ------------------------------------------------------------------------- |
 B | ------2---2-0-------------0----------------------------------------------- |
 G |---------------2-------2-----2---2------------------------------------- |
@@ -119,5 +142,6 @@ E | ------------------2------------------------------------------------- |
 [Repeat 3 Times]
 
 </pre>
+</div>
 </div>
 

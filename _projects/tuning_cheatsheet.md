@@ -3,7 +3,7 @@ layout: page
 title: Tuning Cheat Sheet
 description: Tunings of songs I like to play. 
 img: 
-importance: 9
+importance: 101
 category: Guitar Tabs
 related_publications: false
 pretty_table: true
