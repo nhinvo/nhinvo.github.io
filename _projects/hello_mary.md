@@ -168,8 +168,8 @@ E | --0-0-0-0-0-0-0-0-- | x7  E | --0-0--0--0--0--- |
 
 **Notes:** 
 - As of 11/26/25: I tabbed this without my high e string (it broke😢) therefore might be completely off, make sure to double check.  
-- Based on live session uploaded by gloss:  
-<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/fcmoSfvddGI?list=RDfcmoSfvddGI?start=1390" title="Hello Mary - Live at Baltimore, MD [FULL SET | 6/10/25]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/nnOjpb6_djo?list=RDnnOjpb6_djo" title="Down My Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Hello Mary Down My Life Guitar Tabs:**  
 <div class="code-example" markdown="1">

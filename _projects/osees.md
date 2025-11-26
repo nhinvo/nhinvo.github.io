@@ -18,7 +18,7 @@ toc:
 | :------: | :-----: | :-------------------------------------------------: | :---------: |
 | Standard | No Capo | <span class="label label-yellow">In Progress</span> | Garage Rock |
 
-<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/FrMacbbLxuc?list=RDFrMacbbLxuc?start=214" title="Thee Oh Sees - Full Performance (Live on KEXP)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe style="width: 100%; aspect-ratio: 16 / 9;" src="https://www.youtube.com/embed/V9o_P9hKQGk?list=RDV9o_P9hKQGk" title="OSEES - Levitation Sessions II - Full Set" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 **Osees Tidal Wave Guitar Tabs Version 1 (more accurate):**  
 <div class="code-example" markdown="1">
