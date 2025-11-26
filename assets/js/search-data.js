@@ -91,6 +91,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gel/";
+            },},{id: "projects-hello-mary-guitar-tabs",
+          title: 'Hello Mary Guitar Tabs',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/hello_mary/";
             },},{id: "projects-momma-guitar-tabs",
           title: 'Momma Guitar Tabs',
           description: "",
