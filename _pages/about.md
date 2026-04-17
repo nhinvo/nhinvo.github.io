@@ -2,11 +2,11 @@
 layout: about
 title: Home
 permalink: /
-subtitle: Bioinformatics Research Associate @ MIT
+subtitle: Research Asssitant II @ BIDMC
 
 profile:
   align: right
-  image: prof_pic.png
+  image: professional_pfp.jpg
   image_circular: true # crops the image to make it circular
 
 selected_papers: true  # includes a list of papers marked as "selected={true}"
@@ -23,14 +23,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I develop and automate computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.  
+In my previous position at MIT, I developed and automated computational analyses to make sense of microbial genomics data. I’m skilled in high-performance computing, Python and shell scripting, and data visualization. I find deep satisfaction in streamlining, optimizing, and clearly documenting workflows to make science faster and more reproducible.  
 
 This website presents my [**Curriculum Vitae**](/cv/), [**Github Repositories**](/repositories/), [**Publications**](#publications), and [**Interests**](/interests/).    
 
-Current Research Projects: 
-- Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  
-- Methylation and base modification of prokaryotes through long-read sequencing.  
+Current Research Projects @ BIDMC: 
+- TBA
 
-Past Research Projects: 
+Past Research Projects @ MIT:
+- Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  
+- Methylation and base modification of prokaryotes through long-read sequencing.   
 - Structural and Single Nucleotide Variant detection in microbial populations.   
 - Meta-transcriptomics analysis of microbial community gene expression.  

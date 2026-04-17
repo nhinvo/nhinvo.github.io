@@ -1,22 +1,27 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Research Assistant II 
+      institution: Beth Israel Deaconess Medical Center (BIDMC) - Tsao Lab  
+      location: Boston, MA 
+      year: "Apr 26 - Present"
+
     - title: Bioinformatics Research Associate II 
       institution: Massachusetts Institute of Technology - The Chisolm Lab 
       location: Cambridge, MA 
-      year: "Feb 23 - Present"
+      year: "Feb 23 - Nov 25"
             
-    - title: Research Assistant
+    - title: Undergraduate Research Assistant
       institution: Florida Museum of Natural History - The Kawahara Lab
       location: Gainesville, FL 
       year: "May 22 - Aug 22"
 
-    - title: Assistant Data Analyst
+    - title: Undergraduate Assistant Data Analyst
       institution: Purdue University - Fernandez-Juricic Lab
       location: West Lafayette, IN 
       year: "May 22 - Aug 22"
 
-    - title: Research Assistant
+    - title: Undergraduate Research Assistant
       institution: Purdue University - Kihara Bioinformatics Laboratory
       location: West Lafayette, IN 
       year: "Aug 21 - May 22"
@@ -53,8 +58,9 @@
 - title: Other Interests
   type: nested_list
   contents:
-    - title: Currently Reading - as of 11/17/25
+    - title: Currently Reading - as of 04/17/26
       items: 
+        - One Yellow Eye - Leigh Radford 
         - System Collapse - Martha Wells (6th book in the Murderbot Diaries series)
         - The Two Towers - J.R.R Tolkien (2nd book in the Lord of The Rings series)
     - title: Music/Guitar
