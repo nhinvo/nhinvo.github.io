@@ -10,74 +10,39 @@ pretty_table: true
 toc:
   sidebar: left
 ---
-
-Welcome to my art page! 
-
-Below are some of the things that I have created. Just click to jump to the desired section:  
+Welcome to my art page!  
 
 
-| Arts                   | Crafts                                 |
-|------------------------|----------------------------------------| 
-| [Digital](#digital)    | [Knit & Crochet](#crochet)		      | 
-| [Drawings](#drawings)  | [Ceramics](#ceramics)		          | 
-| [Paintings](#paintings)| [Embroidery](#embroidery)              | 
-
-
-## Digital   <a class="anchor" id="digital"></a>  
+## Digital Art   <a class="anchor" id="digital"></a>  
 ### Boston PaintBox Program 2023 Submission  
-<div id="image-table">
-    <table>
-	<tr>
-    	    <td style="padding:10px">
-        	    <img src="/assets/img/my-art/digital/BPB_0.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/digital/BPB_1.png" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/digital/BPB_2.png" width="220"/>
-            </td>
-        </tr>
-    </table>
-</div>
+Below are my designs to the <a href="https://www.boston.gov/departments/arts-and-culture/paintbox" target="_blank">"Boston PaintBox"</a> program, an initiative to give artists the opportunity to paint utility boxes across Boston.    
+My application was not accepted, but you can view the winners <a href="https://www.google.com/maps/d/viewer?mid=1Lc5mslf_2Jc0-COmreXmwlmGDd_FxuQ&femb=1&ll=42.336912695848355%2C-71.12375681985272&z=11" target="_blank">"here"</a>!   
+
+{% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_1.png" title="BPB_1" class="img-fluid rounded z-depth-1" zoomable=true %}
+Biotech and Lobster digital drawing.      
+
+{% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_0.png" title="BPB_0" class="img-fluid rounded z-depth-1" zoomable=true %}    
+Crab and Arabidopsis thaliana (the most widely studied plant) digital drawing.  
+
+{% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_2.png" title="BPB_2" class="img-fluid rounded z-depth-1" zoomable=true %}    
+City of Boston! These were for the sides of the utility box.  
+
 
 ### Prochlorococcus on a Chitin Particle!
-Motivational poster inspired by MIT News article: <a href="https://news.mit.edu/2023/ancestors-prochlorococcus-microbes-chitin-0511" target="_blank">"Like ancient mariners, ancestors of Prochlorococcus microbes rode out to sea on exoskeleton particles."</a>
+Motivational poster inspired by MIT News article: <a href="https://news.mit.edu/2023/ancestors-prochlorococcus-microbes-chitin-0511" target="_blank">"Like ancient mariners, ancestors of Prochlorococcus microbes rode out to sea on exoskeleton particles."</a>  
 
-<figure>
-<img src="/assets/img/my-art/digital/pro_hang_in_there.png" alt="ProChitin.png" style="width:40%">
-</figure>
+{% include figure.liquid loading="eager" path="assets/img/my-art/digital/pro_hang_in_there.png" title="pro_hang_in_there" class="img-fluid rounded z-depth-1" zoomable=true %}    
 
 
 ## Drawings   <a class="anchor" id="drawings"></a>  
-### Pencil  
+### Pencil   
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4a.png" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4b.png" title="example image" class="img-fluid rounded z-depth-1" %}
 
-<div id="image-table">
-    <table>
-	<tr>
-    	    <td style="padding:10px">
-        	<img src="/assets/img/my-art/drawings/draw_1.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_4a.png" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_4b.png" width="220"/>
-            </td>
-        </tr>
-	    <tr>
-    	    <td style="padding:10px">
-        	<img src="/assets/img/my-art/drawings/draw_3a.png" width="220"/>
-      	    </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_3b.png" width="220"/>
-            </td>
-            <td style="padding:10px">
-            	<img src="/assets/img/my-art/drawings/draw_3c.png" width="220"/>
-            </td>
-        </tr>
-    </table>
-</div>
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3a.png" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3b.png" title="example image" class="img-fluid rounded z-depth-1" %}
+{% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3c.png" title="example image" class="img-fluid rounded z-depth-1" %}
 
 
 ### Ink  
