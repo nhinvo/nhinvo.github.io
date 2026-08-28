@@ -28,7 +28,8 @@ In my previous position at MIT, I developed and automated computational analyses
 This website presents my [**Curriculum Vitae**](/cv/), [**Github Repositories**](/repositories/), [**Publications**](#publications), and [**Interests**](/interests/).    
 
 Current Research Projects @ BIDMC: 
-- TBA
+- Integrated Radiogenomics for Cardiomyopathy Classification.  
+- Radiomics applications in Cardiovascular Magnetic Resonance Imaging (CMR)
 
 Past Research Projects @ MIT:
 - Comparative Genomics and Pangenomics of Marine Picocyanobacteria.  
