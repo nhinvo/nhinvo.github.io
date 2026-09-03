@@ -112,13 +112,13 @@ Motivational poster inspired by MIT News article about publication from the Chis
 ### Acrylic Deathclaw Painting on Canvas  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0c.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0c.png" title="example image" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0a.png" title="example image" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0b.png" title="example image" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -130,13 +130,13 @@ Motivational poster inspired by MIT News article about publication from the Chis
 A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting" target="_blank">Minecraft</a>.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -144,13 +144,13 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
 ### Acrylic Lanscape Painting on Canvas  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -158,13 +158,13 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
 ### Acrylic Ikit Claw Painting on Canvas   
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -179,7 +179,7 @@ Crocheted tulips following da Mira's tutorial on <a href="https://www.youtube.co
     <table>
 	    <tr>
     	    <td style="padding:10px">
-                {% include figure.liquid loading="eager" path="/assets/img/my-art/crochet/flowers1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+                {% include figure.liquid loading="eager" path="/assets/img/my-art/crochet/flowers1.jpg zoomable=true %}
       	    </td>
             <td style="padding:10px">
             	<img src="/assets/img/my-art/crochet/flowers0.jpg" width="220"/>
