@@ -5,7 +5,7 @@ permalink: /interests/
 description: Where I store my art and guitar tabs. 
 nav: true
 nav_order: 4
-display_categories: [Art, Guitar Tabs]
+display_categories: [Art, Guitar Tabs, My Favorite Things]
 horizontal: false
 ---
 
