@@ -106,6 +106,11 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/my-art/";
+            },},{id: "projects-my-favorite-things",
+          title: 'My Favorite Things',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/my_fav_things/";
             },},{id: "projects-thee-oh-sees-osees-guitar-tabs",
           title: 'Thee Oh Sees (Osees) Guitar Tabs',
           description: "",
