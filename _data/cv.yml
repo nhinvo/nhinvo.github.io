@@ -58,10 +58,10 @@
 - title: Other Interests
   type: nested_list
   contents:
-    - title: Currently Reading - as of 08/28/26
+    - title: Currently Reading - as of 09/03/26
       items: 
-        - The Two Towers - J.R.R Tolkien (2nd book in the Lord of The Rings series)
         - A Knight of the Seven Kingdoms - George R.R. Martin
+        - Vicious - V. E. Schwab
     - title: Music/Guitar
       items: 
         - I play the guitar and tab songs by ear. All my guitar tabs are accessible on my <a href="https://nhinvo.github.io/interests/#Guitar%20Tabs"><b>Interest</b></a> page. 
