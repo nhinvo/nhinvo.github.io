@@ -101,8 +101,8 @@ ninja.data = [{
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/momma/";
-            },},{id: "projects-arts-amp-crafts",
-          title: 'Arts &amp;amp; Crafts',
+            },},{id: "projects-welcome-to-my-art-page",
+          title: 'Welcome to my art page!',
           description: "",
           section: "Projects",handler: () => {
               window.location.href = "/projects/my-art/";
