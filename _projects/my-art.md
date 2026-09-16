@@ -24,12 +24,28 @@ toc:
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_2.png" title="BPB_2" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/digital/people.png" title="people" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/pro_hang_in_there.png" title="pro_hang_in_there" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/digital/procreate.png" title="procreate" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>   
 
+
+## Crosshatch / Ink
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/ink/fish.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+
 ## Sketchbook Pages  <a class="anchor" id="drawings"></a>  
-### Ink  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/collage1.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -67,6 +83,23 @@ toc:
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw7.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw8.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw9.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw10.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_0.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -89,34 +122,7 @@ toc:
 </div>
 
 
-### Pencil   
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3c.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-
-
 ## Paintings   <a class="anchor" id="paintings"></a>  
-### Acrylic Deathclaw Painting on Canvas  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/paint_0c.png" title="example image" zoomable=true %}
@@ -129,12 +135,9 @@ toc:
     </div>
 </div>
 <div class="caption">
-    Deathclaw from Fallout.
+    Acrylic Deathclaw from Fallout.
 </div>  
 
-
-### Acrylic Minecraft Painting Painting on Canvas 
-A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting" target="_blank">Minecraft</a>.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -146,9 +149,10 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/MC3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="caption">
+    A painting of a painting in Minecraft. 
+</div>  
 
-
-### Acrylic Lanscape Painting on Canvas  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -160,9 +164,10 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/landscape3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+<div class="caption">
+    Acrylic Lanscape Painting on Canvas  
+</div>  
 
-
-### Acrylic Ikit Claw Painting on Canvas   
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/paintings/ikit_claw2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -177,6 +182,22 @@ A painting of a painting in <a href="https://minecraft.fandom.com/wiki/Painting"
 <div class="caption">
     Ikit Claw for my brother, a Warhammer fan. 
 </div>  
+
+
+## Logos/Branding   <a class="anchor" id="paintings"></a>  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/branding/atnch_blue_logos.PNG" title="logo" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/branding/atnch_wood_logos.PNG" title="logo" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/branding/atnch_blue_menu.PNG" title="menu" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 
 ## Crocheted and Knitted Works   <a class="anchor" id="crochet"></a>  
