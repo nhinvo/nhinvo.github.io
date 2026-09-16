@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Arts & Crafts
+title: Welcome to my art page!  
 description: 
 img: assets/img/my-art/art_header.png
 importance: 1.1
@@ -10,80 +10,70 @@ pretty_table: true
 toc:
   sidebar: left
 ---
-Welcome to my art page!  
-
-
 ## Digital Art   <a class="anchor" id="digital"></a>  
 ### Boston PaintBox Program 2023 Submission  
-Below are my designs to the <a href="https://www.boston.gov/departments/arts-and-culture/paintbox" target="_blank">"Boston PaintBox"</a> program, an initiative to give artists the opportunity to paint utility boxes across Boston.    
-My application was not accepted, but you can view the winners <a href="https://www.google.com/maps/d/viewer?mid=1Lc5mslf_2Jc0-COmreXmwlmGDd_FxuQ&femb=1&ll=42.336912695848355%2C-71.12375681985272&z=11" target="_blank">here</a>!   
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_1.png" title="BPB_1" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    Biotech and Lobster digital drawing.
-</div>
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_0.png" title="BPB_0" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    Crab and Arabidopsis thaliana (the most widely studied plant) digital drawing.
-</div>
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_2.png" title="BPB_2" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    City of Boston! These were for the sides of the utility box.
-</div>  
-
+    Digital Drawings of my submission to the Boston Paintbox program. 
+</div>
 
 ### Prochlorococcus on a Chitin Particle!
-Motivational poster inspired by MIT News article about publication from the Chisholm Lab: <a href="https://news.mit.edu/2023/ancestors-prochlorococcus-microbes-chitin-0511" target="_blank">"Like ancient mariners, ancestors of Prochlorococcus microbes rode out to sea on exoskeleton particles."</a>  
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/pro_hang_in_there.png" title="pro_hang_in_there" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>   
-
-
-## Drawings   <a class="anchor" id="drawings"></a>  
-### Pencil   
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
+<div class="caption">
+    Motivational poster inspired by MIT News article about a scientific publication from the Chisholm Lab.
 </div>
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3c.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-
+## Sketchbook Pages  <a class="anchor" id="drawings"></a>  
 ### Ink  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/collage1.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/collage2.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/collage3.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw1.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw2.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw3.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw4.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw5.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw6.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_0.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -100,12 +90,37 @@ Motivational poster inspired by MIT News article about publication from the Chis
         {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/ink/draw_0.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_0.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/ink/draw_2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
+### Pencil   
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_4b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3a.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3b.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_3c.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 
 
 ## Paintings   <a class="anchor" id="paintings"></a>  
