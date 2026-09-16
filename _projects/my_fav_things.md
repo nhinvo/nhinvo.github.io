@@ -12,6 +12,7 @@ images:
 ---
 # ⚠ Page Under Development ⚠  
 
+### Books: My Five-Star Reads 
 Books - My Five-Star Reads:   
 - Do Androids Dream of Electric Sheep? - Philip K. Dick 
 - Catch-22 - Joseph Heller 
@@ -19,56 +20,41 @@ Books - My Five-Star Reads:
 - Some Assembly Required - Neil Shubin 
 - Cánh đồng bất tận - Nguyễn Ngọc Tư  
 - All Systems Red - Martha Wells 
-  
-Music - Some of My Favorite Albums (in no particular order):
-More recent:  
-- Die Spitz - Teeth 
-- Amyl and the Sniffers - Amyl and the Sniffers
-- Rocket - Versions of You; R is for Rocket 
-- Ovlov - Buds; TRU 
-- Momma - Household Name; Two of Me 
-- Mannequin Pussy - I Got Heaven 
-- Snooper - Worldwide; Music for Spies; Super Snooper
-- King Gizzard and the Lizard Wizard - Microtonal Flying Banana 
-- Dengue Fever - Escape From Dragon House 
 
-90s:  
-- The Breeders - The Last Splash; Safari; Pod  
-- Pavement - Terror Twilight 
-- Beck - Mellow Gold 
-- Pixies - Doolittle 
-- Pinback - Pinback 
-- Local H - As Good As Dead 
-- Veruca Salt - American Thighs 
-- L7 - Bricks Are Heavy
-- Cocteau Twins - Four-Calendar Cafe 
-- Yo La Tengo - I Can Hear The Heart Beating As One 
-- Blur - Blur 
-- Foo Fighters - The Colour And The Shape 
-- Elastica - Elastica 
-- Cibo Matto - Sterotype A 
-- Gorillaz - Gorillaz 
+### Music - More Recent 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fav_things/albums_recent.png" title="albums_recent" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
 
-70s-80s: 
-- Blondie - Parallel Lines 
-- The Clash - London Calling 
-- The Cramps - Bad Music For Bad People 
-- The Stooges - Funhouse 
+### Music - 90s 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fav_things/album_90s.png" title="albums_90s" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
 
-   
-Games: 
-- Red Dead Redemption 2 
-- Zelda: A Link to the Past; Breath of the Wild; Tears of the Kingdom 
-- Fallout 4
-- The Elder Scrolls: Oblivion Remastered, Skyrim
-- Resident Evil: RE2R, RE4R, REVII: Biohazard 
-- Subnautica 
-- Alien Isolation 
-- Minecraft 
+### Video Games  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fav_things/games.png" title="games" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
 
-  
-Shows: 
-- Adventure Time
+### Movies
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fav_things/movie.png" title="movies" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
+
+### TV Shows 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="../assets/img/fav_things/tv_shows.png" title="tv_shows" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>   
 
 
 ## Image Layout Example 

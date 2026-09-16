@@ -11,7 +11,6 @@ toc:
   sidebar: left
 ---
 ## Digital Art   <a class="anchor" id="digital"></a>  
-### Boston PaintBox Program 2023 Submission  
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_1.png" title="BPB_1" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -19,23 +18,15 @@ toc:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_0.png" title="BPB_0" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
+</div>
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/BPB_2.png" title="BPB_2" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-</div>
-<div class="caption">
-    Digital Drawings of my submission to the Boston Paintbox program. 
-</div>
-
-### Prochlorococcus on a Chitin Particle!
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/digital/pro_hang_in_there.png" title="pro_hang_in_there" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>   
-<div class="caption">
-    Motivational poster inspired by MIT News article about a scientific publication from the Chisholm Lab.
-</div>
 
 ## Sketchbook Pages  <a class="anchor" id="drawings"></a>  
 ### Ink  
@@ -96,6 +87,7 @@ toc:
         {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
+
 
 ### Pencil   
 <div class="row">
