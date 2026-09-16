@@ -16,26 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "nav-github-repo",
-          title: "Github Repo",
-          description: "My GitHub repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-interests",
           title: "Interests",
           description: "Where I store my art and guitar tabs.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/interests/";
-          },
-        },{id: "nav-blogs",
-          title: "Blogs",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
           },
         },{id: "post-my-customizations-to-the-al-folio-template",
         
