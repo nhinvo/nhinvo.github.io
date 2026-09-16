@@ -3,6 +3,8 @@ layout: page
 title: My Favorite Things
 description: 
 img: 
+img: assets/img/fav_things/fav_things_header.png
+
 importance: 1.2
 category: Art
 related_publications: false

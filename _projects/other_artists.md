@@ -2,7 +2,7 @@
 layout: page
 title: Other Artists - Guitar Tabs
 description: 
-img: 
+img: assets/img/guitar_tabs/cosmic_psychos.jpg
 importance: 100
 category: Guitar Tabs
 related_publications: false

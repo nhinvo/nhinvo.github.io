@@ -2,7 +2,7 @@
 layout: page
 title: Tuning Cheat Sheet
 description: Tunings of songs I like to play. 
-img: 
+img: assets/img/guitar_tabs/local_h.jpg
 importance: 101
 category: Guitar Tabs
 related_publications: false
