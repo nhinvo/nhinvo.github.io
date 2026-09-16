@@ -2,7 +2,7 @@
 layout: page
 title: Welcome to my art page!  
 description: 
-img: assets/img/my-art/art_header.png
+img: assets/img/my-art/art_header2.png
 importance: 1.1
 category: Art
 related_publications: false
