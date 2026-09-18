@@ -122,14 +122,8 @@ toc:
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
 </div>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/ink/ink_3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/my-art/drawings/draw_0.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
