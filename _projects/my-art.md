@@ -59,42 +59,59 @@ toc:
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw1.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page1.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw2.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw3.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw4.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page2.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw5.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page3.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw6.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw7.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw8.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page4.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw9.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page5.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/raw10.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page6.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page11.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page12.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page13.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page14.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page7.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page8.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page9.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/my-art/sketchbook_pages/page10.png" title="sketchbook page" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
