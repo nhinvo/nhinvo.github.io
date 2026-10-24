@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Nhi
-middle_name: V.
+middle_name: N.
 last_name: Vo 
 contact_note: >
   I'm always happy to chat, please feel free to reach out at nvo at mit dot edu, or my LinkedIn!
@@ -270,7 +270,7 @@ display_categories: # these categories will be displayed on the front page of yo
 
 scholar:
   last_name: [Vo]
-  first_name: [Nhi N.]
+  first_name: [N. N.]
 
   style: ieee
   locale: en
